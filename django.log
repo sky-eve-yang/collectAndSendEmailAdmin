@@ -1,0 +1,1615 @@
+INFO 2024-01-04 13:39:33,493 autoreload 23152 29100 Watching for file changes with StatReloader
+INFO 2024-01-04 13:39:44,020 views 23152 29748 xoD1myDGAco55ee3ba95b32687c3e7fbcb7199b1654e.jpg
+INFO 2024-01-04 13:39:44,026 basehttp 23152 29748 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-04 13:39:44,045 views 23152 10040 graduate_add() >> request.POST
+INFO 2024-01-04 13:39:44,143 basehttp 23152 10040 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-04 13:41:12,588 autoreload 23152 29100 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-04 13:41:13,367 autoreload 9152 31712 Watching for file changes with StatReloader
+INFO 2024-01-04 13:41:35,174 autoreload 9152 31712 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-04 13:41:35,970 autoreload 27412 24360 Watching for file changes with StatReloader
+INFO 2024-01-04 13:41:49,588 views 27412 21568 original file: pLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg
+INFO 2024-01-04 13:41:49,592 basehttp 27412 21568 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-04 13:41:49,603 views 27412 36812 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/01/04/371521202405018888/GdBupLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg'], 'g_name': ['张三2'], 'g_sex': ['0'], 'g_college': ['信息院'], 'g_major': ['计算机专业'], 'g_year': ['2021'], 'g_id_no': ['371521202405018888'], 'g_phone': ['15022220000'], 'g_mailing_address': ['兰州大学榆中校区']}>
+INFO 2024-01-04 13:41:49,604 views 27412 36812 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-01-04 13:41:49,604 views 27412 36812 graduate_add() >> relative_pic_path: media/certificates/2024/01/04/371521202405018888/GdBupLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg
+INFO 2024-01-04 13:41:49,604 views 27412 36812 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/04/371521202405018888/GdBupLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg
+INFO 2024-01-04 13:41:49,615 views 27412 36812 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/04/371521202405018888/GdBupLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg
+INFO 2024-01-04 13:41:49,622 basehttp 27412 36812 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-04 13:44:04,759 basehttp 27412 8868 "GET /admin/collectAndSendEmailAdmin/graduate/?o=-1 HTTP/1.1" 200 32329
+INFO 2024-01-04 13:44:04,789 basehttp 27412 8868 "GET /static/css/audit_graduate.css HTTP/1.1" 304 0
+INFO 2024-01-04 13:44:04,793 basehttp 27412 37852 "GET /static/js/audit_graduate.js HTTP/1.1" 304 0
+INFO 2024-01-04 13:44:04,796 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:39,234 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A&o=-1 HTTP/1.1" 200 20865
+INFO 2024-01-04 13:44:39,275 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:42,041 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A&o=-1 HTTP/1.1" 200 15662
+INFO 2024-01-04 13:44:42,073 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:43,938 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=2&g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A&o=-1 HTTP/1.1" 200 21019
+INFO 2024-01-04 13:44:43,969 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:45,475 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A&o=-1 HTTP/1.1" 200 15662
+INFO 2024-01-04 13:44:45,507 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:49,032 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A&o=-1 HTTP/1.1" 200 15662
+INFO 2024-01-04 13:44:49,065 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:50,620 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&o=-1 HTTP/1.1" 200 22458
+INFO 2024-01-04 13:44:50,658 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:52,247 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&o=-1 HTTP/1.1" 200 22458
+INFO 2024-01-04 13:44:52,283 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:44:59,977 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=2&o=-1 HTTP/1.1" 200 25010
+INFO 2024-01-04 13:45:00,010 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:45:01,528 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1&o=-1 HTTP/1.1" 200 22458
+INFO 2024-01-04 13:45:01,560 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:45:02,987 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?o=-1 HTTP/1.1" 200 32329
+INFO 2024-01-04 13:45:03,025 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:45:06,500 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=0&o=-1 HTTP/1.1" 200 20587
+INFO 2024-01-04 13:45:06,539 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-04 13:45:08,206 basehttp 27412 35312 "GET /admin/collectAndSendEmailAdmin/graduate/?o=-1 HTTP/1.1" 200 32329
+INFO 2024-01-04 13:45:08,243 basehttp 27412 35312 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-05 17:09:08,295 autoreload 34648 42764 Watching for file changes with StatReloader
+INFO 2024-01-05 17:20:17,779 basehttp 34648 32296 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-05 17:20:19,430 log 34648 32296 Not Found: /favicon.ico
+WARNING 2024-01-05 17:20:19,431 basehttp 34648 32296 "GET /favicon.ico HTTP/1.1" 404 2763
+INFO 2024-01-05 17:20:20,187 basehttp 34648 32296 "GET /admin HTTP/1.1" 301 0
+INFO 2024-01-05 17:20:20,260 basehttp 34648 32296 "GET /admin/ HTTP/1.1" 200 5753
+INFO 2024-01-05 17:20:20,409 basehttp 34648 32296 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-01-05 17:20:20,409 basehttp 34648 38204 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-01-05 17:20:24,048 basehttp 34648 43208 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31266
+INFO 2024-01-05 17:20:24,065 basehttp 34648 43208 "GET /static/css/audit_graduate.css HTTP/1.1" 304 0
+INFO 2024-01-05 17:20:24,086 basehttp 34648 43208 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-05 17:20:24,100 basehttp 34648 43208 "GET /static/js/audit_graduate.js HTTP/1.1" 304 0
+INFO 2024-01-05 17:56:46,407 basehttp 34648 57092 "GET /admin/collectAndSendEmailAdmin/graduate/?g_major=%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A HTTP/1.1" 200 20013
+INFO 2024-01-05 17:56:46,444 basehttp 34648 57092 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-05 17:56:49,808 basehttp 34648 57092 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31266
+INFO 2024-01-05 17:56:53,181 basehttp 34648 57092 "GET /admin/collectAndSendEmailAdmin/graduate/?g_major=%E4%BD%8D%E8%89%B2%E4%B8%93%E4%B8%9A HTTP/1.1" 200 18335
+INFO 2024-01-05 17:56:53,209 basehttp 34648 57092 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-05 17:56:54,847 basehttp 34648 57092 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31266
+INFO 2024-01-05 18:09:38,937 basehttp 34648 34400 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-07 15:02:18,996 autoreload 33464 31892 Watching for file changes with StatReloader
+INFO 2024-01-07 15:02:21,414 basehttp 33464 38476 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-07 15:02:22,756 log 33464 38476 Not Found: /favicon.ico
+WARNING 2024-01-07 15:02:22,756 basehttp 33464 38476 "GET /favicon.ico HTTP/1.1" 404 2763
+INFO 2024-01-07 15:02:24,202 basehttp 33464 38476 "GET /admin HTTP/1.1" 301 0
+INFO 2024-01-07 15:02:24,266 basehttp 33464 38476 "GET /admin/ HTTP/1.1" 200 5753
+INFO 2024-01-07 15:02:24,405 basehttp 33464 25560 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-01-07 15:02:24,409 basehttp 33464 38476 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-01-07 15:02:27,315 basehttp 33464 38476 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31266
+INFO 2024-01-07 15:02:27,335 basehttp 33464 38476 "GET /static/css/audit_graduate.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:02:27,358 basehttp 33464 38476 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:02:27,387 basehttp 33464 38476 "GET /static/js/audit_graduate.js HTTP/1.1" 304 0
+INFO 2024-01-07 15:11:14,812 autoreload 33464 31892 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:11:15,722 autoreload 15132 28352 Watching for file changes with StatReloader
+INFO 2024-01-07 15:12:02,761 basehttp 15132 36704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-07 15:12:02,803 basehttp 15132 36704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:12:16,710 autoreload 15132 28352 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:12:17,573 autoreload 34604 27180 Watching for file changes with StatReloader
+INFO 2024-01-07 15:12:18,320 basehttp 34604 38280 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-07 15:12:18,348 basehttp 34604 38280 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:12:23,038 autoreload 25656 28816 Watching for file changes with StatReloader
+INFO 2024-01-07 15:12:23,624 basehttp 25656 36916 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-07 15:12:23,651 basehttp 25656 36916 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:12:24,766 basehttp 25656 36916 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-07 15:12:24,788 basehttp 25656 36916 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:13:16,736 autoreload 25656 28816 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:13:17,596 autoreload 40940 38880 Watching for file changes with StatReloader
+INFO 2024-01-07 15:13:29,085 autoreload 40940 38880 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:13:29,849 autoreload 31308 36928 Watching for file changes with StatReloader
+INFO 2024-01-07 15:13:35,212 autoreload 31308 36928 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:13:36,050 autoreload 10068 32860 Watching for file changes with StatReloader
+INFO 2024-01-07 15:13:40,238 autoreload 14480 8784 Watching for file changes with StatReloader
+INFO 2024-01-07 15:13:40,491 basehttp 14480 37904 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32034
+INFO 2024-01-07 15:13:40,523 basehttp 14480 37904 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:14:26,787 basehttp 14480 37904 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32034
+INFO 2024-01-07 15:14:26,816 basehttp 14480 37904 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:14:31,893 autoreload 10028 33088 Watching for file changes with StatReloader
+INFO 2024-01-07 15:14:32,411 basehttp 10028 31384 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32034
+INFO 2024-01-07 15:14:32,435 basehttp 10028 31384 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:14:33,869 basehttp 10028 31384 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32034
+INFO 2024-01-07 15:14:33,891 basehttp 10028 31384 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:15:40,206 autoreload 29604 30560 Watching for file changes with StatReloader
+INFO 2024-01-07 15:15:40,790 basehttp 29604 33516 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32034
+INFO 2024-01-07 15:15:40,820 basehttp 29604 33516 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:16:07,235 autoreload 29604 30560 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:16:08,046 autoreload 14480 39704 Watching for file changes with StatReloader
+INFO 2024-01-07 15:16:12,386 autoreload 14480 39704 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:16:13,273 autoreload 33768 36212 Watching for file changes with StatReloader
+INFO 2024-01-07 15:16:13,672 basehttp 33768 31048 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:16:13,702 basehttp 33768 31048 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:16:24,878 autoreload 33768 36212 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:16:25,761 autoreload 40936 21492 Watching for file changes with StatReloader
+INFO 2024-01-07 15:16:47,000 basehttp 40936 38756 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:16:47,032 basehttp 40936 38756 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:16:52,427 autoreload 32668 34292 Watching for file changes with StatReloader
+INFO 2024-01-07 15:16:54,595 basehttp 32668 34116 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:16:54,619 basehttp 32668 34116 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:16:56,373 basehttp 32668 34116 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:16:56,395 basehttp 32668 34116 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:17:24,129 autoreload 36972 29108 Watching for file changes with StatReloader
+INFO 2024-01-07 15:17:25,674 basehttp 36972 17356 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:17:25,696 basehttp 36972 17356 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:17:47,018 basehttp 36972 17356 "GET /admin/ HTTP/1.1" 200 5753
+INFO 2024-01-07 15:17:48,704 basehttp 36972 17356 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:17:48,735 basehttp 36972 17356 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:17:56,962 basehttp 36972 17356 "GET / HTTP/1.1" 200 308
+INFO 2024-01-07 15:17:59,629 basehttp 36972 17356 "GET /admin/ HTTP/1.1" 200 5753
+INFO 2024-01-07 15:18:02,212 basehttp 36972 17356 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:18:02,238 basehttp 36972 17356 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:18:04,162 basehttp 36972 17356 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 15:18:32,310 autoreload 40112 34860 Watching for file changes with StatReloader
+INFO 2024-01-07 15:18:32,814 basehttp 40112 17972 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:18:32,847 basehttp 40112 17972 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:18:41,994 basehttp 40112 17972 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:18:42,023 basehttp 40112 17972 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:19:03,691 autoreload 30132 39428 Watching for file changes with StatReloader
+INFO 2024-01-07 15:19:04,807 basehttp 30132 38212 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:19:04,879 basehttp 30132 38212 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:19:10,443 basehttp 30132 38212 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31960
+INFO 2024-01-07 15:19:10,473 basehttp 30132 38212 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:20:17,983 autoreload 28816 28740 Watching for file changes with StatReloader
+INFO 2024-01-07 15:20:57,265 autoreload 28816 28740 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:20:58,027 autoreload 24716 26816 Watching for file changes with StatReloader
+INFO 2024-01-07 15:21:31,741 basehttp 24716 40504 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:21:31,798 basehttp 24716 40504 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:21:44,508 basehttp 24716 40504 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:21:44,551 basehttp 24716 40504 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:21:49,599 autoreload 17492 39200 Watching for file changes with StatReloader
+INFO 2024-01-07 15:21:50,433 basehttp 17492 32704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:21:50,480 basehttp 17492 32704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:21:52,025 basehttp 17492 32704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:21:52,052 basehttp 17492 32704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:22:22,415 basehttp 17492 32704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-07 15:22:22,469 basehttp 17492 32704 "GET /admin/login/?next=/admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 2288
+INFO 2024-01-07 15:22:22,786 basehttp 17492 32704 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-01-07 15:22:24,771 basehttp 17492 32704 "POST /admin/login/?next=/admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-07 15:22:24,795 basehttp 17492 32704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:22:24,830 basehttp 17492 32704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:23:16,742 autoreload 38520 14100 Watching for file changes with StatReloader
+INFO 2024-01-07 15:23:18,343 basehttp 38520 35028 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-07 15:23:19,796 log 38520 35028 Not Found: /favicon.ico
+WARNING 2024-01-07 15:23:19,796 basehttp 38520 35028 "GET /favicon.ico HTTP/1.1" 404 2763
+INFO 2024-01-07 15:23:25,970 basehttp 38520 40288 "GET /admin/ HTTP/1.1" 200 5753
+INFO 2024-01-07 15:23:27,847 basehttp 38520 40288 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:23:27,905 basehttp 38520 40288 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:23:32,763 autoreload 38520 14100 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:23:33,594 autoreload 1940 38088 Watching for file changes with StatReloader
+INFO 2024-01-07 15:23:33,906 basehttp 1940 39424 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33303
+INFO 2024-01-07 15:23:33,937 basehttp 1940 39424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:23:36,994 autoreload 1940 38088 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:23:37,810 autoreload 40840 41820 Watching for file changes with StatReloader
+INFO 2024-01-07 15:23:38,795 basehttp 40840 35372 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33376
+INFO 2024-01-07 15:23:38,818 basehttp 40840 35372 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:04,798 autoreload 40840 41820 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:24:05,553 autoreload 36724 25404 Watching for file changes with StatReloader
+INFO 2024-01-07 15:24:08,556 basehttp 36724 26676 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:08,580 basehttp 36724 26676 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:21,413 basehttp 36724 26676 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:21,443 basehttp 36724 26676 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:22,176 basehttp 36724 26676 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:22,202 basehttp 36724 26676 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:29,333 basehttp 36724 26676 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:29,363 basehttp 36724 26676 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:38,821 autoreload 36724 25404 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:24:39,712 autoreload 12164 20344 Watching for file changes with StatReloader
+INFO 2024-01-07 15:24:39,941 basehttp 12164 2196 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33455
+WARNING 2024-01-07 15:24:39,979 basehttp 12164 2196 "GET /static/csss/audit_graduate.css HTTP/1.1" 404 1828
+INFO 2024-01-07 15:24:40,130 basehttp 12164 41696 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:43,150 autoreload 12164 20344 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:24:43,984 autoreload 3704 29416 Watching for file changes with StatReloader
+INFO 2024-01-07 15:24:44,433 basehttp 3704 4316 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:44,453 basehttp 3704 4316 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:48,780 basehttp 3704 4316 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:48,799 basehttp 3704 4316 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:24:55,440 basehttp 3704 4316 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:24:55,461 basehttp 3704 4316 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:27:23,736 autoreload 39620 30404 Watching for file changes with StatReloader
+INFO 2024-01-07 15:27:50,692 autoreload 26364 32884 Watching for file changes with StatReloader
+INFO 2024-01-07 15:28:00,158 autoreload 26364 32884 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-01-07 15:28:00,949 autoreload 32256 33960 Watching for file changes with StatReloader
+INFO 2024-01-07 15:28:04,312 basehttp 32256 34572 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:28:04,345 basehttp 32256 34572 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:08,973 basehttp 32256 34572 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:28:08,994 basehttp 32256 34572 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:19,939 autoreload 32256 33960 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:28:20,729 autoreload 41872 22072 Watching for file changes with StatReloader
+INFO 2024-01-07 15:28:21,630 basehttp 41872 25808 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33461
+WARNING 2024-01-07 15:28:21,661 basehttp 41872 25808 "GET /static/static/css/audit_graduate.css HTTP/1.1" 404 1846
+INFO 2024-01-07 15:28:21,665 basehttp 41872 29416 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:26,137 autoreload 41872 22072 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:28:27,012 autoreload 33284 26604 Watching for file changes with StatReloader
+INFO 2024-01-07 15:28:27,782 basehttp 33284 27420 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:28:27,806 basehttp 33284 27420 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:39,914 basehttp 33284 27420 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:28:39,938 basehttp 33284 27420 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:43,615 autoreload 35452 39732 Watching for file changes with StatReloader
+INFO 2024-01-07 15:28:45,119 basehttp 35452 39328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:28:45,144 basehttp 35452 39328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:28:59,609 autoreload 20568 39640 Watching for file changes with StatReloader
+INFO 2024-01-07 15:29:00,919 basehttp 20568 37956 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:29:00,942 basehttp 20568 37956 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:29:08,284 autoreload 20568 39640 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:29:09,181 autoreload 15472 24416 Watching for file changes with StatReloader
+INFO 2024-01-07 15:29:09,500 basehttp 15472 36592 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33381
+INFO 2024-01-07 15:29:09,529 basehttp 15472 36592 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:29:44,906 basehttp 15472 36592 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33381
+INFO 2024-01-07 15:29:44,929 basehttp 15472 36592 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:29:49,590 autoreload 15472 24416 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:29:50,440 autoreload 29788 27964 Watching for file changes with StatReloader
+INFO 2024-01-07 15:29:53,152 basehttp 29788 26084 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33454
+INFO 2024-01-07 15:29:53,178 basehttp 29788 26084 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:30:17,518 autoreload 29788 27964 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:30:18,366 autoreload 30024 39976 Watching for file changes with StatReloader
+INFO 2024-01-07 15:30:18,622 basehttp 30024 35428 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:30:18,647 basehttp 30024 32152 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:30:18,653 basehttp 30024 35428 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:30:24,826 autoreload 30024 39976 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:30:25,643 autoreload 29172 27392 Watching for file changes with StatReloader
+INFO 2024-01-07 15:30:26,328 basehttp 29172 692 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33464
+INFO 2024-01-07 15:30:26,355 basehttp 29172 11612 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:30:26,359 basehttp 29172 692 "GET /static/static/css/audit_graduate_v2.css HTTP/1.1" 404 1855
+INFO 2024-01-07 15:30:35,166 autoreload 29172 27392 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:30:35,978 autoreload 3288 39676 Watching for file changes with StatReloader
+INFO 2024-01-07 15:30:36,319 basehttp 3288 41864 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:30:36,347 basehttp 3288 37480 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:30:36,350 basehttp 3288 41864 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:30:50,978 basehttp 3288 37480 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+WARNING 2024-01-07 15:30:51,003 basehttp 3288 37480 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:30:51,006 basehttp 3288 37760 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:30:57,041 autoreload 25008 37612 Watching for file changes with StatReloader
+INFO 2024-01-07 15:30:59,399 basehttp 25008 37516 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:30:59,421 basehttp 25008 37516 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 673
+INFO 2024-01-07 15:30:59,425 basehttp 25008 35704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:31:06,501 basehttp 25008 35704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:06,524 basehttp 25008 35704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:31:09,973 autoreload 35164 11576 Watching for file changes with StatReloader
+INFO 2024-01-07 15:31:10,754 basehttp 35164 39072 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:10,778 basehttp 35164 39072 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:31:12,242 basehttp 35164 39072 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:12,267 basehttp 35164 9976 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:31:12,271 basehttp 35164 39072 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:31:13,850 basehttp 35164 9976 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+WARNING 2024-01-07 15:31:13,874 basehttp 35164 9976 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:31:13,877 basehttp 35164 22012 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:31:30,810 autoreload 35164 11576 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-01-07 15:31:31,594 autoreload 40060 41684 Watching for file changes with StatReloader
+INFO 2024-01-07 15:31:38,381 basehttp 40060 39776 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:38,406 basehttp 40060 32828 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:31:38,410 basehttp 40060 39776 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:31:42,556 autoreload 35980 31004 Watching for file changes with StatReloader
+INFO 2024-01-07 15:31:44,502 basehttp 35980 15788 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:44,529 basehttp 35980 36924 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-01-07 15:31:44,532 basehttp 35980 15788 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 404 1834
+INFO 2024-01-07 15:31:54,071 autoreload 39388 14100 Watching for file changes with StatReloader
+INFO 2024-01-07 15:31:54,342 basehttp 39388 39264 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:31:54,363 basehttp 39388 39264 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 673
+INFO 2024-01-07 15:31:54,373 basehttp 39388 39264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:32:06,217 autoreload 31484 37596 Watching for file changes with StatReloader
+INFO 2024-01-07 15:32:06,486 basehttp 31484 16264 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:32:06,506 basehttp 31484 16264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:32:08,623 basehttp 31484 16264 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:32:08,644 basehttp 31484 16264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:32:49,212 basehttp 31484 16264 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 775
+INFO 2024-01-07 15:32:51,323 basehttp 31484 16264 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:32:51,342 basehttp 31484 16264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:33:02,155 basehttp 31484 16264 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:33:02,181 basehttp 31484 16264 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:33:02,189 basehttp 31484 3672 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:33:07,741 basehttp 31484 3672 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:33:07,762 basehttp 31484 3672 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:33:23,178 basehttp 31484 3672 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:33:23,198 basehttp 31484 16264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:33:23,199 basehttp 31484 3672 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 794
+INFO 2024-01-07 15:33:34,458 basehttp 31484 3672 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33457
+INFO 2024-01-07 15:33:34,481 basehttp 31484 16264 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:33:34,484 basehttp 31484 3672 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 793
+INFO 2024-01-07 15:39:35,563 autoreload 31484 37596 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:39:36,386 autoreload 38228 848 Watching for file changes with StatReloader
+INFO 2024-01-07 15:39:38,507 basehttp 38228 41132 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33401
+INFO 2024-01-07 15:39:38,526 basehttp 38228 41132 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:39:38,536 basehttp 38228 41132 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:39:44,935 autoreload 38228 848 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:39:45,769 autoreload 22028 27852 Watching for file changes with StatReloader
+INFO 2024-01-07 15:39:46,013 basehttp 22028 4432 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33405
+INFO 2024-01-07 15:39:46,041 basehttp 22028 4432 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:39:46,798 basehttp 22028 4432 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33405
+INFO 2024-01-07 15:39:46,819 basehttp 22028 4432 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:40:00,174 basehttp 22028 4432 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33405
+INFO 2024-01-07 15:40:00,197 basehttp 22028 4432 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:40:12,248 basehttp 22028 4432 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33405
+INFO 2024-01-07 15:40:12,274 basehttp 22028 4432 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:40:13,333 basehttp 22028 4432 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33405
+INFO 2024-01-07 15:40:13,357 basehttp 22028 4432 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:40:15,161 basehttp 22028 4432 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 200 795
+INFO 2024-01-07 15:40:33,493 autoreload 22028 27852 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:40:34,304 autoreload 36644 29864 Watching for file changes with StatReloader
+INFO 2024-01-07 15:40:39,805 basehttp 36644 33764 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33470
+INFO 2024-01-07 15:40:39,829 basehttp 36644 33764 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:40:39,835 basehttp 36644 36580 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:42:22,551 autoreload 36644 29864 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:42:23,411 autoreload 20368 40612 Watching for file changes with StatReloader
+INFO 2024-01-07 15:42:24,602 basehttp 20368 17560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33668
+INFO 2024-01-07 15:42:24,624 basehttp 20368 17560 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:42:24,633 basehttp 20368 31864 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:42:47,480 basehttp 20368 31864 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 15:48:48,081 autoreload 20368 40612 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:48:48,885 autoreload 17464 24596 Watching for file changes with StatReloader
+INFO 2024-01-07 15:49:02,449 autoreload 17464 24596 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:49:03,273 autoreload 39656 23192 Watching for file changes with StatReloader
+INFO 2024-01-07 15:52:00,100 basehttp 39656 26900 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 5749
+INFO 2024-01-07 15:52:00,119 basehttp 39656 26900 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:52:00,160 basehttp 39656 26900 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-01-07 15:52:01,205 basehttp 39656 26900 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-07 15:52:01,247 basehttp 39656 26900 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31940
+INFO 2024-01-07 15:52:01,273 basehttp 39656 26900 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:52:01,316 basehttp 39656 26900 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-01-07 15:53:41,837 basehttp 39656 26900 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:57:42,664 autoreload 39656 23192 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:57:43,481 autoreload 26520 15792 Watching for file changes with StatReloader
+ERROR 2024-01-07 15:58:18,086 log 26520 24588 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'send_email_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'send_email_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 34, in send_email_button
+    send_email_btn_class, obj.id, obj.id, obj.email_status_display, obj
+AttributeError: 'Graduate' object has no attribute 'email_status_display'
+ERROR 2024-01-07 15:58:18,095 basehttp 26520 24588 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 365678
+INFO 2024-01-07 15:58:39,287 autoreload 26520 15792 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 15:58:40,069 autoreload 22272 5736 Watching for file changes with StatReloader
+INFO 2024-01-07 15:58:40,656 basehttp 22272 23076 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31958
+INFO 2024-01-07 15:58:40,681 basehttp 22272 23076 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 15:58:40,711 basehttp 22272 23076 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 15:59:19,749 basehttp 22272 23076 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31958
+INFO 2024-01-07 15:59:19,795 basehttp 22272 23076 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:01:34,096 basehttp 22272 23076 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:01:41,365 basehttp 22272 23076 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:02:43,871 autoreload 22272 5736 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:02:44,683 autoreload 11792 30024 Watching for file changes with StatReloader
+INFO 2024-01-07 16:02:48,001 autoreload 11792 30024 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:02:48,747 autoreload 39092 37324 Watching for file changes with StatReloader
+INFO 2024-01-07 16:03:12,625 autoreload 39092 37324 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:03:13,392 autoreload 20708 33292 Watching for file changes with StatReloader
+INFO 2024-01-07 16:03:34,197 autoreload 20708 33292 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:03:34,971 autoreload 38328 23264 Watching for file changes with StatReloader
+INFO 2024-01-07 16:03:36,959 basehttp 38328 20340 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32588
+INFO 2024-01-07 16:03:36,983 basehttp 38328 20340 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:03:36,995 basehttp 38328 32372 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:03:38,294 basehttp 38328 32372 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:03:39,953 basehttp 38328 32372 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:03:55,205 basehttp 38328 32372 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:03:56,236 basehttp 38328 32372 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:04:23,686 autoreload 38328 23264 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:04:24,453 autoreload 40468 34132 Watching for file changes with StatReloader
+INFO 2024-01-07 16:04:28,842 autoreload 40468 34132 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:04:29,632 autoreload 15472 34476 Watching for file changes with StatReloader
+INFO 2024-01-07 16:04:30,715 basehttp 15472 35228 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32588
+INFO 2024-01-07 16:04:30,753 basehttp 15472 35228 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:04:31,789 basehttp 15472 35228 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:05:04,891 autoreload 15472 34476 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:05:05,732 autoreload 37160 40348 Watching for file changes with StatReloader
+INFO 2024-01-07 16:05:06,238 basehttp 37160 20452 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32552
+INFO 2024-01-07 16:05:06,279 basehttp 37160 20452 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:05:31,674 autoreload 37160 40348 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:05:32,501 autoreload 17972 9268 Watching for file changes with StatReloader
+INFO 2024-01-07 16:05:36,037 basehttp 17972 36104 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32552
+INFO 2024-01-07 16:05:36,066 basehttp 17972 36104 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:06:11,559 basehttp 17972 36104 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32552
+INFO 2024-01-07 16:06:11,588 basehttp 17972 36104 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:06:11,597 basehttp 17972 33132 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:06:47,853 autoreload 17972 9268 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:06:48,720 autoreload 29156 32772 Watching for file changes with StatReloader
+INFO 2024-01-07 16:06:49,995 autoreload 29156 32772 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:06:50,761 autoreload 37732 26052 Watching for file changes with StatReloader
+INFO 2024-01-07 16:06:53,040 autoreload 37732 26052 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:06:53,882 autoreload 10544 32212 Watching for file changes with StatReloader
+ERROR 2024-01-07 16:06:58,600 log 10544 17464 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'approve_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'approve_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 49, in approve_button
+    return format_html(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\html.py", line 103, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+IndexError: Replacement index 3 out of range for positional args tuple
+ERROR 2024-01-07 16:06:58,608 basehttp 10544 17464 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 369002
+INFO 2024-01-07 16:07:14,772 autoreload 10544 32212 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:07:15,632 autoreload 32676 29540 Watching for file changes with StatReloader
+INFO 2024-01-07 16:07:15,856 basehttp 32676 8416 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31982
+INFO 2024-01-07 16:07:15,888 basehttp 32676 8416 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:07:17,251 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:07:18,381 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:07:19,902 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:07:20,854 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:07:23,503 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:07:30,299 basehttp 32676 8416 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:10:14,824 autoreload 32676 29540 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:10:15,686 autoreload 41096 21716 Watching for file changes with StatReloader
+INFO 2024-01-07 16:10:15,969 basehttp 41096 26304 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32023
+INFO 2024-01-07 16:10:15,994 basehttp 41096 26304 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:10:16,011 basehttp 41096 26304 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:10:16,014 basehttp 41096 15512 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2259
+INFO 2024-01-07 16:10:49,888 autoreload 41096 21716 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:10:50,676 autoreload 40820 5204 Watching for file changes with StatReloader
+INFO 2024-01-07 16:10:52,886 basehttp 40820 12272 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31892
+INFO 2024-01-07 16:10:52,924 basehttp 40820 12272 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:11:17,789 autoreload 40820 5204 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:11:18,612 autoreload 1772 36616 Watching for file changes with StatReloader
+ERROR 2024-01-07 16:11:22,038 log 1772 30284 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'send_email_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'send_email_button'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 37, in send_email_button
+    send_email_btn_class, obj.id, obj.id, obj.email_status.status
+AttributeError: 'int' object has no attribute 'status'
+ERROR 2024-01-07 16:11:22,049 basehttp 1772 30284 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 365522
+INFO 2024-01-07 16:11:27,406 autoreload 1772 36616 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:11:28,187 autoreload 2924 29180 Watching for file changes with StatReloader
+INFO 2024-01-07 16:11:29,102 basehttp 2924 7488 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31892
+INFO 2024-01-07 16:11:29,139 basehttp 2924 26672 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:11:29,142 basehttp 2924 7488 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:11:48,013 autoreload 2924 29180 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:11:48,769 autoreload 4656 35512 Watching for file changes with StatReloader
+INFO 2024-01-07 16:11:57,062 basehttp 4656 29448 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31892
+INFO 2024-01-07 16:11:57,104 basehttp 4656 29448 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:12:00,870 basehttp 4656 29448 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 16:13:08,176 autoreload 4656 35512 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:13:08,979 autoreload 29872 22720 Watching for file changes with StatReloader
+INFO 2024-01-07 16:13:28,773 autoreload 29872 22720 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:13:29,541 autoreload 34956 37392 Watching for file changes with StatReloader
+INFO 2024-01-07 16:13:40,126 autoreload 34956 37392 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\urls.py changed, reloading.
+INFO 2024-01-07 16:13:40,956 autoreload 5944 10784 Watching for file changes with StatReloader
+INFO 2024-01-07 16:15:07,192 basehttp 5944 33132 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:15:07,220 basehttp 5944 33132 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:15:07,242 basehttp 5944 33132 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:15:07,260 basehttp 5944 41952 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 3008
+ERROR 2024-01-07 16:15:08,881 log 5944 41952 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: handle_send_email() missing 1 required positional argument: 'graduate_id'
+ERROR 2024-01-07 16:15:08,883 basehttp 5944 41952 "POST /handle_send_email/ HTTP/1.1" 500 65089
+INFO 2024-01-07 16:16:09,535 autoreload 5944 10784 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:16:10,402 autoreload 16908 3380 Watching for file changes with StatReloader
+INFO 2024-01-07 16:16:21,962 autoreload 16908 3380 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:16:22,710 autoreload 39204 22000 Watching for file changes with StatReloader
+INFO 2024-01-07 16:16:52,783 autoreload 39204 22000 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:16:53,530 autoreload 16048 35076 Watching for file changes with StatReloader
+INFO 2024-01-07 16:18:36,301 basehttp 16048 2664 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:18:36,338 basehttp 16048 2664 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:18:36,348 basehttp 16048 6692 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 3167
+INFO 2024-01-07 16:20:26,569 basehttp 16048 6692 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:20:26,610 basehttp 16048 6692 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:20:26,623 basehttp 16048 6692 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:20:26,638 basehttp 16048 2664 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 3272
+INFO 2024-01-07 16:20:43,692 basehttp 16048 2664 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:20:43,725 basehttp 16048 2664 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:20:43,734 basehttp 16048 6692 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 3291
+INFO 2024-01-07 16:21:40,843 autoreload 16048 35076 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:21:41,615 autoreload 41132 32988 Watching for file changes with StatReloader
+INFO 2024-01-07 16:21:42,871 autoreload 41132 32988 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:21:43,661 autoreload 29572 33448 Watching for file changes with StatReloader
+INFO 2024-01-07 16:21:50,232 basehttp 29572 23184 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31950
+INFO 2024-01-07 16:21:50,305 basehttp 29572 32340 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:21:50,310 basehttp 29572 23184 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:22:39,196 basehttp 29572 23184 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31950
+INFO 2024-01-07 16:22:39,245 basehttp 29572 32340 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 3272
+INFO 2024-01-07 16:22:39,248 basehttp 29572 23184 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:22:53,963 autoreload 29572 33448 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:22:54,861 autoreload 33384 27508 Watching for file changes with StatReloader
+INFO 2024-01-07 16:22:55,178 basehttp 33384 30360 - Broken pipe from ('127.0.0.1', 56129)
+INFO 2024-01-07 16:22:59,205 autoreload 33384 27508 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:22:59,998 autoreload 39676 23720 Watching for file changes with StatReloader
+INFO 2024-01-07 16:23:03,592 basehttp 39676 38328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:23:03,631 basehttp 39676 30088 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:23:03,635 basehttp 39676 38328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:25:35,506 basehttp 39676 38328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:25:35,533 basehttp 39676 38328 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:25:35,546 basehttp 39676 38328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:25:35,567 basehttp 39676 30088 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2466
+ERROR 2024-01-07 16:25:38,925 log 39676 30088 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'int' object has no attribute 'get'
+ERROR 2024-01-07 16:25:38,927 basehttp 39676 30088 "POST /handle_send_email/ HTTP/1.1" 500 68124
+INFO 2024-01-07 16:26:54,722 autoreload 39676 23720 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:26:55,535 autoreload 40624 2892 Watching for file changes with StatReloader
+ERROR 2024-01-07 16:26:57,383 log 40624 21524 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+AttributeError: 'int' object has no attribute 'get'
+ERROR 2024-01-07 16:26:57,384 basehttp 40624 21524 "POST /handle_send_email/ HTTP/1.1" 500 68124
+INFO 2024-01-07 16:28:39,697 autoreload 40624 2892 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:28:40,540 autoreload 25344 35380 Watching for file changes with StatReloader
+INFO 2024-01-07 16:28:42,713 basehttp 25344 14580 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:28:42,754 basehttp 25344 31944 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:28:42,760 basehttp 25344 14580 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:28:45,175 basehttp 25344 14580 "POST /handle_send_email/ HTTP/1.1" 200 39
+INFO 2024-01-07 16:30:28,822 autoreload 25344 35380 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:30:29,602 autoreload 38080 34484 Watching for file changes with StatReloader
+INFO 2024-01-07 16:35:14,452 autoreload 38080 34484 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:35:15,209 autoreload 13304 1280 Watching for file changes with StatReloader
+INFO 2024-01-07 16:38:10,110 autoreload 13304 1280 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:38:10,866 autoreload 35820 24928 Watching for file changes with StatReloader
+INFO 2024-01-07 16:38:17,133 autoreload 35820 24928 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:38:17,946 autoreload 16464 31012 Watching for file changes with StatReloader
+INFO 2024-01-07 16:41:38,264 autoreload 16464 31012 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:41:39,116 autoreload 32160 31624 Watching for file changes with StatReloader
+INFO 2024-01-07 16:42:14,160 autoreload 32160 31624 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:42:14,961 autoreload 32984 38000 Watching for file changes with StatReloader
+INFO 2024-01-07 16:42:21,227 autoreload 32984 38000 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:42:22,008 autoreload 35772 13124 Watching for file changes with StatReloader
+INFO 2024-01-07 16:42:32,380 autoreload 35772 13124 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:42:33,209 autoreload 40624 30960 Watching for file changes with StatReloader
+INFO 2024-01-07 16:42:46,825 autoreload 40624 30960 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:42:47,651 autoreload 31788 31276 Watching for file changes with StatReloader
+INFO 2024-01-07 16:42:57,157 autoreload 31788 31276 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:42:57,970 autoreload 32948 32968 Watching for file changes with StatReloader
+INFO 2024-01-07 16:43:02,290 basehttp 32948 36056 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:43:02,316 basehttp 32948 36056 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:43:02,321 basehttp 32948 36056 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:43:02,324 basehttp 32948 30872 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-07 16:43:35,607 log 32948 30872 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 103, in handle_send_email
+    res = send_email(
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 169, in send_email
+    server = smtplib.SMTP(smtp_server, smtp_port)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 341, in connect
+    (code, msg) = self.getreply()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 403, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+ERROR 2024-01-07 16:43:35,610 basehttp 32948 30872 "POST /handle_send_email/ HTTP/1.1" 500 87300
+INFO 2024-01-07 16:43:54,860 autoreload 32948 32968 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:43:55,645 autoreload 31972 27252 Watching for file changes with StatReloader
+INFO 2024-01-07 16:43:58,153 basehttp 31972 32348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:43:58,200 basehttp 31972 32348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-07 16:44:01,809 log 31972 32348 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 103, in handle_send_email
+    res = send_email(
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 171, in send_email
+    server.login(smtp_user, smtp_password)  # 登录 SMTP 服务器
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 737, in login
+    (code, resp) = self.auth(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 640, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 430, in docmd
+    return self.getreply()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\smtplib.py", line 403, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+ERROR 2024-01-07 16:44:01,812 basehttp 31972 32348 "POST /handle_send_email/ HTTP/1.1" 500 93546
+INFO 2024-01-07 16:44:26,842 autoreload 31972 27252 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:44:27,701 autoreload 35160 32888 Watching for file changes with StatReloader
+INFO 2024-01-07 16:44:28,032 basehttp 35160 3248 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31854
+INFO 2024-01-07 16:44:28,075 basehttp 35160 3248 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-07 16:44:32,192 log 35160 3248 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\fields\__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: '已发送'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 131, in handle_send_email
+    graduate.save()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\base.py", line 831, in save
+    self.save_base(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\base.py", line 882, in save_base
+    updated = self._save_table(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\base.py", line 995, in _save_table
+    updated = self._do_update(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\base.py", line 1059, in _do_update
+    return filtered._update(values) > 0
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\query.py", line 1215, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\sql\compiler.py", line 1819, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\sql\compiler.py", line 1382, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\sql\compiler.py", line 1785, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\fields\__init__.py", line 925, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\fields\__init__.py", line 920, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\fields\__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'email_status' expected a number but got '已发送'.
+ERROR 2024-01-07 16:44:32,196 basehttp 35160 3248 "POST /handle_send_email/ HTTP/1.1" 500 129887
+INFO 2024-01-07 16:45:12,231 autoreload 35160 32888 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:45:13,028 autoreload 35108 14580 Watching for file changes with StatReloader
+INFO 2024-01-07 16:45:26,880 basehttp 35108 36596 "POST /handle_send_email/ HTTP/1.1" 200 39
+INFO 2024-01-07 16:46:48,911 autoreload 35108 14580 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:46:49,647 autoreload 16472 21104 Watching for file changes with StatReloader
+INFO 2024-01-07 16:47:30,002 autoreload 16472 21104 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:47:30,755 autoreload 15852 37380 Watching for file changes with StatReloader
+INFO 2024-01-07 16:49:24,170 autoreload 15852 37380 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:49:24,988 autoreload 32852 6504 Watching for file changes with StatReloader
+INFO 2024-01-07 16:49:35,545 autoreload 32852 6504 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:49:36,382 autoreload 32380 29008 Watching for file changes with StatReloader
+INFO 2024-01-07 16:49:37,670 autoreload 32380 29008 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:49:38,470 autoreload 26920 33128 Watching for file changes with StatReloader
+INFO 2024-01-07 16:49:55,150 autoreload 26920 33128 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:49:56,080 autoreload 6588 39308 Watching for file changes with StatReloader
+INFO 2024-01-07 16:50:52,697 autoreload 6588 39308 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:50:53,520 autoreload 40976 22208 Watching for file changes with StatReloader
+INFO 2024-01-07 16:52:33,545 autoreload 40976 22208 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:52:34,477 autoreload 9852 39812 Watching for file changes with StatReloader
+INFO 2024-01-07 16:52:35,790 basehttp 9852 33884 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31851
+INFO 2024-01-07 16:52:35,820 basehttp 9852 33884 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 16:52:35,832 basehttp 9852 3644 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 16:52:35,837 basehttp 9852 33884 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:52:41,100 basehttp 9852 33884 "POST /handle_send_email/ HTTP/1.1" 200 39
+INFO 2024-01-07 16:53:23,232 autoreload 9852 39812 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:53:24,018 autoreload 31212 3548 Watching for file changes with StatReloader
+INFO 2024-01-07 16:53:54,124 basehttp 31212 37928 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 31851
+INFO 2024-01-07 16:53:54,175 basehttp 31212 37928 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 16:53:58,684 basehttp 31212 37928 "POST /handle_send_email/ HTTP/1.1" 200 39
+INFO 2024-01-07 16:54:51,759 autoreload 31212 3548 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 16:54:52,595 autoreload 20568 5908 Watching for file changes with StatReloader
+INFO 2024-01-07 16:58:37,913 autoreload 20568 5908 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:58:38,686 autoreload 8580 40052 Watching for file changes with StatReloader
+INFO 2024-01-07 16:58:41,992 autoreload 8580 40052 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:58:42,801 autoreload 35760 36684 Watching for file changes with StatReloader
+ERROR 2024-01-07 16:58:44,246 log 35760 32068 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 25, in email_status_display
+    return format_html(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\html.py", line 103, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+IndexError: Replacement index 2 out of range for positional args tuple
+ERROR 2024-01-07 16:58:44,251 basehttp 35760 32068 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 368864
+INFO 2024-01-07 16:59:17,089 autoreload 35760 36684 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 16:59:17,834 autoreload 34932 13768 Watching for file changes with StatReloader
+ERROR 2024-01-07 16:59:58,122 log 34932 27864 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 25, in email_status_display
+    return format_html(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\html.py", line 103, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+IndexError: Replacement index 2 out of range for positional args tuple
+ERROR 2024-01-07 16:59:58,132 basehttp 34932 27864 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 368864
+INFO 2024-01-07 17:00:27,074 autoreload 34932 13768 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:00:27,902 autoreload 31640 38692 Watching for file changes with StatReloader
+ERROR 2024-01-07 17:00:29,306 log 31640 16320 Internal Server Error: /admin/collectAndSendEmailAdmin/graduate/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 668, in get_field
+    return self.fields_map[field_name]
+KeyError: 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 271, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 302, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\db\models\options.py", line 670, in get_field
+    raise FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Graduate has no field named 'email_status_display'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\backends\django.py", line 62, in render
+    return self.template.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\base.py", line 45, in render
+    return super().render(context)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\template\library.py", line 258, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 336, in result_list
+    "results": list(results(cl)),
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 312, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 303, in __init__
+    super().__init__(*items)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 213, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\contrib\admin\utils.py", line 280, in lookup_field
+    value = attr(obj)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py", line 25, in email_status_display
+    return format_html(
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\html.py", line 103, in format_html
+    return mark_safe(format_string.format(*args_safe, **kwargs_safe))
+IndexError: Replacement index 2 out of range for positional args tuple
+ERROR 2024-01-07 17:00:29,314 basehttp 31640 16320 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 500 368864
+INFO 2024-01-07 17:01:08,347 autoreload 31640 38692 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:01:09,149 autoreload 40980 35072 Watching for file changes with StatReloader
+INFO 2024-01-07 17:01:10,053 basehttp 40980 31668 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32405
+INFO 2024-01-07 17:01:10,101 basehttp 40980 31668 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 17:01:10,120 basehttp 40980 31668 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:01:10,145 basehttp 40980 32512 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2615
+INFO 2024-01-07 17:01:29,875 basehttp 40980 32512 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 17:03:33,836 basehttp 40980 32512 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32405
+INFO 2024-01-07 17:03:33,895 basehttp 40980 32512 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:03:33,906 basehttp 40980 31668 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2828
+INFO 2024-01-07 17:03:50,817 basehttp 40980 31668 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32405
+INFO 2024-01-07 17:03:50,859 basehttp 40980 31668 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:03:50,873 basehttp 40980 32512 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2869
+INFO 2024-01-07 17:04:09,259 basehttp 40980 32512 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32405
+INFO 2024-01-07 17:04:09,295 basehttp 40980 32512 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:04:09,295 basehttp 40980 31668 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 200 2912
+INFO 2024-01-07 17:04:15,173 basehttp 40980 31668 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 17:08:34,407 autoreload 40980 35072 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 17:08:35,269 autoreload 36948 7564 Watching for file changes with StatReloader
+INFO 2024-01-07 17:09:52,590 autoreload 36948 7564 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 17:09:53,461 autoreload 34684 35380 Watching for file changes with StatReloader
+INFO 2024-01-07 17:10:01,934 autoreload 34684 35380 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 17:10:02,775 autoreload 32956 28072 Watching for file changes with StatReloader
+INFO 2024-01-07 17:10:04,065 autoreload 32956 28072 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 17:10:04,912 autoreload 24884 38892 Watching for file changes with StatReloader
+INFO 2024-01-07 17:10:47,335 autoreload 24884 38892 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 17:10:48,128 autoreload 33888 38468 Watching for file changes with StatReloader
+INFO 2024-01-07 17:11:03,405 basehttp 33888 14928 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 17:45:52,623 autoreload 33888 38468 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:45:53,922 autoreload 38024 16280 Watching for file changes with StatReloader
+INFO 2024-01-07 17:46:16,766 autoreload 38024 16280 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:46:17,662 autoreload 944 39732 Watching for file changes with StatReloader
+INFO 2024-01-07 17:46:38,519 autoreload 944 39732 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:46:39,379 autoreload 8328 9636 Watching for file changes with StatReloader
+INFO 2024-01-07 17:46:46,088 basehttp 8328 37864 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 33275
+INFO 2024-01-07 17:46:46,124 basehttp 8328 37864 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 17:46:46,125 basehttp 8328 34644 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:46:46,138 basehttp 8328 16388 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:46:46,157 basehttp 8328 34644 "GET /media/certificates/GdBupLQ8pgbpC4FTf3075210dd4e0c002e82fa3aae38099f.jpg HTTP/1.1" 200 1555691
+INFO 2024-01-07 17:46:46,160 basehttp 8328 37864 "GET /media/certificates/HGHKxoD1myDGAco55ee3ba95b32687c3e7fbcb7199b1654e.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-07 17:46:46,174 basehttp 8328 34644 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,216 basehttp 8328 34644 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,225 basehttp 8328 37864 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,245 basehttp 8328 37864 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,245 basehttp 8328 16388 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,247 basehttp 8328 32900 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:46:46,248 basehttp 8328 34644 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-01-07 17:47:05,428 autoreload 8328 9636 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:47:06,299 autoreload 40556 15844 Watching for file changes with StatReloader
+INFO 2024-01-07 17:47:06,903 basehttp 40556 31836 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32399
+INFO 2024-01-07 17:47:06,938 basehttp 40556 31836 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:47:16,084 basehttp 40556 31836 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 6069
+INFO 2024-01-07 17:47:16,195 basehttp 40556 31836 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-01-07 17:47:17,433 basehttp 40556 31836 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-07 17:47:17,464 basehttp 40556 31836 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 27431
+INFO 2024-01-07 17:47:17,534 basehttp 40556 31836 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:47:17,616 basehttp 40556 31836 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-01-07 17:47:24,048 autoreload 40556 15844 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:47:24,849 autoreload 41556 39408 Watching for file changes with StatReloader
+INFO 2024-01-07 17:47:27,514 basehttp 41556 37836 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28137
+INFO 2024-01-07 17:47:27,560 basehttp 41556 37836 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:49:20,354 autoreload 41556 39408 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:49:21,202 autoreload 944 12856 Watching for file changes with StatReloader
+INFO 2024-01-07 17:49:26,589 autoreload 944 12856 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:49:27,468 autoreload 29828 25812 Watching for file changes with StatReloader
+INFO 2024-01-07 17:49:29,122 basehttp 29828 32788 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28189
+INFO 2024-01-07 17:49:29,168 basehttp 29828 41380 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:49:29,178 basehttp 29828 32788 "GET /static/js/image_preview.js HTTP/1.1" 200 1641
+INFO 2024-01-07 17:50:34,607 autoreload 29828 25812 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:50:35,454 autoreload 36616 39424 Watching for file changes with StatReloader
+INFO 2024-01-07 17:51:09,229 basehttp 36616 39668 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28189
+INFO 2024-01-07 17:51:09,255 basehttp 36616 5032 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:51:09,262 basehttp 36616 39668 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:51:09,271 basehttp 36616 5032 "GET /static/js/image_preview.js HTTP/1.1" 200 1636
+INFO 2024-01-07 17:51:30,322 autoreload 36616 39424 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 17:51:31,173 autoreload 35640 34840 Watching for file changes with StatReloader
+INFO 2024-01-07 17:51:33,205 basehttp 35640 29008 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:51:33,231 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:51:33,238 basehttp 35640 29008 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:51:42,993 basehttp 35640 29008 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:51:43,033 basehttp 35640 29008 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:51:43,044 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1635
+INFO 2024-01-07 17:51:44,585 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined HTTP/1.1" 301 0
+INFO 2024-01-07 17:51:44,596 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined/ HTTP/1.1" 302 0
+INFO 2024-01-07 17:51:44,604 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined/change/ HTTP/1.1" 302 0
+INFO 2024-01-07 17:51:44,627 basehttp 35640 36964 "GET /admin/ HTTP/1.1" 200 6916
+INFO 2024-01-07 17:51:46,565 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined HTTP/1.1" 301 0
+INFO 2024-01-07 17:51:46,569 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined/ HTTP/1.1" 302 0
+INFO 2024-01-07 17:51:46,573 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/undefined/change/ HTTP/1.1" 302 0
+INFO 2024-01-07 17:51:46,582 basehttp 35640 36964 "GET /admin/ HTTP/1.1" 200 6916
+INFO 2024-01-07 17:54:14,659 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:54:14,703 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:54:14,714 basehttp 35640 29008 "GET /static/js/image_preview.js HTTP/1.1" 200 1673
+INFO 2024-01-07 17:54:39,710 basehttp 35640 29008 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:54:39,752 basehttp 35640 29008 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:54:39,760 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1673
+INFO 2024-01-07 17:54:46,216 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:54:46,252 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:54:46,254 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:55:06,783 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:55:06,811 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:55:06,835 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1667
+INFO 2024-01-07 17:55:10,502 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:55:10,522 basehttp 35640 29008 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:55:10,526 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:56:27,004 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:56:27,031 basehttp 35640 29008 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 17:56:27,036 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:56:27,046 basehttp 35640 33428 "GET /static/js/image_preview.js HTTP/1.1" 200 1814
+INFO 2024-01-07 17:57:05,396 basehttp 35640 33428 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:57:05,438 basehttp 35640 33428 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:57:05,449 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1808
+INFO 2024-01-07 17:57:28,470 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:57:28,500 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:57:28,509 basehttp 35640 33428 "GET /static/js/image_preview.js HTTP/1.1" 200 1808
+INFO 2024-01-07 17:57:43,202 basehttp 35640 33428 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:57:43,225 basehttp 35640 33428 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:57:43,232 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1879
+INFO 2024-01-07 17:57:55,780 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:57:55,806 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:57:55,812 basehttp 35640 33428 "GET /static/js/image_preview.js HTTP/1.1" 200 1882
+INFO 2024-01-07 17:58:06,002 basehttp 35640 33428 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:58:06,032 basehttp 35640 33428 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:58:06,039 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1880
+INFO 2024-01-07 17:58:14,003 basehttp 35640 36964 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:58:14,030 basehttp 35640 36964 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 17:58:14,036 basehttp 35640 33428 "GET /static/js/image_preview.js HTTP/1.1" 200 1880
+INFO 2024-01-07 17:58:34,852 basehttp 35640 33428 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 17:58:34,876 basehttp 35640 36964 "GET /static/js/image_preview.js HTTP/1.1" 200 1814
+INFO 2024-01-07 17:58:34,880 basehttp 35640 33428 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:06:28,730 basehttp 35640 9712 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 18:06:28,750 basehttp 35640 9712 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 18:06:28,761 basehttp 35640 9712 "GET /static/js/audit_graduate_v2.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:06:28,762 basehttp 35640 39700 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:06:28,764 basehttp 35640 13304 "GET /static/js/image_preview.js HTTP/1.1" 200 2073
+INFO 2024-01-07 18:07:04,713 basehttp 35640 13304 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 18:07:19,116 basehttp 35640 13304 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 18:07:19,181 basehttp 35640 39700 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:07:19,185 basehttp 35640 13304 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:07:23,714 basehttp 35640 13304 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 18:07:26,872 basehttp 35640 13304 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 18:07:26,899 basehttp 35640 13304 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:07:26,900 basehttp 35640 39700 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:07:34,446 basehttp 35640 39700 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 18:07:58,361 autoreload 35640 34840 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 18:07:59,220 autoreload 38252 34272 Watching for file changes with StatReloader
+INFO 2024-01-07 18:07:59,471 basehttp 38252 5204 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 18:07:59,509 basehttp 38252 5204 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:07:59,513 basehttp 38252 30560 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:07:59,514 basehttp 38252 40400 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 2961
+INFO 2024-01-07 18:08:10,342 basehttp 38252 40400 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 18:08:10,373 basehttp 38252 5204 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:08:10,377 basehttp 38252 40400 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:08:10,387 basehttp 38252 30560 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 2951
+INFO 2024-01-07 18:08:18,300 basehttp 38252 30560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 18:08:24,330 basehttp 38252 30560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28340
+INFO 2024-01-07 18:08:24,408 basehttp 38252 5204 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:08:24,408 basehttp 38252 40400 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:08:24,412 basehttp 38252 30560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:11:07,115 basehttp 38252 30560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28340
+INFO 2024-01-07 18:11:07,171 basehttp 38252 5204 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:11:07,176 basehttp 38252 30560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:11:07,189 basehttp 38252 40400 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3195
+INFO 2024-01-07 18:11:18,704 basehttp 38252 40400 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28340
+INFO 2024-01-07 18:11:18,738 basehttp 38252 40400 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:11:18,746 basehttp 38252 30560 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3267
+INFO 2024-01-07 18:11:26,131 basehttp 38252 30560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 18:12:06,828 autoreload 21588 24280 Watching for file changes with StatReloader
+INFO 2024-01-07 18:12:08,035 basehttp 21588 4504 "GET / HTTP/1.1" 200 308
+INFO 2024-01-07 18:12:11,169 basehttp 21588 4504 "GET /admin/ HTTP/1.1" 200 6736
+INFO 2024-01-07 18:13:40,129 basehttp 21588 4504 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28302
+INFO 2024-01-07 18:13:40,177 basehttp 21588 4504 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:13:40,180 basehttp 21588 32428 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:13:40,180 basehttp 21588 41100 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3195
+INFO 2024-01-07 18:15:31,984 basehttp 21588 41100 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 18:16:57,327 autoreload 21588 24280 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:16:58,228 autoreload 37132 720 Watching for file changes with StatReloader
+INFO 2024-01-07 18:17:06,570 autoreload 37132 720 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:17:07,419 autoreload 5824 40244 Watching for file changes with StatReloader
+INFO 2024-01-07 18:17:12,931 basehttp 5824 35456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28302
+INFO 2024-01-07 18:17:12,972 basehttp 5824 24700 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:17:12,974 basehttp 5824 40444 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:17:12,978 basehttp 5824 35456 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:17:17,724 basehttp 5824 35456 "POST /handle_send_email/ HTTP/1.1" 200 52
+INFO 2024-01-07 18:17:21,092 basehttp 5824 35456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28322
+INFO 2024-01-07 18:17:21,146 basehttp 5824 35456 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:18:06,429 autoreload 5824 40244 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:18:07,181 autoreload 41936 36240 Watching for file changes with StatReloader
+INFO 2024-01-07 18:18:33,106 autoreload 41936 36240 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:18:33,854 autoreload 30948 1056 Watching for file changes with StatReloader
+INFO 2024-01-07 18:19:32,707 autoreload 30948 1056 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:19:33,470 autoreload 35844 38344 Watching for file changes with StatReloader
+INFO 2024-01-07 18:19:33,750 basehttp 35844 20588 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28322
+INFO 2024-01-07 18:19:33,786 basehttp 35844 20588 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:19:33,790 basehttp 35844 22292 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:19:33,803 basehttp 35844 31916 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3213
+INFO 2024-01-07 18:19:36,317 basehttp 35844 31916 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 18:19:39,903 basehttp 35844 31916 "POST /handle_send_email/ HTTP/1.1" 200 98
+INFO 2024-01-07 18:20:15,443 basehttp 35844 31916 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28301
+INFO 2024-01-07 18:20:15,483 basehttp 35844 22292 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:20:15,487 basehttp 35844 31916 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:21:55,984 autoreload 35844 38344 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:21:56,810 autoreload 30036 37568 Watching for file changes with StatReloader
+INFO 2024-01-07 18:22:38,323 autoreload 30036 37568 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 18:22:39,051 autoreload 35060 37228 Watching for file changes with StatReloader
+INFO 2024-01-07 18:24:29,314 autoreload 35060 37228 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-07 18:24:30,082 autoreload 27444 36368 Watching for file changes with StatReloader
+INFO 2024-01-07 18:29:09,494 basehttp 27444 19232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28301
+INFO 2024-01-07 18:29:09,524 basehttp 27444 19232 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 18:29:09,546 basehttp 27444 35232 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:29:09,549 basehttp 27444 19232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:29:09,562 basehttp 27444 9712 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3311
+ERROR 2024-01-07 18:29:15,335 log 27444 9712 Internal Server Error: /handle_send_email/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 146, in handle_send_email
+    'email_send_time': timezone.localtime(now_time).strftime("%Y年%m月%d日 %H:%M")
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\timezone.py", line 218, in localtime
+    raise ValueError("localtime() cannot be applied to a naive datetime")
+ValueError: localtime() cannot be applied to a naive datetime
+ERROR 2024-01-07 18:29:15,337 basehttp 27444 9712 "POST /handle_send_email/ HTTP/1.1" 500 75275
+INFO 2024-01-07 18:31:28,880 autoreload 27444 36368 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-07 18:31:29,660 autoreload 38232 25248 Watching for file changes with StatReloader
+INFO 2024-01-07 18:31:31,614 basehttp 38232 37608 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28321
+INFO 2024-01-07 18:31:31,664 basehttp 38232 41664 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:31:31,672 basehttp 38232 37608 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:31:31,672 basehttp 38232 39072 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:32:02,569 basehttp 38232 37608 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-01-07 18:32:59,006 basehttp 38232 37608 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28341
+INFO 2024-01-07 18:32:59,051 basehttp 38232 37608 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 18:32:59,093 basehttp 38232 37608 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3308
+INFO 2024-01-07 18:33:03,695 basehttp 38232 37608 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-01-07 18:33:09,298 basehttp 38232 37608 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28358
+INFO 2024-01-07 18:33:09,362 basehttp 38232 39072 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 18:33:09,365 basehttp 38232 37608 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:25:37,774 basehttp 38232 40108 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28358
+INFO 2024-01-07 19:25:37,796 basehttp 38232 40108 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 19:25:37,827 basehttp 38232 40804 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:25:37,828 basehttp 38232 9988 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:25:37,831 basehttp 38232 40108 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:25:47,353 basehttp 38232 40108 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-01-07 19:25:50,840 basehttp 38232 40108 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28378
+INFO 2024-01-07 19:25:50,873 basehttp 38232 40108 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:33:16,088 basehttp 38232 29892 "GET /admin/ HTTP/1.1" 200 6736
+INFO 2024-01-07 19:33:17,109 basehttp 38232 29892 "GET / HTTP/1.1" 200 308
+INFO 2024-01-07 19:33:23,419 basehttp 38232 29892 "GET /admin/ HTTP/1.1" 200 6736
+INFO 2024-01-07 19:35:50,540 views 38232 39784 original file: HraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg
+INFO 2024-01-07 19:35:50,546 basehttp 38232 39784 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-07 19:35:50,559 views 38232 41004 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/01/07/371521202401018888/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg'], 'g_name': ['张三三'], 'g_sex': ['0'], 'g_college': ['物理院'], 'g_major': ['计算机专业'], 'g_year': ['2019'], 'g_id_no': ['371521202401018888'], 'g_phone': ['15022223333'], 'g_mailing_address': ['兰州大学榆中校区\nxxx号']}>
+INFO 2024-01-07 19:35:50,560 views 38232 41004 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-01-07 19:35:50,561 views 38232 41004 graduate_add() >> relative_pic_path: media/certificates/2024/01/07/371521202401018888/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg
+INFO 2024-01-07 19:35:50,561 views 38232 41004 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018888/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg
+INFO 2024-01-07 19:35:50,573 views 38232 41004 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018888/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg
+INFO 2024-01-07 19:35:50,586 basehttp 38232 41004 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-07 19:36:16,609 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28524
+INFO 2024-01-07 19:36:16,689 basehttp 38232 16360 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:36:16,693 basehttp 38232 37660 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:36:16,693 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:36:16,725 basehttp 38232 16560 "GET /media/certificates/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-07 19:36:19,549 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28524
+INFO 2024-01-07 19:36:19,586 basehttp 38232 16560 "GET /media/certificates/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:36:19,590 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:36:33,573 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28524
+INFO 2024-01-07 19:36:33,603 basehttp 38232 16560 "GET /media/certificates/j7XcHraG4CiNUReE5ee3ba95b32687c3e7fbcb7199b1654e.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:36:33,606 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:40:41,907 views 38232 39784 original file: h2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg
+INFO 2024-01-07 19:40:41,915 basehttp 38232 39784 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-07 19:40:41,925 views 38232 41004 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/01/07/371521202401018888/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg'], 'g_name': ['张雪龙'], 'g_sex': ['0'], 'g_college': ['信息科学与工程学院'], 'g_major': ['计算机科学与技术专业'], 'g_year': ['2019'], 'g_id_no': ['371521202401018888'], 'g_phone': ['15022223333'], 'g_mailing_address': ['兰州大学榆中校区\nxxx号']}>
+INFO 2024-01-07 19:40:41,926 views 38232 41004 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-01-07 19:40:41,927 views 38232 41004 graduate_add() >> relative_pic_path: media/certificates/2024/01/07/371521202401018888/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg
+INFO 2024-01-07 19:40:41,927 views 38232 41004 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018888/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg
+INFO 2024-01-07 19:40:41,938 views 38232 41004 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018888/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg
+INFO 2024-01-07 19:40:41,949 basehttp 38232 41004 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-07 19:41:05,823 basehttp 38232 37660 "GET /admin/ HTTP/1.1" 200 6736
+INFO 2024-01-07 19:41:15,612 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28795
+INFO 2024-01-07 19:41:15,641 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:41:15,673 basehttp 38232 16560 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-07 19:41:43,114 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28795
+INFO 2024-01-07 19:41:43,142 basehttp 38232 16560 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:41:43,173 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:41:54,336 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 28795
+INFO 2024-01-07 19:41:54,359 basehttp 38232 16560 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:41:54,399 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:41:56,262 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=0 HTTP/1.1" 200 12149
+INFO 2024-01-07 19:41:56,293 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:41:58,630 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=1 HTTP/1.1" 200 27123
+INFO 2024-01-07 19:41:58,666 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:42:02,943 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=2 HTTP/1.1" 200 18595
+INFO 2024-01-07 19:42:02,995 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:42:03,724 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 28795
+INFO 2024-01-07 19:42:03,748 basehttp 38232 37660 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:42:03,752 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:43:04,930 basehttp 38232 16560 "POST /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 5805
+INFO 2024-01-07 19:43:04,988 basehttp 38232 16560 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:43:05,830 basehttp 38232 16560 "POST /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 302 0
+INFO 2024-01-07 19:43:05,855 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 27092
+INFO 2024-01-07 19:43:05,889 basehttp 38232 16560 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:43:05,892 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:43:09,346 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 26955
+INFO 2024-01-07 19:43:09,405 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:43:52,260 views 38232 39784 original file: 5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg
+INFO 2024-01-07 19:43:52,264 basehttp 38232 39784 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-07 19:43:52,275 views 38232 41004 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/01/07/371521202401018228/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg'], 'g_name': ['王芳'], 'g_sex': ['1'], 'g_college': ['信息科学与工程学院'], 'g_major': ['计算机科学与技术专业'], 'g_year': ['2019'], 'g_id_no': ['371521202401018228'], 'g_phone': ['15022223333'], 'g_mailing_address': ['兰州大学榆中校区\nxxx号']}>
+INFO 2024-01-07 19:43:52,277 views 38232 41004 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-01-07 19:43:52,277 views 38232 41004 graduate_add() >> relative_pic_path: media/certificates/2024/01/07/371521202401018228/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg
+INFO 2024-01-07 19:43:52,278 views 38232 41004 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018228/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg
+INFO 2024-01-07 19:43:52,292 views 38232 41004 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401018228/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg
+INFO 2024-01-07 19:43:52,300 basehttp 38232 41004 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-07 19:43:54,445 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 28599
+INFO 2024-01-07 19:43:54,487 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:43:54,488 basehttp 38232 16172 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:43:54,497 basehttp 38232 16560 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-01-07 19:48:00,999 views 38232 39784 original file: oyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg
+INFO 2024-01-07 19:48:01,005 basehttp 38232 39784 "POST /upload/ HTTP/1.1" 200 139
+INFO 2024-01-07 19:48:01,014 views 38232 41004 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/01/07/371521202401013232/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg'], 'g_name': ['王川'], 'g_sex': ['0'], 'g_college': ['信息科学与工程学院'], 'g_major': ['数据科学专业'], 'g_year': ['2019'], 'g_id_no': ['371521202401013232'], 'g_phone': ['17821113333'], 'g_mailing_address': ['甘肃省兰州市榆中县\n兰州大学（榆中校区）']}>
+INFO 2024-01-07 19:48:01,016 views 38232 41004 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-01-07 19:48:01,017 views 38232 41004 graduate_add() >> relative_pic_path: media/certificates/2024/01/07/371521202401013232/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg
+INFO 2024-01-07 19:48:01,017 views 38232 41004 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401013232/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg
+INFO 2024-01-07 19:48:01,030 views 38232 41004 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/01/07/371521202401013232/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg
+INFO 2024-01-07 19:48:01,039 basehttp 38232 41004 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-01-07 19:48:29,852 basehttp 38232 16560 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-07 19:48:45,777 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 30379
+INFO 2024-01-07 19:48:45,794 basehttp 38232 16560 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-07 19:48:45,798 basehttp 38232 37660 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:48:45,816 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:48:45,823 basehttp 38232 37660 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:48:45,826 basehttp 38232 16560 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-07 19:48:45,843 basehttp 38232 16560 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-07 19:49:16,301 basehttp 38232 16560 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=0 HTTP/1.1" 200 18344
+INFO 2024-01-07 19:49:16,323 basehttp 38232 16560 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:49:16,325 basehttp 38232 37660 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:49:16,348 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:49:23,313 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 30379
+INFO 2024-01-07 19:49:23,360 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:49:30,603 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 30379
+INFO 2024-01-07 19:49:30,631 basehttp 38232 16560 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:49:30,635 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:50:13,508 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:50:23,831 basehttp 38232 37660 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-01-07 19:52:07,820 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:53:36,226 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 30384
+INFO 2024-01-07 19:53:36,262 basehttp 38232 37660 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:53:36,265 basehttp 38232 16560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:53:36,288 basehttp 38232 16560 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:53:36,301 basehttp 38232 16560 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:53:36,309 basehttp 38232 37660 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3395
+INFO 2024-01-07 19:53:46,431 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:53:55,970 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:53:57,351 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:15,360 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:16,146 basehttp 38232 37660 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:41,589 basehttp 38232 37660 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 30384
+INFO 2024-01-07 19:54:41,627 basehttp 38232 16560 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:54:41,629 basehttp 38232 37660 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 304 0
+INFO 2024-01-07 19:54:41,641 basehttp 38232 37660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-07 19:54:41,651 basehttp 38232 16560 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3624
+INFO 2024-01-07 19:54:43,366 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:44,115 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:45,503 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:46,659 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:55,195 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:56,063 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:54:57,512 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 19:55:04,576 basehttp 38232 16560 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-07 21:23:04,150 basehttp 38232 39784 - Broken pipe from ('127.0.0.1', 57299)
+INFO 2024-01-09 11:29:09,126 autoreload 34892 31892 Watching for file changes with StatReloader
+INFO 2024-01-09 11:29:10,916 basehttp 34892 40380 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-09 11:29:12,191 log 34892 40380 Not Found: /favicon.ico
+WARNING 2024-01-09 11:29:12,191 basehttp 34892 40380 "GET /favicon.ico HTTP/1.1" 404 2907
+INFO 2024-01-09 11:29:14,258 basehttp 34892 40380 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-09 11:29:15,936 basehttp 34892 34692 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 30384
+INFO 2024-01-09 11:29:15,956 basehttp 34892 34692 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:15,960 basehttp 34892 34692 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:15,964 basehttp 34892 34692 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:15,978 basehttp 34892 24684 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:15,979 basehttp 34892 34348 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 200 3624
+INFO 2024-01-09 11:29:15,989 basehttp 34892 34692 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-09 11:29:15,993 basehttp 34892 34692 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,016 basehttp 34892 34348 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-09 11:29:16,049 basehttp 34892 34348 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,067 basehttp 34892 34692 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,068 basehttp 34892 24684 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,069 basehttp 34892 34348 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,070 basehttp 34892 36540 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 304 0
+INFO 2024-01-09 11:29:16,071 basehttp 34892 28976 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 304 0

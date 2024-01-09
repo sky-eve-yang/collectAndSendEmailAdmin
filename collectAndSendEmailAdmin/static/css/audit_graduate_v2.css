@@ -1,0 +1,49 @@
+.field-g_cert_pic > a {
+    width: 100px;
+    display: block;
+    word-wrap: break-word;
+}
+
+.field-g_mailing_address {
+    width: 200px;
+    /* display: block; */
+    word-wrap: break-word;
+}
+
+
+.approve-button {
+    background-color: #70bf2b;
+    border: none;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reject-button {
+    background-color: #bf302b;
+    border: none;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+.send-email-btn {
+    width: 80px;
+    background-color: #79aec8;
+    border: none;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.btn-disabled {
+    background-color: #00000020;
+    cursor: auto;
+}
