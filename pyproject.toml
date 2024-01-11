@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl-nix-collectandsendemailadmin"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+readme = "README.md"
+packages = [{include = "repl_nix_collectandsendemailadmin"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docx = "^0.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
