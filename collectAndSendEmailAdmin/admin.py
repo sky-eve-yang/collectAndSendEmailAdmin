@@ -7,7 +7,8 @@ class GraduateAdmin(admin.ModelAdmin):
     list_display = ('id', 'g_name', 'g_sex', 'g_college', 'g_major', 
                     'g_year', 'g_id_no', 'g_phone', 'g_mailing_address', 
                     'cert_preview', 'audit_status_display', 'email_status_display', 
-                    'email_sent_time', 'approve_button', 'reject_button', 'send_email_button')
+                    'email_sent_time', 
+                    'approve_button', 'reject_button', 'send_email_button', 'generate_word_button')
     list_filter = ('audit_status', 'g_sex', 'g_college', 'g_major', 'g_year')
     search_fields = ('g_name', 'g_college', 'g_major', 'g_id_no', 'g_phone')
     
@@ -44,12 +45,24 @@ class GraduateAdmin(admin.ModelAdmin):
         )
     email_status_display.short_description = "邮件发送状态"
 
+    def generate_word_button(self, obj):
+        generate_word_btn_class = 'generate-word-btn'
+        
+        if obj.audit_status != 1:
+            generate_word_btn_class += ' btn-disabled'
+            
+        return format_html(
+            '<button type="button" class="{}" data-id="{}" onclick="generateWord(\'{}\');">生成word</button>',
+            generate_word_btn_class, obj.id, obj.id
+        )
+    generate_word_button.short_description = "生成word"
+
     def send_email_button(self, obj):
         send_email_btn_class = 'send-email-btn'
         
 
         if obj.audit_status != 1:
-            send_email_btn_class += ' btn-disabled alert-message-success'
+            send_email_btn_class += ' btn-disabled'
             
         return format_html(
             '<button type="button"  class="{}" data-id="{}" onclick="sendEmail(\'{}\', \'{}\');">发送邮件</button>',
@@ -90,9 +103,9 @@ class GraduateAdmin(admin.ModelAdmin):
     reject_button.short_description = '审核不通过操作'
 
     class Media:
-        js = ('js/audit_graduate_v3.js','js/image_preview.js',)
+        js = ('js/audit_graduate_v4.js','js/image_preview.js',)
         css = {
-            'all': ('css/audit_graduate_v2.css',)
+            'all': ('css/audit_graduate_v3.css',)
         }
 
 admin.site.register(Graduate, GraduateAdmin)

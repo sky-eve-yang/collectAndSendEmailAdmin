@@ -1613,3 +1613,560 @@ INFO 2024-01-09 11:29:16,068 basehttp 34892 24684 "GET /media/certificates/mQNso
 INFO 2024-01-09 11:29:16,069 basehttp 34892 34348 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 304 0
 INFO 2024-01-09 11:29:16,070 basehttp 34892 36540 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 304 0
 INFO 2024-01-09 11:29:16,071 basehttp 34892 28976 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 304 0
+INFO 2024-01-11 14:50:59,703 autoreload 52184 47064 Watching for file changes with StatReloader
+INFO 2024-01-11 14:51:01,115 basehttp 52184 50096 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-11 14:51:02,492 log 52184 50096 Not Found: /favicon.ico
+WARNING 2024-01-11 14:51:02,493 basehttp 52184 50096 "GET /favicon.ico HTTP/1.1" 404 2907
+INFO 2024-01-11 14:51:04,389 basehttp 52184 50096 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-11 14:51:06,193 basehttp 52184 50096 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 30384
+INFO 2024-01-11 14:51:06,216 basehttp 52184 50096 "GET /static/css/audit_graduate_v2.css HTTP/1.1" 304 0
+INFO 2024-01-11 14:51:06,232 basehttp 52184 49208 "GET /static/js/image_preview.js HTTP/1.1" 304 0
+INFO 2024-01-11 14:51:06,233 basehttp 52184 44028 "GET /static/js/audit_graduate_v3.js HTTP/1.1" 304 0
+INFO 2024-01-11 14:51:06,243 basehttp 52184 40732 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:51:06,256 basehttp 52184 50096 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-11 14:51:06,264 basehttp 52184 44028 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-01-11 14:51:06,303 basehttp 52184 40732 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,304 basehttp 52184 49208 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,308 basehttp 52184 36464 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,310 basehttp 52184 2080 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,315 basehttp 52184 40732 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,317 basehttp 52184 44028 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:51:06,321 basehttp 52184 50096 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-11 14:51:06,322 basehttp 52184 49208 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-01-11 14:52:36,224 autoreload 52184 47064 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 14:52:37,079 autoreload 38116 52612 Watching for file changes with StatReloader
+INFO 2024-01-11 14:52:53,174 basehttp 38116 49456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 30384
+INFO 2024-01-11 14:52:53,214 basehttp 38116 49456 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:53:28,018 autoreload 38116 52612 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-11 14:53:28,800 autoreload 4128 41476 Watching for file changes with StatReloader
+INFO 2024-01-11 14:53:32,214 basehttp 4128 27476 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32164
+INFO 2024-01-11 14:53:32,260 basehttp 4128 27476 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:53:57,146 autoreload 4128 41476 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-11 14:53:57,962 autoreload 50840 44512 Watching for file changes with StatReloader
+INFO 2024-01-11 14:54:07,445 autoreload 50840 44512 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-11 14:54:08,321 autoreload 18100 43124 Watching for file changes with StatReloader
+INFO 2024-01-11 14:54:08,677 basehttp 18100 32884 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32032
+INFO 2024-01-11 14:54:08,703 basehttp 18100 32884 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 200 980
+INFO 2024-01-11 14:54:08,716 basehttp 18100 32884 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:54:35,454 basehttp 18100 32884 "GET /admin/collectAndSendEmailAdmin/graduate/?o=13 HTTP/1.1" 200 32922
+INFO 2024-01-11 14:54:35,480 basehttp 18100 32884 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 14:54:35,484 basehttp 18100 27532 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:54:35,535 basehttp 18100 27532 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-01-11 14:54:37,111 basehttp 18100 27532 "GET /admin/collectAndSendEmailAdmin/graduate/?o=-13 HTTP/1.1" 200 32978
+INFO 2024-01-11 14:54:37,144 basehttp 18100 27532 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:54:39,870 basehttp 18100 27532 "GET /admin/collectAndSendEmailAdmin/graduate/?o=13 HTTP/1.1" 200 32922
+INFO 2024-01-11 14:54:39,896 basehttp 18100 27532 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 14:54:40,854 basehttp 18100 27532 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 14:54:40,889 basehttp 18100 27532 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 15:19:50,645 autoreload 18100 43124 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:19:51,542 autoreload 44540 16628 Watching for file changes with StatReloader
+INFO 2024-01-11 15:21:21,688 autoreload 44540 16628 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:21:22,687 autoreload 51244 50424 Watching for file changes with StatReloader
+INFO 2024-01-11 15:21:35,434 autoreload 51244 50424 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:21:36,336 autoreload 38372 44044 Watching for file changes with StatReloader
+INFO 2024-01-11 15:21:58,398 autoreload 38372 44044 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:21:59,258 autoreload 52444 52236 Watching for file changes with StatReloader
+INFO 2024-01-11 15:22:25,460 autoreload 52444 52236 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:22:26,307 autoreload 17476 49108 Watching for file changes with StatReloader
+INFO 2024-01-11 15:22:48,409 autoreload 17476 49108 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\models.py changed, reloading.
+INFO 2024-01-11 15:22:49,272 autoreload 47228 52928 Watching for file changes with StatReloader
+INFO 2024-01-11 15:22:51,767 autoreload 47228 52928 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:22:52,714 autoreload 26532 51072 Watching for file changes with StatReloader
+INFO 2024-01-11 15:23:16,869 autoreload 26532 51072 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:23:17,769 autoreload 49812 45304 Watching for file changes with StatReloader
+INFO 2024-01-11 15:24:11,792 autoreload 49812 45304 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:24:12,753 autoreload 45216 27096 Watching for file changes with StatReloader
+INFO 2024-01-11 15:25:16,033 autoreload 45216 27096 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:25:16,913 autoreload 35788 50312 Watching for file changes with StatReloader
+INFO 2024-01-11 15:25:56,497 autoreload 35788 50312 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:25:57,364 autoreload 19956 20284 Watching for file changes with StatReloader
+INFO 2024-01-11 15:26:27,677 autoreload 19956 20284 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\urls.py changed, reloading.
+INFO 2024-01-11 15:26:28,555 autoreload 50060 50232 Watching for file changes with StatReloader
+INFO 2024-01-11 15:27:45,228 autoreload 50060 50232 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:27:46,074 autoreload 52944 52780 Watching for file changes with StatReloader
+INFO 2024-01-11 15:28:45,428 autoreload 52944 52780 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-11 15:28:46,323 autoreload 41040 35744 Watching for file changes with StatReloader
+INFO 2024-01-11 15:28:49,014 basehttp 41040 34052 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:28:49,045 basehttp 41040 34052 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 15:28:49,050 basehttp 41040 51908 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 15:28:49,051 basehttp 41040 47224 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 4232
+INFO 2024-01-11 15:28:52,208 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:28:53,354 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:30:07,719 basehttp 41040 47224 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:30:07,752 basehttp 41040 51908 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+INFO 2024-01-11 15:30:07,752 basehttp 41040 47224 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 15:30:09,425 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:30:10,301 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+ERROR 2024-01-11 15:30:11,706 log 41040 47224 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 203, in generate_word
+    "#sex": graduate.get_sex_display(),
+AttributeError: 'Graduate' object has no attribute 'get_sex_display'
+ERROR 2024-01-11 15:30:11,711 basehttp 41040 47224 "POST /generate_word/ HTTP/1.1" 500 69879
+ERROR 2024-01-11 15:30:14,839 log 41040 47224 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 203, in generate_word
+    "#sex": graduate.get_sex_display(),
+AttributeError: 'Graduate' object has no attribute 'get_sex_display'
+ERROR 2024-01-11 15:30:14,842 basehttp 41040 47224 "POST /generate_word/ HTTP/1.1" 500 69879
+INFO 2024-01-11 15:33:30,705 basehttp 41040 47224 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:33:30,741 basehttp 41040 47224 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 15:33:30,750 basehttp 41040 47224 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 15:33:30,773 basehttp 41040 47224 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 4674
+INFO 2024-01-11 15:33:33,462 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:33:34,227 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:33:35,043 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:33:35,560 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:33:37,820 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:33:39,229 basehttp 41040 47224 "POST /change_audit_status/ HTTP/1.1" 200 58
+ERROR 2024-01-11 15:33:40,709 log 41040 47224 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 203, in generate_word
+    "#sex": graduate.get_sex_display(),
+AttributeError: 'Graduate' object has no attribute 'get_sex_display'
+ERROR 2024-01-11 15:33:40,711 basehttp 41040 47224 "POST /generate_word/ HTTP/1.1" 500 69879
+INFO 2024-01-11 15:38:36,194 autoreload 41040 35744 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:38:37,146 autoreload 8980 26972 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:38:39,329 log 8980 46248 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 213, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 339, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:38:39,331 basehttp 8980 46248 "POST /generate_word/ HTTP/1.1" 500 76237
+INFO 2024-01-11 15:39:07,715 autoreload 8980 26972 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:39:08,500 autoreload 50780 10496 Watching for file changes with StatReloader
+INFO 2024-01-11 15:40:05,506 autoreload 50780 10496 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:40:06,332 autoreload 52680 36144 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:40:12,836 log 52680 48872 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 213, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 339, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:40:12,837 basehttp 52680 48872 "POST /generate_word/ HTTP/1.1" 500 76237
+INFO 2024-01-11 15:40:18,109 autoreload 52680 36144 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:40:19,040 autoreload 5936 43248 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:40:19,525 log 5936 51644 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 196, in generate_word
+    doc = Document(template_path)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at '/docx/template.docx'
+ERROR 2024-01-11 15:40:19,527 basehttp 5936 51644 "POST /generate_word/ HTTP/1.1" 500 84497
+INFO 2024-01-11 15:41:50,043 autoreload 5936 43248 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:41:50,850 autoreload 53164 50484 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:41:53,784 log 53164 51244 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 213, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 339, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:41:53,786 basehttp 53164 51244 "POST /generate_word/ HTTP/1.1" 500 76237
+INFO 2024-01-11 15:41:59,541 autoreload 53164 50484 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:42:00,491 autoreload 18200 22896 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:42:02,370 log 18200 33516 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 196, in generate_word
+    doc = Document(template_path)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at '/docx/template.docx'
+ERROR 2024-01-11 15:42:02,373 basehttp 18200 33516 "POST /generate_word/ HTTP/1.1" 500 84498
+INFO 2024-01-11 15:43:43,902 autoreload 18200 22896 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:43:44,800 autoreload 15908 22028 Watching for file changes with StatReloader
+INFO 2024-01-11 15:45:05,631 autoreload 15908 22028 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:45:06,546 autoreload 46456 50340 Watching for file changes with StatReloader
+INFO 2024-01-11 15:45:23,461 autoreload 46456 50340 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-01-11 15:45:24,419 autoreload 37208 36520 Watching for file changes with StatReloader
+INFO 2024-01-11 15:45:50,661 autoreload 37208 36520 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:45:51,539 autoreload 17972 12852 Watching for file changes with StatReloader
+INFO 2024-01-11 15:46:27,010 autoreload 17972 12852 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:46:27,892 autoreload 44884 35832 Watching for file changes with StatReloader
+INFO 2024-01-11 15:46:30,349 autoreload 44884 35832 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:46:31,223 autoreload 45568 48396 Watching for file changes with StatReloader
+INFO 2024-01-11 15:47:32,534 autoreload 45568 48396 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:47:33,393 autoreload 46060 36588 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:47:38,767 log 46060 47156 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 213, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 341, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:47:38,769 basehttp 46060 47156 "POST /generate_word/ HTTP/1.1" 500 76383
+INFO 2024-01-11 15:48:39,182 autoreload 13404 43024 Watching for file changes with StatReloader
+INFO 2024-01-11 15:48:42,099 basehttp 13404 46888 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:48:42,123 basehttp 13404 46888 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 15:48:42,131 basehttp 13404 29784 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+INFO 2024-01-11 15:48:42,133 basehttp 13404 46888 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:48:44,006 log 13404 46888 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view collectAndSendEmailAdmin.views.generate_word didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-01-11 15:48:44,007 basehttp 13404 46888 "POST /generate_word/ HTTP/1.1" 500 69860
+INFO 2024-01-11 15:49:26,586 autoreload 13404 43024 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:49:27,443 autoreload 28144 49432 Watching for file changes with StatReloader
+INFO 2024-01-11 15:49:30,887 autoreload 28144 49432 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:49:31,725 autoreload 29488 33124 Watching for file changes with StatReloader
+ERROR 2024-01-11 15:49:34,252 log 29488 50848 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:49:34,254 basehttp 29488 50848 "POST /generate_word/ HTTP/1.1" 500 76383
+INFO 2024-01-11 15:49:58,074 autoreload 29488 33124 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:49:59,021 autoreload 50636 15648 Watching for file changes with StatReloader
+INFO 2024-01-11 15:50:00,148 autoreload 50636 15648 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:50:00,991 autoreload 51384 45888 Watching for file changes with StatReloader
+INFO 2024-01-11 15:50:05,676 basehttp 51384 52468 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:50:05,716 basehttp 51384 52468 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:50:09,738 log 51384 52468 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:50:09,740 basehttp 51384 52468 "POST /generate_word/ HTTP/1.1" 500 76407
+INFO 2024-01-11 15:51:48,419 autoreload 35648 47704 Watching for file changes with StatReloader
+INFO 2024-01-11 15:51:51,989 basehttp 35648 49228 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:51:52,040 basehttp 35648 40524 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+INFO 2024-01-11 15:51:52,045 basehttp 35648 49228 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:51:55,868 log 35648 49228 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:51:55,869 basehttp 35648 49228 "POST /generate_word/ HTTP/1.1" 500 76350
+INFO 2024-01-11 15:52:11,511 basehttp 35648 49228 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:52:11,542 basehttp 35648 49228 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:52:14,257 log 35648 49228 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:52:14,259 basehttp 35648 49228 "POST /generate_word/ HTTP/1.1" 500 76350
+INFO 2024-01-11 15:52:22,116 basehttp 35648 49228 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:52:22,167 basehttp 35648 49228 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:52:23,870 log 35648 49228 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:52:23,872 basehttp 35648 49228 "POST /generate_word/ HTTP/1.1" 500 76350
+INFO 2024-01-11 15:52:36,114 autoreload 35648 47704 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-01-11 15:52:36,978 autoreload 50036 43188 Watching for file changes with StatReloader
+INFO 2024-01-11 15:52:39,503 basehttp 50036 40560 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:52:39,536 basehttp 50036 40560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:52:41,154 log 50036 40560 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 198, in generate_word
+    doc = Document(template_path)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\api.py", line 23, in Document
+    document_part = Package.open(docx).main_document_part
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\package.py", line 116, in open
+    pkg_reader = PackageReader.from_file(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\pkgreader.py", line 22, in from_file
+    phys_reader = PhysPkgReader(pkg_file)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\docx\opc\phys_pkg.py", line 21, in __new__
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+docx.opc.exceptions.PackageNotFoundError: Package not found at 'docx/template_1.docx'
+ERROR 2024-01-11 15:52:41,156 basehttp 50036 40560 "POST /generate_word/ HTTP/1.1" 500 84565
+INFO 2024-01-11 15:54:15,028 basehttp 50036 40560 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:54:15,062 basehttp 50036 40560 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 15:54:15,073 basehttp 50036 40560 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+ERROR 2024-01-11 15:54:17,132 log 50036 40560 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 215, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 344, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 15:54:17,134 basehttp 50036 40560 "POST /generate_word/ HTTP/1.1" 500 76354
+INFO 2024-01-11 15:57:55,390 autoreload 50036 43188 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:57:56,309 autoreload 35312 31312 Watching for file changes with StatReloader
+INFO 2024-01-11 15:57:57,803 basehttp 35312 36808 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 15:57:57,826 basehttp 35312 36808 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 15:57:57,842 basehttp 35312 47524 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+INFO 2024-01-11 15:57:57,843 basehttp 35312 36808 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+ERROR 2024-01-11 15:57:59,554 log 35312 36808 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 222, in generate_word
+    file_name = f"{graduate.g_name}+{graduate.college}+无登记表证明.docx"
+AttributeError: 'Graduate' object has no attribute 'college'
+ERROR 2024-01-11 15:57:59,556 basehttp 35312 36808 "POST /generate_word/ HTTP/1.1" 500 70771
+INFO 2024-01-11 15:58:24,993 autoreload 35312 31312 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 15:58:25,901 autoreload 41880 52188 Watching for file changes with StatReloader
+INFO 2024-01-11 15:58:26,920 basehttp 41880 1344 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 15:58:47,790 basehttp 41880 1344 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 15:58:51,867 basehttp 41880 1344 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 15:58:53,053 basehttp 41880 1344 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 16:00:19,196 basehttp 41880 1344 "POST /generate_word/ HTTP/1.1" 200 10544
+INFO 2024-01-11 16:01:51,732 basehttp 41880 1344 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:01:51,763 basehttp 41880 51836 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5106
+INFO 2024-01-11 16:01:51,768 basehttp 41880 1344 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:01:54,906 basehttp 41880 1344 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:04:46,072 basehttp 41880 1344 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:04:49,784 basehttp 41880 1344 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:04:49,810 basehttp 41880 1344 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 16:04:49,815 basehttp 41880 51836 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:04:49,839 basehttp 41880 1344 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5233
+INFO 2024-01-11 16:04:56,474 basehttp 41880 1344 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:04:56,522 basehttp 41880 1344 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:04:56,536 basehttp 41880 51836 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5236
+INFO 2024-01-11 16:04:59,156 basehttp 41880 24340 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:07:05,538 autoreload 41880 52188 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:07:06,459 autoreload 43992 51120 Watching for file changes with StatReloader
+INFO 2024-01-11 16:07:11,029 autoreload 43992 51120 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:07:11,955 autoreload 12088 43868 Watching for file changes with StatReloader
+INFO 2024-01-11 16:07:13,849 basehttp 12088 45604 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:08:15,565 basehttp 12088 45604 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:08:17,000 basehttp 12088 45604 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:08:17,045 basehttp 12088 45604 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:08:17,059 basehttp 12088 35584 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5281
+INFO 2024-01-11 16:08:24,023 basehttp 12088 35584 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:09:32,062 autoreload 12088 43868 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:09:32,972 autoreload 51892 43180 Watching for file changes with StatReloader
+INFO 2024-01-11 16:09:52,596 autoreload 51892 43180 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:09:53,453 autoreload 32632 28220 Watching for file changes with StatReloader
+INFO 2024-01-11 16:10:26,673 basehttp 32632 49616 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:10:26,725 basehttp 32632 49616 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:10:26,737 basehttp 32632 38600 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5275
+ERROR 2024-01-11 16:10:30,038 log 32632 38600 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\utils\deprecation.py", line 138, in __call__
+    response = self.process_response(request, response)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\middleware\clickjacking.py", line 34, in process_response
+    response.headers["X-Frame-Options"] = self.get_xframe_options_value(
+AttributeError: 'dict' object has no attribute 'headers'
+ERROR 2024-01-11 16:10:30,039 basehttp 32632 38600 "POST /generate_word/ HTTP/1.1" 500 68769
+INFO 2024-01-11 16:10:45,868 autoreload 32632 28220 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:10:46,676 autoreload 28512 49348 Watching for file changes with StatReloader
+INFO 2024-01-11 16:11:00,773 basehttp 28512 32056 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:11:00,832 basehttp 28512 33056 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 304 0
+INFO 2024-01-11 16:11:00,836 basehttp 28512 32056 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:11:03,314 basehttp 28512 32056 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:12:21,242 autoreload 28512 49348 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:12:22,172 autoreload 43308 48200 Watching for file changes with StatReloader
+INFO 2024-01-11 16:12:50,672 autoreload 43308 48200 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:12:51,615 autoreload 48928 42176 Watching for file changes with StatReloader
+INFO 2024-01-11 16:12:55,502 basehttp 48928 46660 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:13:10,971 basehttp 48928 46660 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:13:11,007 basehttp 48928 46660 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 16:13:11,019 basehttp 48928 46660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:13:11,028 basehttp 48928 46660 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5281
+INFO 2024-01-11 16:13:14,154 basehttp 48928 46660 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:14:33,017 basehttp 48928 46660 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 16:14:33,054 basehttp 48928 46660 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 16:14:33,074 basehttp 48928 37816 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5710
+INFO 2024-01-11 16:14:36,158 basehttp 48928 37816 "POST /generate_word/ HTTP/1.1" 200 10539
+INFO 2024-01-11 16:16:52,230 autoreload 48928 42176 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:16:53,215 autoreload 38808 17636 Watching for file changes with StatReloader
+ERROR 2024-01-11 16:16:59,406 log 38808 46172 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 216, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 347, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 16:16:59,408 basehttp 38808 46172 "POST /generate_word/ HTTP/1.1" 500 76329
+INFO 2024-01-11 16:17:51,608 autoreload 38808 17636 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:17:52,395 autoreload 18100 37172 Watching for file changes with StatReloader
+ERROR 2024-01-11 16:17:55,188 log 18100 7264 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 216, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 348, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 16:17:55,190 basehttp 18100 7264 "POST /generate_word/ HTTP/1.1" 500 76332
+INFO 2024-01-11 16:18:08,584 autoreload 18100 37172 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:18:09,479 autoreload 7592 38076 Watching for file changes with StatReloader
+INFO 2024-01-11 16:18:10,381 basehttp 7592 5960 "POST /generate_word/ HTTP/1.1" 200 10656
+INFO 2024-01-11 16:21:41,761 autoreload 7592 38076 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:21:42,667 autoreload 29052 49640 Watching for file changes with StatReloader
+ERROR 2024-01-11 16:21:51,212 log 29052 28812 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 216, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 348, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 16:21:51,214 basehttp 29052 28812 "POST /generate_word/ HTTP/1.1" 500 76332
+INFO 2024-01-11 16:22:38,067 autoreload 29052 49640 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:22:38,886 autoreload 42928 47100 Watching for file changes with StatReloader
+INFO 2024-01-11 16:22:40,258 autoreload 42928 47100 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:22:41,055 autoreload 53040 47972 Watching for file changes with StatReloader
+ERROR 2024-01-11 16:22:42,653 log 53040 53148 Internal Server Error: /generate_word/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 216, in generate_word
+    fill_template(doc, replacements)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 348, in fill_template
+    tmp += runs[count].text
+IndexError: list index out of range
+ERROR 2024-01-11 16:22:42,656 basehttp 53040 53148 "POST /generate_word/ HTTP/1.1" 500 75672
+INFO 2024-01-11 16:22:52,025 autoreload 53040 47972 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:22:52,976 autoreload 19544 29624 Watching for file changes with StatReloader
+INFO 2024-01-11 16:23:11,887 autoreload 19544 29624 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:23:12,748 autoreload 40016 45892 Watching for file changes with StatReloader
+INFO 2024-01-11 16:23:17,249 autoreload 40016 45892 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:23:18,120 autoreload 46732 46268 Watching for file changes with StatReloader
+INFO 2024-01-11 16:23:21,252 basehttp 46732 41092 "POST /generate_word/ HTTP/1.1" 200 10680
+INFO 2024-01-11 16:23:26,860 autoreload 46732 46268 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:23:27,727 autoreload 2608 46228 Watching for file changes with StatReloader
+INFO 2024-01-11 16:23:30,123 autoreload 2608 46228 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:23:31,022 autoreload 44260 48788 Watching for file changes with StatReloader
+INFO 2024-01-11 16:23:31,993 basehttp 44260 17368 "POST /generate_word/ HTTP/1.1" 200 10680
+INFO 2024-01-11 16:24:51,251 autoreload 44260 48788 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:24:52,146 autoreload 41420 22580 Watching for file changes with StatReloader
+INFO 2024-01-11 16:25:15,177 autoreload 41420 22580 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:25:16,077 autoreload 22252 35716 Watching for file changes with StatReloader
+INFO 2024-01-11 16:25:24,581 basehttp 22252 52216 "POST /generate_word/ HTTP/1.1" 200 10756
+INFO 2024-01-11 16:26:11,209 autoreload 22252 35716 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:26:12,080 autoreload 22824 29740 Watching for file changes with StatReloader
+INFO 2024-01-11 16:26:24,866 autoreload 22824 29740 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:26:25,804 autoreload 45844 43704 Watching for file changes with StatReloader
+INFO 2024-01-11 16:26:27,042 basehttp 45844 44540 "POST /generate_word/ HTTP/1.1" 200 10771
+INFO 2024-01-11 16:27:18,705 autoreload 45844 43704 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:27:19,527 autoreload 12224 35948 Watching for file changes with StatReloader
+INFO 2024-01-11 16:27:58,077 autoreload 12224 35948 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:27:58,888 autoreload 44772 4724 Watching for file changes with StatReloader
+INFO 2024-01-11 16:28:03,382 autoreload 44772 4724 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:28:04,219 autoreload 43760 7924 Watching for file changes with StatReloader
+INFO 2024-01-11 16:28:13,989 basehttp 43760 19544 "POST /generate_word/ HTTP/1.1" 200 10807
+INFO 2024-01-11 16:28:41,575 autoreload 43760 7924 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:28:42,434 autoreload 3380 46908 Watching for file changes with StatReloader
+INFO 2024-01-11 16:30:12,348 autoreload 3380 46908 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:30:13,193 autoreload 15696 26796 Watching for file changes with StatReloader
+INFO 2024-01-11 16:30:14,653 basehttp 15696 50468 "POST /generate_word/ HTTP/1.1" 200 10791
+INFO 2024-01-11 16:33:14,353 autoreload 15696 26796 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:33:15,276 autoreload 12024 49980 Watching for file changes with StatReloader
+INFO 2024-01-11 16:33:16,760 basehttp 12024 52452 "POST /generate_word/ HTTP/1.1" 200 10662
+INFO 2024-01-11 16:49:47,852 basehttp 12024 46296 "POST /generate_word/ HTTP/1.1" 200 10662
+INFO 2024-01-11 16:49:58,066 autoreload 12024 49980 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:49:58,932 autoreload 39212 30272 Watching for file changes with StatReloader
+INFO 2024-01-11 16:51:13,847 autoreload 39212 30272 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-01-11 16:51:14,799 autoreload 50720 36588 Watching for file changes with StatReloader
+INFO 2024-01-11 16:51:17,228 basehttp 50720 14484 "POST /generate_word/ HTTP/1.1" 200 10782
+INFO 2024-01-11 16:52:37,974 basehttp 50720 14484 "POST /generate_word/ HTTP/1.1" 200 10799
+INFO 2024-01-11 16:54:13,259 basehttp 50720 14484 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 16:54:14,562 basehttp 50720 14484 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-01-11 16:54:16,200 basehttp 50720 14484 "POST /generate_word/ HTTP/1.1" 200 10773
+INFO 2024-01-11 17:03:43,464 basehttp 50720 52604 "POST /generate_word/ HTTP/1.1" 200 10799
+INFO 2024-01-11 17:04:42,194 basehttp 50720 49648 "POST /generate_word/ HTTP/1.1" 200 10773

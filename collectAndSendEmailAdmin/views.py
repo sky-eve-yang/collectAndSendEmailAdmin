@@ -1,4 +1,5 @@
 from datetime import datetime
+from io import BytesIO
 from django.utils import timezone
 import os
 from django.conf import settings
@@ -16,9 +17,17 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
+from django.http import HttpResponse
+from docx import Document
+from docx.shared import Inches
+from urllib.parse import quote
+
 
 logger = logging.getLogger('django')
 
+'''
+main:001-添加毕业生信息
+'''
 def graduate_add(request):
     data = request.POST  # 假设是 POST 请求，根据实际情况调整
     logger.info("graduate_add() >> request.POST: %s", data)
@@ -84,6 +93,7 @@ def graduate_add(request):
 
 '''
 @return {JSON}
+main:002-发送邮件
 '''
 def handle_send_email(request):
     # 实现发送邮件逻辑
@@ -159,6 +169,7 @@ def handle_send_email(request):
 
 '''
 @description: 审核信息逻辑：通过 or 不通过
+main:003-改变审核状态
 '''
 def change_audit_status(request):
     # 实现审核逻辑
@@ -172,6 +183,58 @@ def change_audit_status(request):
     return JsonResponse({'messsage': '审核状态已更新'}, status=200)
 
 
+
+'''
+main: 004-word 文档生成
+'''
+def generate_word(request):
+    # 实现审核逻辑
+    id = request.POST.get('id')
+    
+    graduate = Graduate.objects.get(id=id)
+
+    template_path = settings.WORD_TEMPLATE_PATH
+    print(template_path)
+
+    doc = Document(template_path)
+    
+    # Example replacements
+    now = datetime.now()
+    
+    replacements = {
+        "#姓名": graduate.g_name,
+        "#性别": graduate.get_g_sex_display(),
+        "#身份证号": graduate.g_id_no,
+        "#学院": graduate.g_college,
+        "#专业": graduate.g_major,
+        "#毕业年份": f'{graduate.g_year}届',
+        "#年": f"{now.year}年",
+        "#月": f"{now.month}月",
+        "#日": f"{now.day}日"
+    }
+    print(replacements)
+
+    fill_template(doc, replacements)
+
+    output = BytesIO()
+    doc.save(output)
+    output.seek(0)
+
+    # 构建响应对象，设置Content-Disposition头部以便浏览器下载文件
+    file_name = f"{graduate.g_name}+{graduate.g_college}+无登记表证明.docx"
+    encoded_file_name = quote(file_name)  # 对文件名进行URL编码
+
+
+    # 创建响应对象，并设置Content-Disposition头部
+    response = HttpResponse(content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document')
+    response['Content-Disposition'] = f'attachment; filename*=UTF-8\'\'{encoded_file_name}'
+    response.write(output.getvalue())
+
+    # 返回响应
+    return response
+    
+
+
 def index(request):
     title = "在线作业管理系统!(我返回了模板文件)"
     context = {'title': title}
@@ -182,6 +245,9 @@ def index(request):
 
 
 # 辅助 util 函数区域 - 开始
+'''
+001-发送邮件
+'''
 def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_server, smtp_port, smtp_user, smtp_password, image_file):
     # 创建 MIME 多部分消息对象
     msg = MIMEMultipart()
@@ -220,6 +286,9 @@ def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_serv
     return {"status": 200, "msg": 'success'}
 
 
+'''
+002-文件上传
+'''
 @csrf_exempt  # 如果API不需要CSRF验证，可以使用这个装饰器
 def file_upload_view(request):
     """
@@ -250,7 +319,9 @@ def file_upload_view(request):
     return JsonResponse({'error': 'Only POST requests are supported'}, status=400)
 
 
-
+'''
+003-生成随机数
+'''
 def generate_random_string(length=4):
     """
     生成指定长度的随机字符字符串
@@ -259,6 +330,40 @@ def generate_random_string(length=4):
     """
     random_string = ''.join(random.choices(string.ascii_letters + string.digits, k=length))
     return random_string
+
+
+    
+'''
+004-word 文档生成的辅助函数：填充word模板
+'''
+def fill_template(doc, replacements):
+    for para in doc.paragraphs:
+        runs = para.runs
+        i = 0
+        while i < len(runs):
+            run = runs[i]
+            if '#' in run.text:
+                full_text = run.text
+                j = i + 1
+                # 合并跨越多个runs的占位符文本
+                while j < len(runs) and '#' not in runs[j].text:
+                    full_text += runs[j].text
+                    j += 1
+
+                # 查找并替换占位符
+                for key, value in replacements.items():
+                    if key in full_text:
+                        full_text = full_text.replace(key, value)
+                        break
+
+                # 更新当前run的文本，并清除后面的runs
+                run.text = full_text
+                for k in range(i + 1, j):
+                    runs[k].text = ''
+
+                i = j - 1  # 跳过已处理的runs
+            i += 1
+
 
 
 # 辅助函数区域 - 结束

@@ -30,10 +30,18 @@ function changeAuditStatus(graduateId, status) {
                 let snedEmailBtn = django.jQuery(`button.send-email-btn[data-id=${graduateId}]`)
                 snedEmailBtn.prop('disabled', false);
                 snedEmailBtn.removeClass('btn-disabled')
+
+                let generateWordBtn = django.jQuery(`button.generate-word-btn[data-id=${graduateId}]`)
+                generateWordBtn.prop('disabled', false);
+                generateWordBtn.removeClass('btn-disabled')
             } else {
                 let snedEmailBtn = django.jQuery(`button.send-email-btn[data-id=${graduateId}]`)
                 snedEmailBtn.prop('disabled', true);
                 snedEmailBtn.addClass('btn-disabled')
+
+                let generateWordBtn = django.jQuery(`button.generate-word-btn[data-id=${graduateId}]`)
+                generateWordBtn.prop('disabled', true);
+                generateWordBtn.addClass('btn-disabled')
             }
             
 
@@ -96,3 +104,50 @@ function sendEmail(graduateId, status) {
     });
 
 }
+
+
+/** @return {null} */
+// 生成word
+function generateWord(graduateId) {
+    django.jQuery.ajax({
+        url: '/generate_word/',
+        type: 'POST',
+        data: {
+            'id': graduateId
+        },
+        success: function(res, status, xhr) {
+            var contentDisposition = xhr.getResponseHeader('Content-Disposition');
+            if (contentDisposition) {
+                var fileName = "";
+                var matches = contentDisposition.match(/filename\*=UTF-8''(.+)/);
+                if (matches && matches[1]) {
+                    // 解码编码后的文件名
+                    fileName = decodeURIComponent(matches[1]);
+                } else {
+                    // 如果匹配失败，可以设置一个默认的文件名
+                    fileName = "download.docx";
+                }
+
+                // 创建隐藏的下载链接
+                var downloadLink = document.createElement("a");
+                downloadLink.href = URL.createObjectURL(res);
+                downloadLink.download = fileName;
+                document.body.appendChild(downloadLink);
+                downloadLink.click();
+                document.body.removeChild(downloadLink);
+
+                // alert('word生成成功');
+            } else {
+                alert('Content-Disposition header is missing');
+            }
+        },
+        error: function(error) {
+            console.error("error", error);
+            // alert('word生成失败');
+        },
+        xhrFields: {
+            responseType: 'blob' // 以blob方式接收文件数据
+        }
+    });
+}
+

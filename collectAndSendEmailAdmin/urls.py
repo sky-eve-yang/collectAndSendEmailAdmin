@@ -26,6 +26,7 @@ urlpatterns = [
     path("graduate_add/", views.graduate_add, name="graduate_add"),
     path("change_audit_status/", views.change_audit_status, name="change_audit_status"),
     path("handle_send_email/", views.handle_send_email, name="handle_send_email"),
+    path("generate_word/", views.generate_word, name="generate_word"),
     path("upload/", views.file_upload_view, name="file_upload"),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
