@@ -9,7 +9,7 @@
 
 涉及表单信息搜集、django后台定制化开发等
 
-![image](https://figs-bed-1307577475.cos.ap-nanjing.myqcloud.com/imgs-bed/20240109112951.png)
+![image](https://figs-bed-1307577475.cos.ap-nanjing.myqcloud.com/imgs-bed/20240202170539.png)
 
 ## 技术栈选型
 - 前端：uniapp 用于制作微信小程序
@@ -35,7 +35,8 @@
 
 extra:
 1. 日志 用于追溯bug ✔ 2024-01-05
-2. word生成
+2. word生成 ✔
+3. 新数据创建通知 ✔ 2024-02-02
 
 NEXT TODO：
 1. 上线到微信小程序 等待相关资料的上传与微信官方的审核
@@ -43,6 +44,13 @@ NEXT TODO：
 
 
 ## 更新日志
+### 2024.02.02
+1. ui：引入simpleui，优化后台界面
+2. docx：修改后台部分按钮的文字
+3. feat：增加邮箱字段和创建时间字段
+4. feat：当前台有新的表单提交时，发送邮件通知
+
+
 ### 2024.01.09
 push 代码到 github 仓库
 
