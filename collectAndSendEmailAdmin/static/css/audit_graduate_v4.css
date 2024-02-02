@@ -12,44 +12,57 @@
 
 
 .approve-button {
-    background-color: #70bf2b;
+    background-color: #3cb186;
     border: none;
     padding: 4px 12px;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    height: 32px;
+    width: 72px;
+
 }
 
 .reject-button {
-    background-color: #bf302b;
+    background-color: #f56c6c;
     border: none;
     padding: 4px 12px;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    height: 32px;
+    width: 72px;
+
 }
 
 
 
 
 .send-email-btn {
-    width: 80px;
-    background-color: #79aec8;
+    width: 120px;
+    background-color: #409eff;
     border: none;
     padding: 4px 12px;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    height: 40px;
+
+}
+
+.sent-email {
+    background-color: #9eceff !important;
 }
 
 .generate-word-btn {
     width: 80px;
-    background-color: #79aec8;
+    background-color: #409eff;
     border: none;
     padding: 4px 12px;
     color: #fff;
     border-radius: 4px;
     cursor: pointer;
+    height: 40px;
 }
 
 

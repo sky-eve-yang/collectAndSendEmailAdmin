@@ -57,8 +57,33 @@ def graduate_add(request):
             'g_year': int(data.get('g_year', 0)),
             'g_phone': data.get('g_phone', '').strip(),
             'g_mailing_address': data.get('g_mailing_address', '').strip(),
+            'g_email': data.get('g_email', '').strip(),
         }
     )
+    
+    # 发送有新的待处理证明的通知邮件
+    # 定义邮件正文中的变量
+    student_name =  data.get('g_name', '').strip()
+    college = data.get('g_college', '').strip()
+    major = data.get('g_major', '').strip()
+    graduation_year = int(data.get('g_year', 0))
+    now_time = timezone.localtime(timezone.make_aware(timezone.now())).strftime("%Y年%m月%d日 %H:%M")
+    toDoCount = Graduate.objects.filter(audit_status=0).count()
+    
+    # 格式化邮件正文
+    email_body = '''
+        收到一份毕业生无高校学生登记表证明办理的信息，请及时处理。
+        
+        申请人：兰州大学{college}{major}{year}届本科毕业生{name}
+        申请时间：{datenow}
+        当前总代办数量：{toDoCount}
+        
+        请点击查看：https://cyonline.lzu.edu.cn/wbycollect_admin/collectAndSendEmailAdmin/
+        
+    '''.format(name=student_name, college=college, major=major, year=graduation_year, datenow=now_time, toDoCount=toDoCount)
+
+
+    
 
     if created:
         # 保存图像
@@ -66,6 +91,31 @@ def graduate_add(request):
             django_file = File(file)
             logger.info("graduate_add() >> create django_file: %s", django_file)
             graduate.g_cert_pic.save(os.path.basename(full_path), django_file)
+        
+        send_email(
+            ## 兰大邮箱配置
+            sender_email="xscglk@lzu.edu.cn", 
+            receiver_email="dangag@lzu.edu.cn",
+            smtp_server="smtp.lzu.edu.cn",
+            smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
+            smtp_user="xscglk@lzu.edu.cn",
+            smtp_password="aeAqjvJfprXFADz2",
+            cc_emails=["xscglk@lzu.edu.cn"],  # 抄送人列表
+            
+
+            # QQ 邮箱配置
+            # sender_email="1326906378@qq.com",
+            # receiver_email="1326906378@qq.com",
+            # smtp_server="smtp.qq.com",
+            # smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
+            # smtp_user="1326906378@qq.com",
+            # smtp_password="wdgcqzgdilbagjff",
+            # cc_emails=["1326906378@qq.com"],  # 抄送人列表
+            
+
+            subject="新的待办：毕业生无学生登记表证明事宜",
+            body=email_body
+        )
         return JsonResponse({'message': '毕业生信息已创建', 'graduate_id': graduate.id}, status=200)
     else:
         # 更新记录
@@ -76,6 +126,7 @@ def graduate_add(request):
         graduate.g_year = int(data.get('g_year', graduate.g_year))
         graduate.g_phone = data.get('g_phone', graduate.g_phone).strip()
         graduate.g_mailing_address = data.get('g_mailing_address', graduate.g_mailing_address).strip()
+        graduate.g_email = data.get('g_email', graduate.g_email).strip()
         graduate.save()
 
         # 更新图像
@@ -86,7 +137,7 @@ def graduate_add(request):
 
 
         return JsonResponse({'message': '毕业生信息已更新', 'graduate_id': graduate.id}, status=200)
-
+    
     return JsonResponse({'error': '未知错误'}, status=500)
 
 
@@ -123,22 +174,25 @@ def handle_send_email(request):
 
     res = send_email(
         ## 兰大邮箱配置
-        # sender_email="xscglk@lzu.edu.cn", 
-        # receiver_email="wangby2020@lzu.edu.cn",
-        # smtp_server="smtp.lzu.edu.cn",
-        # smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-        # smtp_user="xscglk@lzu.edu.cn",
-        # smtp_password="QkynTHxQARhbVS8N"
+        sender_email="xscglk@lzu.edu.cn", 
+        receiver_email="dangag@lzu.edu.cn",
+        smtp_server="smtp.lzu.edu.cn",
+        smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
+        smtp_user="xscglk@lzu.edu.cn",
+        smtp_password="aeAqjvJfprXFADz2",
+        cc_emails=["xscglk@lzu.edu.cn"],  # 抄送人列表
+        
 
         # QQ 邮箱配置
-        sender_email="1326906378@qq.com",
-        receiver_email="wangby2020@lzu.edu.cn",
-        smtp_server="smtp.qq.com",
-        smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-        smtp_user="1326906378@qq.com",
-        smtp_password="wdgcqzgdilbagjff",
+        # sender_email="1326906378@qq.com",
+        # receiver_email="wangby2020@lzu.edu.cn",
+        # smtp_server="smtp.qq.com",
+        # smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
+        # smtp_user="1326906378@qq.com",
+        # smtp_password="wdgcqzgdilbagjff",
+        # cc_emails=["1326906378@qq.com"],  # 抄送人列表
+        
 
-        cc_emails=["1326906378@qq.com"],  # 抄送人列表
         subject="请核对双证是否齐全",
         image_file=image_file,
         body=email_body
@@ -248,7 +302,7 @@ def index(request):
 '''
 001-发送邮件
 '''
-def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_server, smtp_port, smtp_user, smtp_password, image_file):
+def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_server, smtp_port, smtp_user, smtp_password, image_file=None):
     # 创建 MIME 多部分消息对象
     msg = MIMEMultipart()
     msg['From'] = sender_email
@@ -260,17 +314,14 @@ def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_serv
     msg.attach(MIMEText(body, 'plain'))  # 添加邮件正文
     print("邮件正文添加成功！")
 
-    # 添加图片作为附件
-    img = MIMEImage(image_file.read())
-    img.add_header('Content-Disposition', 'attachment', filename=image_file.name)
-    msg.attach(img)
+    # 如果提供了图片文件，则添加图片作为附件
+    if image_file:
+        img = MIMEImage(image_file.read())
+        img.add_header('Content-Disposition', 'attachment', filename=image_file.name)
+        msg.attach(img)
 
     # 合并收件人和抄送人列表
     to_addresses = [receiver_email] + cc_emails
-
-
-    # 将 MIME 多部分消息对象转换为字符串
-    # msg = msg.as_string()
 
     # 创建 SMTP 服务器的连接
     server = smtplib.SMTP(smtp_server, smtp_port)
@@ -280,7 +331,6 @@ def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_serv
     # 发送邮件
     server.sendmail(sender_email, to_addresses, msg.as_string())
     print("邮件成功发送！")
-
 
     server.quit()  # 关闭 SMTP 服务器的连接
     return {"status": 200, "msg": 'success'}

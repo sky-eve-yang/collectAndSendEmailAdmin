@@ -1,15 +1,26 @@
 from django.contrib import admin
+from django import forms
 from django.utils.html import format_html
 from .models import Graduate
 from django.contrib import messages
 
+class GraduateForm(forms.ModelForm):
+    class Meta:
+        model = Graduate
+        fields = '__all__'
+
 class GraduateAdmin(admin.ModelAdmin):
+    list_per_page = 5  # 每页显示10个对象
+
+
     list_display = ('id', 'g_name', 'g_sex', 'g_college', 'g_major', 
-                    'g_year', 'g_id_no', 'g_phone', 'g_mailing_address', 
+                    'g_year', 'g_id_no', 'g_phone', 'g_mailing_address', 'g_email',
                     'cert_preview', 'audit_status_display', 'email_status_display', 
-                    'email_sent_time', 
+                    'email_sent_time', 'created_at',
                     'approve_button', 'reject_button', 'send_email_button', 'generate_word_button')
-    list_filter = ('audit_status', 'g_sex', 'g_college', 'g_major', 'g_year')
+    
+    
+    list_filter = ('audit_status', 'g_college', 'g_year')
     search_fields = ('g_name', 'g_college', 'g_major', 'g_id_no', 'g_phone')
     
     
@@ -52,10 +63,10 @@ class GraduateAdmin(admin.ModelAdmin):
             generate_word_btn_class += ' btn-disabled'
             
         return format_html(
-            '<button type="button" class="{}" data-id="{}" onclick="generateWord(\'{}\');">生成word</button>',
+            '<button type="button" class="{}" data-id="{}" onclick="generateWord(\'{}\');">生成证明文件</button>',
             generate_word_btn_class, obj.id, obj.id
         )
-    generate_word_button.short_description = "生成word"
+    generate_word_button.short_description = "证明文件"
 
     def send_email_button(self, obj):
         send_email_btn_class = 'send-email-btn'
@@ -63,13 +74,19 @@ class GraduateAdmin(admin.ModelAdmin):
 
         if obj.audit_status != 1:
             send_email_btn_class += ' btn-disabled'
-            
-        return format_html(
-            '<button type="button"  class="{}" data-id="{}" onclick="sendEmail(\'{}\', \'{}\');">发送邮件</button>',
-            send_email_btn_class, obj.id, obj.id, obj.email_status
-        )
+
+        if obj.email_status == 1:
+            return format_html(
+                '<button type="button"  class="{} sent-email" data-id="{}" onclick="sendEmail(\'{}\', \'{}\');">邮件已发送</button>',
+                send_email_btn_class, obj.id, obj.id, obj.email_status
+            )
+        else:
+            return format_html(
+                '<button type="button"  class="{}" data-id="{}" onclick="sendEmail(\'{}\', \'{}\');">发送邮件（至档案馆）</button>',
+                send_email_btn_class, obj.id, obj.id, obj.email_status
+            )
     send_email_button.short_description = "邮件发送操作"
-        
+    
 
 
 
@@ -99,13 +116,17 @@ class GraduateAdmin(admin.ModelAdmin):
         return format_html(
             '<button type="button" class="{}" data-id="{}" onclick="changeAuditStatus(\'{}\', 2);">不通过</button>',
             btn_class, obj.id, obj.id
-        )
+        ) 
     reject_button.short_description = '审核不通过操作'
+    reject_button.confirm = '你是否执意要点击这个按钮？'
+
+    
+    
 
     class Media:
-        js = ('js/audit_graduate_v4.js','js/image_preview.js',)
+        js = ('js/audit_graduate_v5.js','js/image_preview.js',)
         css = {
-            'all': ('css/audit_graduate_v3.css',)
+            'all': ('css/audit_graduate_v4.css',)
         }
 
 admin.site.register(Graduate, GraduateAdmin)

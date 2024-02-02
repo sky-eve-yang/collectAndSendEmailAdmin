@@ -2284,3 +2284,1637 @@ INFO 2024-01-11 09:24:06,458 basehttp 2654 140067862476480 "GET / HTTP/1.1" 200 
 INFO 2024-01-11 09:24:06,750 autoreload 2654 140067992951680 /home/runner/collectAndSendEmailAdmin/collectAndSendEmailAdmin/settings.py changed, reloading.
 INFO 2024-01-11 09:24:07,229 autoreload 2666 139991731714944 Watching for file changes with StatReloader
 INFO 2024-01-11 09:24:08,715 basehttp 2666 139991668750016 "GET / HTTP/1.1" 200 308
+INFO 2024-01-11 20:38:03,678 autoreload 42876 45264 Watching for file changes with StatReloader
+INFO 2024-01-11 20:39:40,234 basehttp 42876 4436 "GET / HTTP/1.1" 200 308
+INFO 2024-01-11 20:39:53,311 basehttp 42876 4436 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-11 20:39:53,377 basehttp 42876 4436 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2220
+INFO 2024-01-11 20:39:53,405 basehttp 42876 4436 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-01-11 20:39:55,727 basehttp 42876 4436 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-11 20:39:55,746 basehttp 42876 4436 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-11 20:39:57,779 basehttp 42876 4436 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32032
+INFO 2024-01-11 20:39:57,801 basehttp 42876 4436 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 304 0
+INFO 2024-01-11 20:39:57,813 basehttp 42876 29600 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 20:39:57,822 basehttp 42876 4436 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-11 20:39:57,825 basehttp 42876 29600 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5713
+INFO 2024-01-11 20:39:57,840 basehttp 42876 4436 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-01-11 20:39:57,878 basehttp 42876 48004 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,878 basehttp 42876 52048 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,879 basehttp 42876 52716 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,879 basehttp 42876 27348 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,880 basehttp 42876 4436 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,884 basehttp 42876 52048 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:39:57,884 basehttp 42876 29600 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-11 20:39:57,888 basehttp 42876 27348 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-01-11 20:40:03,454 basehttp 42876 29600 "GET /admin/collectAndSendEmailAdmin/graduate/add/ HTTP/1.1" 200 12478
+INFO 2024-01-11 20:40:03,482 basehttp 42876 27348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-11 20:40:03,485 basehttp 42876 29600 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-01-11 20:40:03,529 basehttp 42876 52048 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-01-11 20:40:03,529 basehttp 42876 4436 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-01-11 20:40:03,535 basehttp 42876 29600 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-01-11 20:40:03,535 basehttp 42876 27348 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+INFO 2024-01-11 20:40:03,551 basehttp 42876 27348 "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043
+INFO 2024-01-11 20:40:03,873 basehttp 42876 29600 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-01-11 20:40:03,873 basehttp 42876 27348 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-01-11 20:54:10,795 basehttp 42876 45368 "GET /admin/collectAndSendEmailAdmin/graduate/?o= HTTP/1.1" 200 32572
+INFO 2024-01-11 20:54:10,840 basehttp 42876 45368 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-14 21:28:46,509 autoreload 33316 21236 Watching for file changes with StatReloader
+INFO 2024-01-14 21:28:49,471 basehttp 33316 17472 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-14 21:28:51,286 log 33316 17472 Not Found: /favicon.ico
+WARNING 2024-01-14 21:28:51,286 basehttp 33316 17472 "GET /favicon.ico HTTP/1.1" 404 3043
+INFO 2024-01-14 21:28:55,749 basehttp 33316 6916 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-14 21:28:56,721 log 33316 6916 Not Found: /4f64eaa44708eacdfb67703150ce5f05.jpg
+WARNING 2024-01-14 21:28:56,722 basehttp 33316 6916 "GET /4f64eaa44708eacdfb67703150ce5f05.jpg HTTP/1.1" 404 3118
+WARNING 2024-01-14 21:28:57,363 log 33316 6916 Not Found: /favicon.ico
+WARNING 2024-01-14 21:28:57,363 basehttp 33316 6916 "GET /favicon.ico HTTP/1.1" 404 3043
+INFO 2024-01-14 21:29:04,089 basehttp 33316 35188 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-14 21:29:04,195 log 33316 35188 Not Found: /favicon.ico
+WARNING 2024-01-14 21:29:04,196 basehttp 33316 35188 "GET /favicon.ico HTTP/1.1" 404 3043
+INFO 2024-01-14 21:29:17,537 basehttp 33316 6916 "GET /admin HTTP/1.1" 301 0
+INFO 2024-01-14 21:29:17,555 basehttp 33316 6916 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-14 21:29:17,649 basehttp 33316 6916 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2220
+INFO 2024-01-14 21:29:17,770 basehttp 33316 6916 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO 2024-01-14 21:29:17,772 basehttp 33316 2796 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO 2024-01-14 21:29:17,777 basehttp 33316 26432 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO 2024-01-14 21:29:17,795 basehttp 33316 29544 - Broken pipe from ('127.0.0.1', 55982)
+INFO 2024-01-14 21:29:18,145 basehttp 33316 26432 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-01-14 21:29:18,145 basehttp 33316 2796 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO 2024-01-14 21:29:18,156 basehttp 33316 34620 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-01-14 21:29:18,156 basehttp 33316 6916 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO 2024-01-14 21:29:18,253 basehttp 33316 6916 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-01-14 21:29:18,253 basehttp 33316 34620 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-01-14 21:29:18,696 basehttp 33316 34620 "GET /admin/login/4f64eaa44708eacdfb67703150ce5f05.jpg HTTP/1.1" 302 0
+INFO 2024-01-14 21:29:18,714 basehttp 33316 34620 "GET /admin/login/?next=/admin/login/4f64eaa44708eacdfb67703150ce5f05.jpg HTTP/1.1" 200 2304
+INFO 2024-01-14 21:29:20,747 basehttp 33316 34620 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-14 21:29:20,782 basehttp 33316 34620 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-14 21:29:20,838 basehttp 33316 34620 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2024-01-14 21:29:20,981 basehttp 33316 34620 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-01-14 21:29:20,981 basehttp 33316 2796 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-01-14 21:29:20,983 basehttp 33316 6916 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-01-14 21:29:21,103 basehttp 33316 6916 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+WARNING 2024-01-14 21:29:21,219 log 33316 6916 Not Found: /admin/4f64eaa44708eacdfb67703150ce5f05.jpg
+WARNING 2024-01-14 21:29:21,220 basehttp 33316 6916 "GET /admin/4f64eaa44708eacdfb67703150ce5f05.jpg HTTP/1.1" 404 4733
+INFO 2024-01-14 21:29:23,963 basehttp 33316 6916 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32032
+INFO 2024-01-14 21:29:24,029 basehttp 33316 2796 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 200 980
+INFO 2024-01-14 21:29:24,031 basehttp 33316 6916 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO 2024-01-14 21:29:24,048 basehttp 33316 34620 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-14 21:29:24,051 basehttp 33316 35060 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-01-14 21:29:24,055 basehttp 33316 2796 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-01-14 21:29:24,058 basehttp 33316 6916 "GET /static/js/image_preview.js HTTP/1.1" 200 2073
+INFO 2024-01-14 21:29:24,059 basehttp 33316 34168 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5713
+INFO 2024-01-14 21:29:24,069 basehttp 33316 34620 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO 2024-01-14 21:29:24,073 basehttp 33316 35060 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-01-14 21:29:24,075 basehttp 33316 2796 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-01-14 21:29:24,078 basehttp 33316 34168 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-01-14 21:29:24,093 basehttp 33316 26432 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2024-01-14 21:29:24,095 basehttp 33316 34168 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-01-14 21:29:24,111 basehttp 33316 2796 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-14 21:29:24,121 basehttp 33316 6916 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-01-14 21:29:24,196 basehttp 33316 2796 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-01-14 21:29:24,222 basehttp 33316 26432 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,227 basehttp 33316 35060 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,228 basehttp 33316 2796 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,228 basehttp 33316 34620 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,228 basehttp 33316 34168 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,235 basehttp 33316 26432 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,246 basehttp 33316 2796 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-01-14 21:29:24,247 basehttp 33316 34168 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-01-14 21:29:24,249 basehttp 33316 34620 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO 2024-01-14 21:29:24,253 basehttp 33316 6916 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-14 21:29:24,869 basehttp 33316 6916 "GET /admin/collectAndSendEmailAdmin/graduate/4f64eaa44708eacdfb67703150ce5f05.jpg HTTP/1.1" 301 0
+INFO 2024-01-14 21:29:24,879 basehttp 33316 6916 "GET /admin/collectAndSendEmailAdmin/graduate/4f64eaa44708eacdfb67703150ce5f05.jpg/ HTTP/1.1" 302 0
+INFO 2024-01-14 21:29:24,908 basehttp 33316 6916 "GET /admin/collectAndSendEmailAdmin/graduate/4f64eaa44708eacdfb67703150ce5f05.jpg/change/ HTTP/1.1" 302 0
+INFO 2024-01-14 21:29:24,933 basehttp 33316 6916 "GET /admin/ HTTP/1.1" 200 7189
+INFO 2024-01-14 21:29:59,385 basehttp 33316 6916 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-01-20 22:44:10,560 autoreload 28480 6872 Watching for file changes with StatReloader
+INFO 2024-01-20 22:44:19,893 basehttp 28480 25332 "GET / HTTP/1.1" 200 308
+WARNING 2024-01-20 22:44:21,195 log 28480 25332 Not Found: /favicon.ico
+WARNING 2024-01-20 22:44:21,196 basehttp 28480 25332 "GET /favicon.ico HTTP/1.1" 404 3041
+INFO 2024-01-20 22:44:25,719 basehttp 28480 25332 "GET /admin HTTP/1.1" 301 0
+INFO 2024-01-20 22:44:25,732 basehttp 28480 25332 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:44:25,816 basehttp 28480 25332 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2220
+INFO 2024-01-20 22:44:25,848 basehttp 28480 24948 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO 2024-01-20 22:44:25,848 basehttp 28480 25332 "GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO 2024-01-20 22:44:25,850 basehttp 28480 6060 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2024-01-20 22:44:25,850 basehttp 28480 2112 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO 2024-01-20 22:44:25,852 basehttp 28480 28124 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO 2024-01-20 22:44:25,873 basehttp 28480 2112 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-01-20 22:44:25,882 basehttp 28480 28124 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO 2024-01-20 22:44:25,908 basehttp 28480 2112 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-01-20 22:44:25,909 basehttp 28480 28124 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-01-20 22:44:31,479 basehttp 28480 28124 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:44:31,503 basehttp 28480 28124 "GET /admin/ HTTP/1.1" 200 6982
+INFO 2024-01-20 22:44:31,528 basehttp 28480 28124 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO 2024-01-20 22:44:31,565 basehttp 28480 6060 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-01-20 22:44:31,565 basehttp 28480 2112 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-01-20 22:44:31,565 basehttp 28480 28124 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-01-20 22:44:31,591 basehttp 28480 6060 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-01-20 22:44:33,419 basehttp 28480 6060 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-20 22:44:33,453 basehttp 28480 2112 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 200 980
+INFO 2024-01-20 22:44:33,455 basehttp 28480 6060 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO 2024-01-20 22:44:33,462 basehttp 28480 28124 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:44:33,467 basehttp 28480 27832 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-01-20 22:44:33,467 basehttp 28480 25332 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5713
+INFO 2024-01-20 22:44:33,475 basehttp 28480 2112 "GET /static/js/image_preview.js HTTP/1.1" 200 2073
+INFO 2024-01-20 22:44:33,478 basehttp 28480 6060 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-01-20 22:44:33,487 basehttp 28480 28124 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO 2024-01-20 22:44:33,492 basehttp 28480 27832 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-01-20 22:44:33,492 basehttp 28480 25332 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-01-20 22:44:33,499 basehttp 28480 2112 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-01-20 22:44:33,506 basehttp 28480 24948 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2024-01-20 22:44:33,512 basehttp 28480 2112 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-01-20 22:44:33,529 basehttp 28480 25332 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-01-20 22:44:33,538 basehttp 28480 2112 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-01-20 22:44:33,545 basehttp 28480 6060 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-01-20 22:44:33,577 basehttp 28480 25332 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-01-20 22:44:33,583 basehttp 28480 28124 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,583 basehttp 28480 24948 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,584 basehttp 28480 6060 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,585 basehttp 28480 2112 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,585 basehttp 28480 27832 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,598 basehttp 28480 27832 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-01-20 22:44:33,600 basehttp 28480 24948 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,600 basehttp 28480 6060 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-01-20 22:44:33,602 basehttp 28480 2112 "GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO 2024-01-20 22:45:10,928 autoreload 28480 6872 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:45:11,798 autoreload 5268 20640 Watching for file changes with StatReloader
+INFO 2024-01-20 22:45:15,692 basehttp 5268 19104 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-20 22:45:15,717 basehttp 5268 19104 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:45:56,213 autoreload 5268 20640 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:45:57,071 autoreload 17380 18216 Watching for file changes with StatReloader
+INFO 2024-01-20 22:46:06,200 basehttp 17380 2704 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32033
+INFO 2024-01-20 22:46:06,223 basehttp 17380 2704 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:46:21,605 autoreload 17380 18216 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:46:22,385 autoreload 27816 26136 Watching for file changes with StatReloader
+INFO 2024-01-20 22:46:26,948 basehttp 27816 19816 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 32102
+INFO 2024-01-20 22:46:26,973 basehttp 27816 19816 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:51:15,663 autoreload 27816 26136 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:51:16,779 autoreload 1916 27712 Watching for file changes with StatReloader
+INFO 2024-01-20 22:51:40,826 autoreload 1916 27712 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:51:41,766 autoreload 28152 27404 Watching for file changes with StatReloader
+INFO 2024-01-20 22:51:57,576 autoreload 28152 27404 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:51:58,349 autoreload 28116 4184 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:09,978 autoreload 28116 4184 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:52:10,717 autoreload 27924 12976 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:21,309 autoreload 27924 12976 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:52:22,084 autoreload 6744 3564 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:25,501 autoreload 6744 3564 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:52:26,235 autoreload 20748 22556 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:39,895 autoreload 20748 22556 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:52:40,668 autoreload 21208 22428 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:42,028 autoreload 21208 22428 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:52:42,775 autoreload 17360 27688 Watching for file changes with StatReloader
+INFO 2024-01-20 22:52:45,121 basehttp 17360 24232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:52:45,161 basehttp 17360 24232 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-01-20 22:52:45,179 basehttp 17360 19816 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:52:45,274 basehttp 17360 19816 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-01-20 22:53:30,671 basehttp 17360 19816 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:53:30,707 basehttp 17360 19816 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:04,782 autoreload 17360 27688 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:54:05,729 autoreload 24176 28164 Watching for file changes with StatReloader
+INFO 2024-01-20 22:54:10,833 basehttp 24176 4328 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:54:10,918 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47144
+INFO 2024-01-20 22:54:10,956 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:10,987 basehttp 24176 4328 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2024-01-20 22:54:13,429 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:54:13,483 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:16,130 basehttp 24176 4328 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:54:16,211 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47144
+INFO 2024-01-20 22:54:16,247 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:19,899 basehttp 24176 4328 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:54:19,976 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47087
+INFO 2024-01-20 22:54:20,001 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:24,450 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:54:24,473 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:54:31,931 basehttp 24176 4328 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:54:32,007 basehttp 24176 4328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47087
+INFO 2024-01-20 22:54:32,080 basehttp 24176 4328 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:55:34,301 autoreload 24176 28164 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:55:35,271 autoreload 26580 18304 Watching for file changes with StatReloader
+INFO 2024-01-20 22:55:42,735 autoreload 26580 18304 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-01-20 22:55:43,586 autoreload 9404 18704 Watching for file changes with StatReloader
+INFO 2024-01-20 22:55:56,041 basehttp 9404 4232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:55:56,076 basehttp 9404 4232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:56:04,277 basehttp 9404 4232 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:56:04,327 basehttp 9404 4232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47144
+INFO 2024-01-20 22:56:04,385 basehttp 9404 4232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:56:08,058 basehttp 9404 4232 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:56:08,109 basehttp 9404 4232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 47087
+INFO 2024-01-20 22:56:08,146 basehttp 9404 4232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:56:09,531 basehttp 9404 4232 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:56:09,570 basehttp 9404 4232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-01-20 22:57:51,301 basehttp 9404 12976 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-01-20 22:57:51,352 basehttp 9404 12976 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 46966
+INFO 2024-01-20 22:57:51,395 basehttp 9404 12976 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:29:39,252 autoreload 89000 79496 Watching for file changes with StatReloader
+INFO 2024-02-01 18:30:06,054 autoreload 53520 76480 Watching for file changes with StatReloader
+INFO 2024-02-01 18:30:07,553 basehttp 53520 13664 "GET / HTTP/1.1" 200 308
+WARNING 2024-02-01 18:30:08,608 log 53520 13664 Not Found: /favicon.ico
+WARNING 2024-02-01 18:30:08,609 basehttp 53520 13664 "GET /favicon.ico HTTP/1.1" 404 3043
+INFO 2024-02-01 18:30:15,449 basehttp 53520 13664 "GET /admin HTTP/1.1" 301 0
+INFO 2024-02-01 18:30:15,466 basehttp 53520 13664 "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-02-01 18:30:15,484 basehttp 53520 13664 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4029
+INFO 2024-02-01 18:30:15,529 basehttp 53520 87836 "GET /static/admin/simpleui-x/css/login.css?_=2.1 HTTP/1.1" 200 500
+INFO 2024-02-01 18:30:15,531 basehttp 53520 84420 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 200 101784
+INFO 2024-02-01 18:30:15,532 basehttp 53520 86756 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 200 115997
+INFO 2024-02-01 18:30:15,534 basehttp 53520 13664 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 200 238628
+INFO 2024-02-01 18:30:15,562 basehttp 53520 84420 "GET /static/admin/simpleui-x/js/login.js?_=3.3 HTTP/1.1" 200 669
+INFO 2024-02-01 18:30:15,563 basehttp 53520 86756 "GET /static/admin/simpleui-x/img/bg.svg HTTP/1.1" 200 9547
+INFO 2024-02-01 18:30:15,575 basehttp 53520 38932 "GET /static/admin/simpleui-x/particles/app.js HTTP/1.1" 200 3728
+INFO 2024-02-01 18:30:15,583 basehttp 53520 20252 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 200 93675
+INFO 2024-02-01 18:30:15,594 basehttp 53520 87836 "GET /static/admin/simpleui-x/particles/particles.js HTTP/1.1" 200 51264
+INFO 2024-02-01 18:30:15,660 basehttp 53520 13664 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 200 586253
+INFO 2024-02-01 18:30:15,727 basehttp 53520 13664 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 150472
+INFO 2024-02-01 18:30:17,106 basehttp 53520 13664 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 200 28200
+INFO 2024-02-01 18:30:17,331 basehttp 53520 13664 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-02-01 18:30:17,390 basehttp 53520 13664 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:30:17,418 basehttp 53520 87836 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 200 3861
+INFO 2024-02-01 18:30:17,425 basehttp 53520 13664 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 200 6994
+INFO 2024-02-01 18:30:17,453 basehttp 53520 13664 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 200 12677
+INFO 2024-02-01 18:30:17,458 basehttp 53520 87836 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 200 1194
+INFO 2024-02-01 18:30:17,477 basehttp 53520 20252 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 200 524
+INFO 2024-02-01 18:30:17,477 basehttp 53520 13664 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 200 1254
+INFO 2024-02-01 18:30:17,478 basehttp 53520 87836 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 200 811
+INFO 2024-02-01 18:30:17,478 basehttp 53520 86756 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 200 6329
+INFO 2024-02-01 18:30:17,478 basehttp 53520 84420 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 200 1216
+INFO 2024-02-01 18:30:17,478 basehttp 53520 38932 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 200 4274
+INFO 2024-02-01 18:30:17,499 basehttp 53520 86756 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 200 21460
+INFO 2024-02-01 18:30:17,578 basehttp 53520 86756 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 25096
+INFO 2024-02-01 18:30:17,579 basehttp 53520 38932 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 107460
+INFO 2024-02-01 18:30:33,156 basehttp 53520 38932 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 85510
+INFO 2024-02-01 18:30:33,171 basehttp 53520 13664 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:30:33,171 basehttp 53520 84420 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:30:33,175 basehttp 53520 20252 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 200 4270
+INFO 2024-02-01 18:30:33,180 basehttp 53520 87836 "GET /static/admin/css/changelists.css?_=20180905 HTTP/1.1" 200 6395
+INFO 2024-02-01 18:30:33,181 basehttp 53520 86756 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 200 4638
+INFO 2024-02-01 18:30:33,181 basehttp 53520 38932 "GET /static/admin/css/base.css?_=2.7 HTTP/1.1" 200 20344
+INFO 2024-02-01 18:30:33,185 basehttp 53520 13664 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-02-01 18:30:33,188 basehttp 53520 84420 "GET /static/css/audit_graduate_v3.css HTTP/1.1" 200 980
+INFO 2024-02-01 18:30:33,189 basehttp 53520 87836 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:30:33,190 basehttp 53520 38932 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:30:33,196 basehttp 53520 84420 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 200 1254
+INFO 2024-02-01 18:30:33,196 basehttp 53520 13664 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 200 811
+INFO 2024-02-01 18:30:33,196 basehttp 53520 20252 "GET /static/admin/css/responsive.css?_=20180905 HTTP/1.1" 200 18854
+INFO 2024-02-01 18:30:33,198 basehttp 53520 87836 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 200 524
+INFO 2024-02-01 18:30:33,203 basehttp 53520 86756 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 200 189
+INFO 2024-02-01 18:30:33,215 basehttp 53520 38932 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:30:33,218 basehttp 53520 84420 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-02-01 18:30:33,220 basehttp 53520 87836 "GET /static/js/image_preview.js HTTP/1.1" 200 2073
+INFO 2024-02-01 18:30:33,223 basehttp 53520 20252 "GET /static/js/audit_graduate_v4.js HTTP/1.1" 200 5713
+INFO 2024-02-01 18:30:33,228 basehttp 53520 86756 "GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO 2024-02-01 18:30:33,232 basehttp 53520 84420 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2024-02-01 18:30:33,245 basehttp 53520 20252 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO 2024-02-01 18:30:33,245 basehttp 53520 87836 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2024-02-01 18:30:33,245 basehttp 53520 38932 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO 2024-02-01 18:30:33,249 basehttp 53520 86756 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-02-01 18:30:33,250 basehttp 53520 20252 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 200 1194
+INFO 2024-02-01 18:30:33,252 basehttp 53520 38932 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 200 12677
+INFO 2024-02-01 18:30:33,259 basehttp 53520 13664 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO 2024-02-01 18:30:33,278 basehttp 53520 13664 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-02-01 18:30:33,281 basehttp 53520 20252 "GET /media/certificates/7OCz5Lh3jwhipmM2089c91f072c39556060f314978b8438c.jpg HTTP/1.1" 200 1048576
+INFO 2024-02-01 18:30:33,286 basehttp 53520 86756 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 200 14237
+INFO 2024-02-01 18:30:33,291 basehttp 53520 38932 "GET /media/certificates/9YQPoyXoW9nNIXWFd587d685d865ef5f8d4a3d32c2352dbe.jpg HTTP/1.1" 200 2097152
+INFO 2024-02-01 18:30:33,300 basehttp 53520 84420 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2024-02-01 18:30:33,302 basehttp 53520 87836 "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 200 89501
+INFO 2024-02-01 18:30:33,316 basehttp 53520 38932 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_WB5ZmKz.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,329 basehttp 53520 86756 "GET /media/certificates/Xf3Th2bmUgiU8xv26cb125cb7794e75942631cfdae053e41.jpg HTTP/1.1" 200 4194304
+INFO 2024-02-01 18:30:33,334 basehttp 53520 38932 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,343 basehttp 53520 84420 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,343 basehttp 53520 87836 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,344 basehttp 53520 20252 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,344 basehttp 53520 13664 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,346 basehttp 53520 86756 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-02-01 18:30:33,371 basehttp 53520 86756 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:30:33,396 basehttp 53520 86756 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO 2024-02-01 18:30:33,476 basehttp 53520 86756 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO 2024-02-01 18:31:08,001 basehttp 53520 86756 "GET /admin/collectAndSendEmailAdmin/graduate/add/ HTTP/1.1" 200 15719
+INFO 2024-02-01 18:31:08,026 basehttp 53520 86756 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,026 basehttp 53520 84420 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,026 basehttp 53520 87836 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,026 basehttp 53520 20252 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,046 basehttp 53520 20252 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,052 basehttp 53520 13664 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,054 basehttp 53520 87836 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,062 basehttp 53520 87836 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,063 basehttp 53520 13664 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,068 basehttp 53520 87836 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,074 basehttp 53520 13664 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:08,103 basehttp 53520 84420 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-02-01 18:31:08,114 basehttp 53520 20252 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-02-01 18:31:08,119 basehttp 53520 38932 "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043
+INFO 2024-02-01 18:31:08,121 basehttp 53520 86756 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+INFO 2024-02-01 18:31:08,206 basehttp 53520 86756 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:08,253 basehttp 53520 86756 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-02-01 18:31:08,254 basehttp 53520 38932 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-02-01 18:31:12,857 basehttp 53520 38932 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 85510
+INFO 2024-02-01 18:31:12,883 basehttp 53520 84420 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:12,883 basehttp 53520 20252 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:12,883 basehttp 53520 86756 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:12,887 basehttp 53520 38932 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:19,180 basehttp 53520 38932 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 85510
+INFO 2024-02-01 18:31:19,192 basehttp 53520 38932 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,197 basehttp 53520 86756 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,197 basehttp 53520 84420 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,198 basehttp 53520 38932 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,205 basehttp 53520 84420 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,205 basehttp 53520 38932 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,205 basehttp 53520 86756 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,205 basehttp 53520 13664 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,205 basehttp 53520 20252 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,208 basehttp 53520 87836 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:19,213 basehttp 53520 84420 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:19,296 basehttp 53520 84420 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:23,649 basehttp 53520 84420 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 85510
+INFO 2024-02-01 18:31:23,670 basehttp 53520 13664 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:23,670 basehttp 53520 20252 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:23,671 basehttp 53520 87836 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:23,675 basehttp 53520 84420 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:31,506 basehttp 53520 84420 "GET /admin/auth/group/ HTTP/1.1" 200 29223
+INFO 2024-02-01 18:31:31,538 basehttp 53520 84420 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,538 basehttp 53520 87836 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,538 basehttp 53520 20252 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,539 basehttp 53520 13664 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,551 basehttp 53520 87836 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,551 basehttp 53520 38932 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,551 basehttp 53520 13664 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,552 basehttp 53520 20252 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,552 basehttp 53520 86756 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,552 basehttp 53520 84420 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:31:31,560 basehttp 53520 13664 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:32,294 basehttp 53520 13664 "GET /admin/auth/user/ HTTP/1.1" 200 34933
+INFO 2024-02-01 18:31:32,319 basehttp 53520 13664 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2024-02-01 18:31:32,331 basehttp 53520 13664 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:31:32,463 basehttp 53520 13664 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-02-01 18:31:32,468 basehttp 53520 84420 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO 2024-02-01 18:33:09,605 autoreload 53520 76480 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\urls.py changed, reloading.
+INFO 2024-02-01 18:33:10,703 autoreload 41180 72896 Watching for file changes with StatReloader
+INFO 2024-02-01 18:33:16,324 autoreload 41180 72896 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\urls.py changed, reloading.
+INFO 2024-02-01 18:33:17,264 autoreload 86716 79144 Watching for file changes with StatReloader
+INFO 2024-02-01 18:33:25,162 basehttp 86716 84500 "GET / HTTP/1.1" 302 0
+INFO 2024-02-01 18:33:25,201 basehttp 86716 84500 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:33:25,229 basehttp 86716 84500 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,230 basehttp 86716 84536 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,237 basehttp 86716 46704 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,238 basehttp 86716 85740 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,239 basehttp 86716 84836 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,271 basehttp 86716 85740 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,272 basehttp 86716 84836 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,316 basehttp 86716 84836 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,316 basehttp 86716 85740 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,317 basehttp 86716 46704 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,317 basehttp 86716 84500 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,317 basehttp 86716 84536 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,319 basehttp 86716 87760 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,324 basehttp 86716 84536 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,324 basehttp 86716 87760 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,324 basehttp 86716 84500 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,377 basehttp 86716 84500 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,377 basehttp 86716 87760 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:25,378 basehttp 86716 84536 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,926 basehttp 86716 84536 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 85510
+INFO 2024-02-01 18:33:27,952 basehttp 86716 87760 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,954 basehttp 86716 84536 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,971 basehttp 86716 84536 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,971 basehttp 86716 87760 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,971 basehttp 86716 84500 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,972 basehttp 86716 46704 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,976 basehttp 86716 84836 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,977 basehttp 86716 84536 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,978 basehttp 86716 87760 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:33:27,981 basehttp 86716 85740 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:33:42,744 autoreload 86716 79144 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:33:43,685 autoreload 85920 81804 Watching for file changes with StatReloader
+INFO 2024-02-01 18:33:44,561 basehttp 85920 86204 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:33:44,720 basehttp 85920 86204 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 72559
+INFO 2024-02-01 18:33:44,753 basehttp 85920 86204 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:34:50,419 autoreload 85920 81804 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:34:51,350 autoreload 48068 81944 Watching for file changes with StatReloader
+INFO 2024-02-01 18:34:51,749 basehttp 48068 86384 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:34:51,768 basehttp 48068 86384 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,775 basehttp 48068 86384 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,777 basehttp 48068 82876 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,778 basehttp 48068 86160 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,778 basehttp 48068 26380 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,779 basehttp 48068 86384 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,857 basehttp 48068 86160 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,857 basehttp 48068 26380 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,857 basehttp 48068 86384 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,858 basehttp 48068 82876 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,861 basehttp 48068 26380 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,861 basehttp 48068 86160 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,865 basehttp 48068 82876 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,866 basehttp 48068 86160 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,867 basehttp 48068 26380 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,867 basehttp 48068 86384 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,966 basehttp 48068 82876 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,968 basehttp 48068 86160 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:51,968 basehttp 48068 26380 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,011 basehttp 48068 86384 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 72483
+INFO 2024-02-01 18:34:52,094 basehttp 48068 82876 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,094 basehttp 48068 86384 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,110 basehttp 48068 86160 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,110 basehttp 48068 86384 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,111 basehttp 48068 26380 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,111 basehttp 48068 82876 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,121 basehttp 48068 24996 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,122 basehttp 48068 82876 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,122 basehttp 48068 86160 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:34:52,123 basehttp 48068 88872 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:34:57,033 autoreload 48068 81944 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:34:57,991 autoreload 84208 76348 Watching for file changes with StatReloader
+INFO 2024-02-01 18:34:58,673 basehttp 84208 84080 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:34:58,846 basehttp 84208 84080 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 72559
+INFO 2024-02-01 18:34:58,873 basehttp 84208 84080 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:37:20,266 autoreload 84208 76348 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:37:21,288 autoreload 20868 81628 Watching for file changes with StatReloader
+INFO 2024-02-01 18:37:23,212 basehttp 20868 26440 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:37:23,236 basehttp 20868 26440 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,239 basehttp 20868 79200 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,242 basehttp 20868 79816 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,243 basehttp 20868 75852 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,244 basehttp 20868 81676 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,256 basehttp 20868 81676 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,271 basehttp 20868 81676 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,313 basehttp 20868 79200 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,313 basehttp 20868 81676 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,313 basehttp 20868 75852 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,313 basehttp 20868 79816 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,315 basehttp 20868 26440 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,315 basehttp 20868 87824 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,320 basehttp 20868 79816 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,320 basehttp 20868 87824 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,321 basehttp 20868 26440 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,396 basehttp 20868 79816 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,396 basehttp 20868 87824 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,397 basehttp 20868 75852 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,427 basehttp 20868 26440 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 73462
+INFO 2024-02-01 18:37:23,511 basehttp 20868 26440 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,512 basehttp 20868 75852 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,524 basehttp 20868 87824 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,524 basehttp 20868 75852 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,525 basehttp 20868 26440 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,525 basehttp 20868 79200 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,527 basehttp 20868 79816 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,532 basehttp 20868 87824 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,532 basehttp 20868 75852 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:37:23,537 basehttp 20868 81676 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:38:04,347 autoreload 20868 81628 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:38:05,416 autoreload 79104 34844 Watching for file changes with StatReloader
+INFO 2024-02-01 18:38:07,820 basehttp 79104 87460 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:38:07,980 basehttp 79104 87460 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:38:08,051 basehttp 79104 87460 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:40:24,762 autoreload 79104 34844 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:40:25,637 autoreload 26460 74732 Watching for file changes with StatReloader
+INFO 2024-02-01 18:40:36,084 basehttp 26460 55388 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:40:36,110 basehttp 26460 55388 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,110 basehttp 26460 86156 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,115 basehttp 26460 87080 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,115 basehttp 26460 21792 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,116 basehttp 26460 80464 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,126 basehttp 26460 80464 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,136 basehttp 26460 80464 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,241 basehttp 26460 86156 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,241 basehttp 26460 55388 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,241 basehttp 26460 21792 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,241 basehttp 26460 87080 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,244 basehttp 26460 80464 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,247 basehttp 26460 26440 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,250 basehttp 26460 86156 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,250 basehttp 26460 21792 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,250 basehttp 26460 80464 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,354 basehttp 26460 80464 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:40:36,418 basehttp 26460 80464 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,418 basehttp 26460 21792 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,423 basehttp 26460 21792 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,432 basehttp 26460 21792 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,432 basehttp 26460 80464 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,432 basehttp 26460 87080 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,434 basehttp 26460 55388 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,434 basehttp 26460 86156 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,437 basehttp 26460 21792 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:40:36,441 basehttp 26460 26440 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:41:08,655 autoreload 26460 74732 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:41:09,606 autoreload 45124 70984 Watching for file changes with StatReloader
+INFO 2024-02-01 18:41:22,261 autoreload 45124 70984 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:41:23,114 autoreload 16396 12036 Watching for file changes with StatReloader
+INFO 2024-02-01 18:41:25,046 basehttp 16396 84972 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:41:25,270 basehttp 16396 81896 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:41:25,272 basehttp 16396 25324 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:41:25,274 basehttp 16396 52472 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:41:25,291 basehttp 16396 84972 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:41:25,425 basehttp 16396 84972 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:41:29,817 autoreload 16396 12036 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:41:30,728 autoreload 944 78760 Watching for file changes with StatReloader
+INFO 2024-02-01 18:41:31,139 basehttp 944 44224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:41:32,453 basehttp 944 44224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:41:32,865 basehttp 944 44224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:41:33,690 basehttp 944 44224 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:41:37,196 autoreload 7636 81720 Watching for file changes with StatReloader
+INFO 2024-02-01 18:41:39,267 basehttp 7636 70916 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:41:39,482 basehttp 7636 70916 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:41:39,506 basehttp 7636 70916 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:41:41,821 basehttp 7636 70916 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:41:42,556 basehttp 7636 70916 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 18:45:33,450 autoreload 78004 88804 Watching for file changes with StatReloader
+INFO 2024-02-01 18:49:18,983 basehttp 78004 84844 "GET /admin/collectAndSendEmailAdmin/graduate/?o=7 HTTP/1.1" 200 72191
+INFO 2024-02-01 18:49:19,002 basehttp 78004 84844 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,008 basehttp 78004 88044 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,008 basehttp 78004 72092 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,009 basehttp 78004 75496 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,020 basehttp 78004 72092 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,021 basehttp 78004 88044 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,021 basehttp 78004 75496 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,022 basehttp 78004 84844 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,027 basehttp 78004 84208 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,028 basehttp 78004 72092 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,033 basehttp 78004 83096 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,035 basehttp 78004 75496 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,035 basehttp 78004 84844 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:19,042 basehttp 78004 88044 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:49:19,157 basehttp 78004 88044 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:49:21,477 basehttp 78004 88044 "GET /admin/collectAndSendEmailAdmin/graduate/?o=-7 HTTP/1.1" 200 72213
+INFO 2024-02-01 18:49:21,504 basehttp 78004 88044 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:49:30,734 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/element.css HTTP/1.1" 200 4239
+INFO 2024-02-01 18:49:35,748 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/x-blue.css HTTP/1.1" 200 4491
+INFO 2024-02-01 18:49:36,310 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/x-red.css HTTP/1.1" 200 4459
+INFO 2024-02-01 18:49:36,928 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/x-green.css HTTP/1.1" 200 4399
+INFO 2024-02-01 18:49:38,831 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/e-black-pro.css HTTP/1.1" 200 4387
+INFO 2024-02-01 18:49:39,272 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/e-blue-pro.css HTTP/1.1" 200 4300
+INFO 2024-02-01 18:49:39,672 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/purple.css HTTP/1.1" 200 4544
+INFO 2024-02-01 18:49:46,570 basehttp 78004 88044 "GET /static/admin/simpleui-x/theme/aircraft.css HTTP/1.1" 200 5013
+INFO 2024-02-01 18:50:04,415 basehttp 78004 88044 "GET / HTTP/1.1" 302 0
+INFO 2024-02-01 18:50:04,453 basehttp 78004 88044 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:50:04,479 basehttp 78004 88044 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,481 basehttp 78004 84844 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,481 basehttp 78004 75496 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,570 basehttp 78004 84844 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,570 basehttp 78004 75496 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,574 basehttp 78004 88044 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,575 basehttp 78004 84844 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,576 basehttp 78004 75496 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,579 basehttp 78004 75496 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,581 basehttp 78004 84844 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,581 basehttp 78004 83096 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,581 basehttp 78004 88044 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,657 basehttp 78004 88044 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,659 basehttp 78004 83096 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:50:04,659 basehttp 78004 84844 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:51:46,277 autoreload 78004 88804 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-01 18:51:47,262 autoreload 85208 66316 Watching for file changes with StatReloader
+INFO 2024-02-01 18:52:01,327 basehttp 85208 79944 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:52:01,350 basehttp 85208 79944 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:01,350 basehttp 85208 58848 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:01,353 basehttp 85208 83912 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:01,353 basehttp 85208 73328 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:01,485 basehttp 85208 73328 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,920 basehttp 85208 73328 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:52:10,988 basehttp 85208 83912 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,989 basehttp 85208 73328 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,997 basehttp 85208 73328 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,997 basehttp 85208 83912 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,998 basehttp 85208 58848 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:10,998 basehttp 85208 79944 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:11,003 basehttp 85208 73328 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:11,004 basehttp 85208 83952 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:11,004 basehttp 85208 79944 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:52:11,008 basehttp 85208 66688 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:53:46,009 autoreload 85208 66316 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:53:46,970 autoreload 84064 85156 Watching for file changes with StatReloader
+INFO 2024-02-01 18:53:47,510 basehttp 84064 81732 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:53:47,529 basehttp 84064 81732 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,529 basehttp 84064 83988 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,531 basehttp 84064 81732 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,555 basehttp 84064 81732 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,587 basehttp 84064 81732 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,607 basehttp 84064 81732 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,607 basehttp 84064 83988 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,614 basehttp 84064 74288 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,615 basehttp 84064 81732 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,615 basehttp 84064 30412 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,617 basehttp 84064 83988 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,617 basehttp 84064 83348 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,690 basehttp 84064 83988 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,690 basehttp 84064 81732 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:53:47,732 basehttp 84064 83348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:53:47,839 basehttp 84064 83348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:53:53,620 autoreload 84064 85156 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:53:54,467 autoreload 85140 80240 Watching for file changes with StatReloader
+INFO 2024-02-01 18:54:33,952 autoreload 85140 80240 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:54:34,838 autoreload 32560 85784 Watching for file changes with StatReloader
+INFO 2024-02-01 18:54:35,629 basehttp 32560 87948 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:54:35,758 basehttp 32560 87948 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,759 basehttp 32560 80792 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,765 basehttp 32560 80792 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,765 basehttp 32560 87948 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,945 basehttp 32560 87948 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 71243
+INFO 2024-02-01 18:54:35,961 basehttp 32560 80792 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,963 basehttp 32560 87948 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,978 basehttp 32560 88300 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,978 basehttp 32560 87948 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,978 basehttp 32560 80792 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,986 basehttp 32560 87392 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,987 basehttp 32560 88300 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,987 basehttp 32560 26068 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,988 basehttp 32560 87948 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 18:54:35,994 basehttp 32560 82544 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 18:55:09,527 autoreload 32560 85784 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 18:55:10,655 autoreload 2620 58584 Watching for file changes with StatReloader
+INFO 2024-02-01 18:55:12,365 basehttp 2620 82412 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 18:55:12,549 basehttp 2620 82412 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 52118
+INFO 2024-02-01 18:55:12,587 basehttp 2620 82412 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:08:04,451 autoreload 2620 58584 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:08:05,581 autoreload 28332 87684 Watching for file changes with StatReloader
+INFO 2024-02-01 19:08:07,371 basehttp 28332 73192 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:08:07,389 basehttp 28332 73192 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,397 basehttp 28332 83372 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,398 basehttp 28332 73192 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,402 basehttp 28332 70208 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,403 basehttp 28332 19948 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,406 basehttp 28332 19948 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,518 basehttp 28332 19948 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,520 basehttp 28332 70208 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,520 basehttp 28332 73192 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,521 basehttp 28332 83372 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,531 basehttp 28332 39512 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,531 basehttp 28332 64024 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,532 basehttp 28332 19948 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,533 basehttp 28332 70208 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,534 basehttp 28332 73192 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,535 basehttp 28332 83372 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,641 basehttp 28332 73192 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,641 basehttp 28332 70208 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,642 basehttp 28332 19948 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,675 basehttp 28332 83372 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54937
+INFO 2024-02-01 19:08:07,762 basehttp 28332 83372 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,764 basehttp 28332 19948 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,781 basehttp 28332 19948 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,781 basehttp 28332 83372 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,781 basehttp 28332 73192 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,781 basehttp 28332 64024 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,782 basehttp 28332 70208 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,791 basehttp 28332 39512 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:08:07,798 basehttp 28332 19948 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:08:07,798 basehttp 28332 83372 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:09:15,768 autoreload 28332 87684 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:09:16,712 autoreload 80184 86456 Watching for file changes with StatReloader
+INFO 2024-02-01 19:09:22,333 autoreload 80184 86456 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:09:23,189 autoreload 6548 15824 Watching for file changes with StatReloader
+INFO 2024-02-01 19:09:56,645 autoreload 6548 15824 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:09:57,488 autoreload 82536 86280 Watching for file changes with StatReloader
+INFO 2024-02-01 19:09:59,040 basehttp 82536 66384 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:09:59,282 basehttp 82536 66384 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50444
+INFO 2024-02-01 19:09:59,383 basehttp 82536 66384 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:10:06,663 basehttp 82536 66384 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:10:06,800 basehttp 82536 66384 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50444
+INFO 2024-02-01 19:10:06,838 basehttp 82536 66384 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:11:45,474 autoreload 82536 86280 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:11:46,401 autoreload 87684 28332 Watching for file changes with StatReloader
+INFO 2024-02-01 19:11:49,868 autoreload 87684 28332 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:11:50,874 autoreload 68600 68784 Watching for file changes with StatReloader
+INFO 2024-02-01 19:11:51,534 basehttp 68600 85576 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:11:51,822 basehttp 68600 85576 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50478
+INFO 2024-02-01 19:11:51,890 basehttp 68600 85576 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:12:32,614 autoreload 68600 68784 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:12:33,493 autoreload 71636 78852 Watching for file changes with StatReloader
+INFO 2024-02-01 19:12:34,023 basehttp 71636 73516 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:12:34,045 basehttp 71636 73516 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,052 basehttp 71636 74672 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,053 basehttp 71636 73516 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,056 basehttp 71636 86844 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,056 basehttp 71636 67376 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,070 basehttp 71636 67376 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,180 basehttp 71636 67376 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,183 basehttp 71636 86844 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,186 basehttp 71636 74672 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,186 basehttp 71636 73516 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,192 basehttp 71636 79488 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,193 basehttp 71636 86844 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,194 basehttp 71636 68648 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,194 basehttp 71636 74672 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,195 basehttp 71636 73516 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,196 basehttp 71636 67376 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,315 basehttp 71636 74672 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,315 basehttp 71636 73516 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,316 basehttp 71636 68648 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,347 basehttp 71636 67376 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50550
+INFO 2024-02-01 19:12:34,434 basehttp 71636 67376 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,434 basehttp 71636 68648 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,443 basehttp 71636 67376 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,444 basehttp 71636 73516 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,444 basehttp 71636 68648 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,444 basehttp 71636 74672 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,455 basehttp 71636 86844 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:12:34,457 basehttp 71636 74672 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,457 basehttp 71636 68648 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:34,457 basehttp 71636 73516 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:12:40,568 basehttp 71636 86844 "GET /static/admin/simpleui-x/waves/waves.min.js.map HTTP/1.1" 200 9739
+INFO 2024-02-01 19:12:40,571 basehttp 71636 68648 "GET /static/admin/simpleui-x/js/axios.min.map HTTP/1.1" 200 117473
+INFO 2024-02-01 19:12:40,610 basehttp 71636 73516 "GET /static/admin/simpleui-x/theme/simpleui.css.map HTTP/1.1" 200 1935
+INFO 2024-02-01 19:12:40,613 basehttp 71636 68648 "GET /static/admin/simpleui-x/css/index.css.map HTTP/1.1" 200 3480
+INFO 2024-02-01 19:12:40,615 basehttp 71636 86844 "GET /static/admin/simpleui-x/css/base.css.map HTTP/1.1" 200 2039
+INFO 2024-02-01 19:12:56,653 autoreload 71636 78852 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:12:57,654 autoreload 41864 75588 Watching for file changes with StatReloader
+INFO 2024-02-01 19:12:59,695 basehttp 41864 84052 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:12:59,983 basehttp 41864 84052 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50554
+INFO 2024-02-01 19:13:00,112 basehttp 41864 84052 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:14:51,434 autoreload 82740 71040 Watching for file changes with StatReloader
+INFO 2024-02-01 19:14:53,495 basehttp 82740 75852 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:14:53,813 basehttp 82740 75852 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50550
+INFO 2024-02-01 19:14:53,852 basehttp 82740 75852 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:15:06,635 basehttp 82740 75852 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:15:06,883 basehttp 82740 75852 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50550
+INFO 2024-02-01 19:15:07,017 basehttp 82740 75852 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:16:43,750 autoreload 82740 71040 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:16:44,737 autoreload 29900 16396 Watching for file changes with StatReloader
+INFO 2024-02-01 19:16:45,218 basehttp 29900 80880 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:16:45,465 basehttp 29900 80880 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50505
+INFO 2024-02-01 19:16:45,587 basehttp 29900 80880 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:16:51,752 basehttp 29900 80880 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 19:16:53,424 basehttp 29900 80880 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 19:18:15,115 autoreload 29900 16396 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:18:16,079 autoreload 86576 25452 Watching for file changes with StatReloader
+INFO 2024-02-01 19:18:28,903 autoreload 86576 25452 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:18:29,814 autoreload 57452 33584 Watching for file changes with StatReloader
+INFO 2024-02-01 19:18:30,297 basehttp 57452 13080 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:18:30,319 basehttp 57452 13080 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,325 basehttp 57452 13080 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,327 basehttp 57452 42712 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,330 basehttp 57452 84844 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,330 basehttp 57452 60136 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,349 basehttp 57452 60136 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,369 basehttp 57452 60136 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,462 basehttp 57452 60136 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,463 basehttp 57452 13080 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,463 basehttp 57452 42712 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,463 basehttp 57452 84844 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,467 basehttp 57452 60136 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,472 basehttp 57452 84844 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,473 basehttp 57452 42712 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,473 basehttp 57452 13080 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,473 basehttp 57452 60136 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,593 basehttp 57452 42712 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,593 basehttp 57452 13080 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,594 basehttp 57452 84844 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,632 basehttp 57452 60136 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:18:30,735 basehttp 57452 84844 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,735 basehttp 57452 13080 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,736 basehttp 57452 60136 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1043
+INFO 2024-02-01 19:18:30,752 basehttp 57452 13080 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,752 basehttp 57452 60136 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,752 basehttp 57452 15048 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,753 basehttp 57452 84844 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,753 basehttp 57452 42712 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,763 basehttp 57452 24624 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:18:30,763 basehttp 57452 13080 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:30,764 basehttp 57452 60136 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:37,577 basehttp 57452 60136 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:38,254 basehttp 57452 60136 "GET /static/admin/simpleui-x/waves/waves.min.js.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:38,255 basehttp 57452 60136 "GET /static/admin/simpleui-x/js/axios.min.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:38,303 basehttp 57452 60136 "GET /static/admin/simpleui-x/css/index.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:38,304 basehttp 57452 13080 "GET /static/admin/simpleui-x/css/base.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:18:38,304 basehttp 57452 24624 "GET /static/admin/simpleui-x/theme/simpleui.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:19:52,866 basehttp 57452 87424 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:19:53,238 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:19:53,305 basehttp 57452 86928 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:19:53,306 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1104
+INFO 2024-02-01 19:20:40,534 basehttp 57452 87424 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:20:40,853 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:20:40,908 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1104
+INFO 2024-02-01 19:20:40,930 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:21:10,498 basehttp 57452 87424 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:21:10,830 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:21:10,873 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1142
+INFO 2024-02-01 19:21:10,878 basehttp 57452 86928 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:21:34,499 basehttp 57452 86928 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:21:34,780 basehttp 57452 86928 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:21:34,924 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:21:34,928 basehttp 57452 86928 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1162
+INFO 2024-02-01 19:21:46,722 basehttp 57452 86928 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:21:46,983 basehttp 57452 86928 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50538
+INFO 2024-02-01 19:21:47,117 basehttp 57452 86928 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1162
+INFO 2024-02-01 19:21:47,120 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:21:58,016 basehttp 57452 87424 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-01 19:21:58,025 basehttp 57452 86928 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-01 19:22:56,779 basehttp 57452 86928 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:22:57,096 basehttp 57452 86928 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-01 19:22:57,162 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:22:57,162 basehttp 57452 86928 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1163
+INFO 2024-02-01 19:23:04,669 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 50843
+INFO 2024-02-01 19:23:04,690 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:04,715 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:23:18,918 basehttp 57452 87424 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:23:19,185 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-01 19:23:19,325 basehttp 57452 86928 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:23:19,326 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1163
+INFO 2024-02-01 19:23:21,889 basehttp 57452 87424 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 50843
+INFO 2024-02-01 19:23:21,913 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:21,948 basehttp 57452 87424 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:23:44,297 basehttp 57452 87424 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:23:44,317 basehttp 57452 87424 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,326 basehttp 57452 86928 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,326 basehttp 57452 87424 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,333 basehttp 57452 83868 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,335 basehttp 57452 68276 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,335 basehttp 57452 83000 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,400 basehttp 57452 83000 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,448 basehttp 57452 83000 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,448 basehttp 57452 83868 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,449 basehttp 57452 68276 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,451 basehttp 57452 86928 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,451 basehttp 57452 87424 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,455 basehttp 57452 83000 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,456 basehttp 57452 86364 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,461 basehttp 57452 86928 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,462 basehttp 57452 87424 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,475 basehttp 57452 87424 "GET /static/admin/simpleui-x/css/index.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,616 basehttp 57452 87424 "GET /static/admin/simpleui-x/waves/waves.min.js.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,639 basehttp 57452 86928 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-01 19:23:44,771 basehttp 57452 86928 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,771 basehttp 57452 87424 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,784 basehttp 57452 68276 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,785 basehttp 57452 86928 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,785 basehttp 57452 83000 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,786 basehttp 57452 86364 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,788 basehttp 57452 87424 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1163
+INFO 2024-02-01 19:23:44,791 basehttp 57452 68276 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,794 basehttp 57452 86928 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,796 basehttp 57452 83000 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,797 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:23:44,870 basehttp 57452 83868 "GET /static/admin/simpleui-x/css/base.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:44,870 basehttp 57452 83000 "GET /static/admin/simpleui-x/theme/simpleui.css.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:45,698 basehttp 57452 83000 "GET /static/admin/simpleui-x/js/axios.min.map HTTP/1.1" 304 0
+INFO 2024-02-01 19:23:54,482 basehttp 57452 83000 "GET /admin/ HTTP/1.1" 200 22214
+INFO 2024-02-01 19:23:54,768 basehttp 57452 83000 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-01 19:23:54,910 basehttp 57452 83000 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 200 1162
+INFO 2024-02-01 19:23:54,913 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:24:53,291 basehttp 57452 83868 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 50843
+INFO 2024-02-01 19:24:53,320 basehttp 57452 83868 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:24:53,410 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:24:53,516 basehttp 57452 83868 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 19:24:58,565 basehttp 57452 83868 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 19:25:00,658 basehttp 57452 83868 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 19:25:02,143 basehttp 57452 83868 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-01 19:25:06,075 basehttp 57452 83868 "GET /admin/collectAndSendEmailAdmin/graduate/?p=3 HTTP/1.1" 200 45501
+INFO 2024-02-01 19:25:06,090 basehttp 57452 83868 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:25:06,105 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:25:07,500 basehttp 57452 83868 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 50872
+INFO 2024-02-01 19:25:07,525 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:25:16,645 basehttp 57452 83868 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 50681
+INFO 2024-02-01 19:25:16,661 basehttp 57452 83868 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:25:16,675 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:26:13,076 basehttp 57452 83868 "GET /admin/auth/user/ HTTP/1.1" 200 34933
+INFO 2024-02-01 19:26:13,096 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:26:13,639 basehttp 57452 83868 "GET /admin/auth/group/ HTTP/1.1" 200 29223
+INFO 2024-02-01 19:26:13,697 basehttp 57452 83868 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-01 19:28:53,521 autoreload 57452 33584 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-01 19:28:54,498 autoreload 87976 13524 Watching for file changes with StatReloader
+INFO 2024-02-01 19:30:29,226 autoreload 87976 13524 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\__init__.py changed, reloading.
+INFO 2024-02-01 19:30:30,123 autoreload 71820 79464 Watching for file changes with StatReloader
+INFO 2024-02-01 19:31:28,284 autoreload 83344 86312 Watching for file changes with StatReloader
+INFO 2024-02-01 19:31:30,521 basehttp 83344 49320 "GET /admin/ HTTP/1.1" 200 22250
+INFO 2024-02-01 19:31:30,549 basehttp 83344 49320 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,555 basehttp 83344 60524 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,556 basehttp 83344 16744 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,557 basehttp 83344 5948 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,559 basehttp 83344 81660 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,592 basehttp 83344 81660 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,592 basehttp 83344 5948 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,669 basehttp 83344 81660 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,671 basehttp 83344 5948 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,671 basehttp 83344 49320 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,674 basehttp 83344 16744 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,675 basehttp 83344 60524 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,675 basehttp 83344 79216 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,677 basehttp 83344 81660 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,680 basehttp 83344 49320 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,681 basehttp 83344 60524 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,738 basehttp 83344 60524 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,738 basehttp 83344 49320 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,738 basehttp 83344 81660 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,794 basehttp 83344 81660 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-01 19:31:30,862 basehttp 83344 81660 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,862 basehttp 83344 49320 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,863 basehttp 83344 60524 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,871 basehttp 83344 60524 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,871 basehttp 83344 79216 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,872 basehttp 83344 49320 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,873 basehttp 83344 5948 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,873 basehttp 83344 81660 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,884 basehttp 83344 79216 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,884 basehttp 83344 60524 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-01 19:31:30,884 basehttp 83344 16744 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:39:49,079 autoreload 85812 92948 Watching for file changes with StatReloader
+INFO 2024-02-02 14:39:50,381 basehttp 85812 75804 "GET / HTTP/1.1" 302 0
+INFO 2024-02-02 14:39:50,544 basehttp 85812 75804 "GET /admin/ HTTP/1.1" 200 22250
+INFO 2024-02-02 14:39:50,589 basehttp 85812 75804 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,593 basehttp 85812 78452 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,600 basehttp 85812 85312 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,602 basehttp 85812 79180 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,603 basehttp 85812 80300 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,611 basehttp 85812 80300 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,695 basehttp 85812 80300 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,697 basehttp 85812 79180 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,698 basehttp 85812 78452 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,698 basehttp 85812 75804 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,698 basehttp 85812 85312 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,701 basehttp 85812 83284 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,710 basehttp 85812 83284 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,710 basehttp 85812 75804 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,710 basehttp 85812 78452 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,711 basehttp 85812 85312 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,867 basehttp 85812 85312 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,868 basehttp 85812 75804 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,868 basehttp 85812 83284 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:50,880 basehttp 85812 78452 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 107460
+WARNING 2024-02-02 14:39:51,926 log 85812 78452 Not Found: /favicon.ico
+WARNING 2024-02-02 14:39:51,927 basehttp 85812 78452 "GET /favicon.ico HTTP/1.1" 404 3043
+INFO 2024-02-02 14:39:52,709 basehttp 85812 78452 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 50551
+INFO 2024-02-02 14:39:52,727 basehttp 85812 78452 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,728 basehttp 85812 83284 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,729 basehttp 85812 75804 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,742 basehttp 85812 75804 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,742 basehttp 85812 78452 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,742 basehttp 85812 83284 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,742 basehttp 85812 85312 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,743 basehttp 85812 80300 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,746 basehttp 85812 75804 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,747 basehttp 85812 78452 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-02 14:39:52,757 basehttp 85812 79180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:39:54,970 basehttp 85812 79180 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 50872
+INFO 2024-02-02 14:39:54,994 basehttp 85812 78452 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mmNm3z8.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:39:54,994 basehttp 85812 79180 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_eX4kiss.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:39:55,006 basehttp 85812 79180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:39:55,030 basehttp 85812 79180 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_JTE2EuK.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:39:55,030 basehttp 85812 78452 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_gzmeNVM.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:39:55,839 basehttp 85812 78452 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 50681
+INFO 2024-02-02 14:39:55,870 basehttp 85812 78452 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:40:12,561 basehttp 85812 78452 "GET /admin/collectAndSendEmailAdmin/graduate/add/?_changelist_filters=p%3D1 HTTP/1.1" 200 15753
+INFO 2024-02-02 14:40:12,588 basehttp 85812 78452 "GET /static/admin/css/forms.css HTTP/1.1" 200 8944
+INFO 2024-02-02 14:40:12,594 basehttp 85812 79180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:40:12,600 basehttp 85812 85312 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-02-02 14:40:12,601 basehttp 85812 83284 "GET /static/admin/js/change_form.js HTTP/1.1" 200 1043
+INFO 2024-02-02 14:40:12,604 basehttp 85812 75804 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2024-02-02 14:40:12,604 basehttp 85812 80300 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19379
+INFO 2024-02-02 14:40:12,668 basehttp 85812 80300 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11297
+INFO 2024-02-02 14:40:12,711 basehttp 85812 75804 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2024-02-02 14:40:12,711 basehttp 85812 80300 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-02-02 14:40:55,965 basehttp 85812 80300 "POST /admin/collectAndSendEmailAdmin/graduate/add/?_changelist_filters=p%3D1 HTTP/1.1" 302 0
+INFO 2024-02-02 14:40:55,988 basehttp 85812 80300 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 50948
+INFO 2024-02-02 14:40:56,029 basehttp 85812 75804 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:40:56,029 basehttp 85812 80300 "GET /media/certificates/img5.webp HTTP/1.1" 200 22728
+INFO 2024-02-02 14:41:28,500 autoreload 85812 92948 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 14:41:29,307 autoreload 17392 92808 Watching for file changes with StatReloader
+INFO 2024-02-02 14:41:31,724 autoreload 17392 92808 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 14:41:32,683 autoreload 70724 81072 Watching for file changes with StatReloader
+INFO 2024-02-02 14:41:33,187 basehttp 70724 87684 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 14:41:33,388 basehttp 70724 87684 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51346
+INFO 2024-02-02 14:41:33,480 basehttp 70724 87684 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 14:41:33,491 basehttp 70724 87684 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:41:48,456 basehttp 70724 87684 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 51809
+INFO 2024-02-02 14:41:48,488 basehttp 70724 87684 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:41:50,089 basehttp 70724 87684 "GET /admin/collectAndSendEmailAdmin/graduate/?p=3 HTTP/1.1" 200 49047
+INFO 2024-02-02 14:41:50,112 basehttp 70724 87684 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e_mrwTeo2.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:41:50,114 basehttp 70724 75584 "GET /media/certificates/mQNsohpj7gyhC92V94f0a7419caa9e0174f397ae8c3e886e.png HTTP/1.1" 200 62301
+INFO 2024-02-02 14:41:50,122 basehttp 70724 75584 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:41:51,542 basehttp 70724 75584 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 51476
+INFO 2024-02-02 14:41:51,561 basehttp 70724 75584 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 14:41:51,581 basehttp 70724 75584 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:42:08,408 autoreload 70724 81072 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\models.py changed, reloading.
+INFO 2024-02-02 14:42:09,298 autoreload 85456 77900 Watching for file changes with StatReloader
+INFO 2024-02-02 14:42:22,735 autoreload 37304 80968 Watching for file changes with StatReloader
+INFO 2024-02-02 14:42:24,288 basehttp 37304 57356 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 14:42:24,521 basehttp 37304 57356 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51348
+INFO 2024-02-02 14:42:24,620 basehttp 37304 57356 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 14:42:24,629 basehttp 37304 57356 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 14:42:51,005 basehttp 37304 57356 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 14:43:04,300 basehttp 37304 57356 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 14:43:04,771 basehttp 37304 57356 "POST /change_audit_status/ HTTP/1.1" 200 58
+WARNING 2024-02-02 15:19:51,831 log 37304 92928 Bad Request: /upload/
+WARNING 2024-02-02 15:19:51,834 basehttp 37304 92928 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:19:51,950 log 37304 92928 Bad Request: /upload/
+WARNING 2024-02-02 15:19:51,951 basehttp 37304 92928 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:19:52,243 log 37304 92928 Bad Request: /upload/
+WARNING 2024-02-02 15:19:52,244 basehttp 37304 92928 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:21:24,114 log 37304 92928 Bad Request: /upload/
+WARNING 2024-02-02 15:21:24,115 basehttp 37304 92928 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:25:33,017 log 37304 59324 Bad Request: /upload/
+WARNING 2024-02-02 15:25:33,018 basehttp 37304 59324 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:26:41,443 autoreload 37304 80968 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:26:42,686 autoreload 68936 86800 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:26:50,722 log 68936 85208 Bad Request: /upload/
+WARNING 2024-02-02 15:26:50,722 basehttp 68936 85208 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:26:59,881 log 68936 85208 Bad Request: /upload/
+WARNING 2024-02-02 15:26:59,882 basehttp 68936 85208 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:27:11,511 autoreload 68988 48656 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:27:12,889 log 68988 69244 Bad Request: /upload/
+WARNING 2024-02-02 15:27:12,889 basehttp 68988 69244 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:27:37,845 autoreload 68988 48656 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:27:38,842 autoreload 79200 36084 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:27:43,500 log 79200 87080 Bad Request: /upload/
+WARNING 2024-02-02 15:27:43,501 basehttp 79200 87080 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:28:37,153 log 79200 87080 Bad Request: /upload/
+WARNING 2024-02-02 15:28:37,154 basehttp 79200 87080 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:28:47,909 log 79200 87080 Bad Request: /upload/
+WARNING 2024-02-02 15:28:47,910 basehttp 79200 87080 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:29:43,672 autoreload 79200 36084 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:29:44,771 autoreload 84032 29976 Watching for file changes with StatReloader
+INFO 2024-02-02 15:31:51,973 autoreload 35672 86112 Watching for file changes with StatReloader
+INFO 2024-02-02 15:32:01,332 autoreload 17248 75296 Watching for file changes with StatReloader
+INFO 2024-02-02 15:32:06,929 autoreload 17248 75296 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:32:07,834 autoreload 12472 73016 Watching for file changes with StatReloader
+INFO 2024-02-02 15:32:10,308 autoreload 12472 73016 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:32:11,263 autoreload 74048 79384 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:32:14,099 log 74048 77812 Bad Request: /upload/
+WARNING 2024-02-02 15:32:14,100 basehttp 74048 77812 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:32:22,110 autoreload 74048 79384 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:32:23,025 autoreload 66596 22312 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:32:23,987 log 66596 2576 Bad Request: /upload/
+WARNING 2024-02-02 15:32:23,988 basehttp 66596 2576 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:32:33,456 log 66596 2576 Bad Request: /upload/
+WARNING 2024-02-02 15:32:33,457 basehttp 66596 2576 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:32:42,064 autoreload 66596 22312 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:32:42,918 autoreload 27900 81352 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:32:44,723 log 27900 65724 Bad Request: /upload/
+WARNING 2024-02-02 15:32:44,724 basehttp 27900 65724 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:33:07,899 log 27900 65724 Bad Request: /upload/
+WARNING 2024-02-02 15:33:07,900 basehttp 27900 65724 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:33:15,474 autoreload 62756 91536 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:33:17,559 log 62756 92516 Bad Request: /upload/
+WARNING 2024-02-02 15:33:17,561 basehttp 62756 92516 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:34:15,304 autoreload 81704 61540 Watching for file changes with StatReloader
+WARNING 2024-02-02 15:34:17,560 log 81704 35944 Bad Request: /upload/
+WARNING 2024-02-02 15:34:17,561 basehttp 81704 35944 "OPTIONS /upload/ HTTP/1.1" 400 45
+WARNING 2024-02-02 15:34:29,419 log 81704 35944 Bad Request: /upload/
+WARNING 2024-02-02 15:34:29,420 basehttp 81704 35944 "OPTIONS /upload/ HTTP/1.1" 400 45
+INFO 2024-02-02 15:35:00,220 autoreload 81704 61540 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\settings.py changed, reloading.
+INFO 2024-02-02 15:35:01,231 autoreload 90952 88448 Watching for file changes with StatReloader
+INFO 2024-02-02 15:35:03,755 basehttp 90952 80880 "OPTIONS /upload/ HTTP/1.1" 200 0
+INFO 2024-02-02 15:35:03,760 views 90952 80880 original file: img4.jpg
+INFO 2024-02-02 15:35:03,763 basehttp 90952 80880 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 15:35:03,772 views 90952 80880 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/LMXFimg4.jpg'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 15:35:03,772 views 90952 80880 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 15:35:03,773 views 90952 80880 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233331123/LMXFimg4.jpg
+INFO 2024-02-02 15:35:03,773 views 90952 80880 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/LMXFimg4.jpg
+INFO 2024-02-02 15:35:03,787 views 90952 80880 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/LMXFimg4.jpg
+INFO 2024-02-02 15:35:03,793 basehttp 90952 80880 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 15:35:12,939 views 90952 80880 original file: file-1706859312935
+INFO 2024-02-02 15:35:12,941 basehttp 90952 80880 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 15:35:12,948 views 90952 80880 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/a4YLfile-1706859312935'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 15:35:12,949 views 90952 80880 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 15:35:12,949 views 90952 80880 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233331123/a4YLfile-1706859312935
+INFO 2024-02-02 15:35:12,950 views 90952 80880 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/a4YLfile-1706859312935
+INFO 2024-02-02 15:35:12,997 views 90952 80880 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/a4YLfile-1706859312935
+INFO 2024-02-02 15:35:13,003 basehttp 90952 80880 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 15:35:20,705 basehttp 90952 52604 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:35:20,915 basehttp 90952 52604 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51459
+INFO 2024-02-02 15:35:20,931 basehttp 90952 52604 "GET /media/certificates/a4YLfile-1706859312935 HTTP/1.1" 200 1318
+INFO 2024-02-02 15:35:20,932 basehttp 90952 83276 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 15:35:20,943 basehttp 90952 83276 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:43:56,987 views 90952 86156 original file: img1.png
+INFO 2024-02-02 15:43:56,991 basehttp 90952 86156 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 15:43:56,998 views 90952 86156 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/fWBcimg1.png'], 'g_name': ['231']}>
+WARNING 2024-02-02 15:43:56,999 log 90952 86156 Bad Request: /graduate_add/
+WARNING 2024-02-02 15:43:57,000 basehttp 90952 86156 "POST /graduate_add/ HTTP/1.1" 400 61
+INFO 2024-02-02 15:44:05,803 basehttp 90952 88016 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:44:05,963 basehttp 90952 88016 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51459
+INFO 2024-02-02 15:44:06,002 basehttp 90952 88016 "GET /media/certificates/a4YLfile-1706859312935 HTTP/1.1" 304 0
+INFO 2024-02-02 15:44:06,003 basehttp 90952 88852 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 15:44:06,009 basehttp 90952 88852 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:44:29,205 basehttp 90952 88852 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:44:29,355 basehttp 90952 88852 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51459
+INFO 2024-02-02 15:44:29,440 basehttp 90952 88852 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:44:45,966 views 90952 86156 original file: file-1706859885963
+INFO 2024-02-02 15:44:45,968 basehttp 90952 86156 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 15:44:45,976 views 90952 86156 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/bWQlfile-1706859885963'], 'g_name': ['231']}>
+WARNING 2024-02-02 15:44:45,977 log 90952 86156 Bad Request: /graduate_add/
+WARNING 2024-02-02 15:44:45,977 basehttp 90952 86156 "POST /graduate_add/ HTTP/1.1" 400 61
+INFO 2024-02-02 15:44:49,532 basehttp 90952 88852 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:44:49,675 basehttp 90952 88852 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51459
+INFO 2024-02-02 15:44:49,703 basehttp 90952 88852 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:49:38,537 views 90952 86156 original file: img4.jpg
+INFO 2024-02-02 15:49:38,539 basehttp 90952 86156 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 15:49:38,544 views 90952 86156 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/J2fDimg4.jpg'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 15:49:38,544 views 90952 86156 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 15:49:38,544 views 90952 86156 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233331123/J2fDimg4.jpg
+INFO 2024-02-02 15:49:38,545 views 90952 86156 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/J2fDimg4.jpg
+INFO 2024-02-02 15:49:38,557 views 90952 86156 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/J2fDimg4.jpg
+INFO 2024-02-02 15:49:38,564 basehttp 90952 86156 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 15:49:42,403 basehttp 90952 88852 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:49:42,578 basehttp 90952 88852 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51439
+INFO 2024-02-02 15:49:42,630 basehttp 90952 88852 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 200 28272
+INFO 2024-02-02 15:49:42,637 basehttp 90952 20936 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:50:16,859 autoreload 90952 88448 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\models.py changed, reloading.
+INFO 2024-02-02 15:50:17,751 autoreload 87716 67412 Watching for file changes with StatReloader
+INFO 2024-02-02 15:53:28,641 autoreload 43048 68624 Watching for file changes with StatReloader
+INFO 2024-02-02 15:53:49,922 autoreload 43048 68624 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 15:53:51,065 autoreload 74856 48656 Watching for file changes with StatReloader
+INFO 2024-02-02 15:53:53,732 basehttp 74856 22708 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:53:53,898 basehttp 74856 22708 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 52116
+INFO 2024-02-02 15:53:53,921 basehttp 74856 22708 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 15:53:53,922 basehttp 74856 39220 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 15:53:53,929 basehttp 74856 39220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:54:11,725 basehttp 74856 39220 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:54:11,853 basehttp 74856 39220 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 52116
+INFO 2024-02-02 15:54:11,875 basehttp 74856 39220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:55:18,849 basehttp 74856 39220 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:55:18,995 basehttp 74856 39220 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 52116
+INFO 2024-02-02 15:55:19,120 basehttp 74856 39220 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 15:55:19,135 basehttp 74856 39220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:55:31,177 basehttp 74856 39220 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 52666
+INFO 2024-02-02 15:55:31,209 basehttp 74856 39220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:55:32,259 basehttp 74856 39220 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 52246
+INFO 2024-02-02 15:55:32,286 basehttp 74856 39220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:56:33,304 views 74856 6548 original file: img6.png
+INFO 2024-02-02 15:56:33,307 basehttp 74856 6548 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 15:56:33,314 views 74856 6548 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321123/1Dlzimg6.png'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.bom']}>
+INFO 2024-02-02 15:56:33,315 views 74856 6548 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 15:56:33,315 views 74856 6548 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321123/1Dlzimg6.png
+INFO 2024-02-02 15:56:33,315 views 74856 6548 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/1Dlzimg6.png
+INFO 2024-02-02 15:56:33,328 views 74856 6548 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/1Dlzimg6.png
+INFO 2024-02-02 15:56:33,336 basehttp 74856 6548 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 15:56:41,670 basehttp 74856 39220 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:56:41,828 basehttp 74856 39220 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51904
+INFO 2024-02-02 15:56:41,844 basehttp 74856 22708 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 15:56:41,857 basehttp 74856 22708 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 15:56:41,861 basehttp 74856 39220 "GET /media/certificates/1Dlzimg6.png HTTP/1.1" 200 1228208
+INFO 2024-02-02 15:56:47,795 basehttp 74856 39220 "GET /static/admin/simpleui-x/waves/waves.min.js.map HTTP/1.1" 304 0
+INFO 2024-02-02 15:56:47,798 basehttp 74856 39220 "GET /static/admin/simpleui-x/js/axios.min.map HTTP/1.1" 304 0
+INFO 2024-02-02 15:56:47,868 basehttp 74856 39220 "GET /static/admin/simpleui-x/css/index.css.map HTTP/1.1" 304 0
+INFO 2024-02-02 15:56:47,869 basehttp 74856 22708 "GET /static/admin/simpleui-x/theme/simpleui.css.map HTTP/1.1" 304 0
+INFO 2024-02-02 15:56:47,869 basehttp 74856 85216 "GET /static/admin/simpleui-x/css/base.css.map HTTP/1.1" 304 0
+INFO 2024-02-02 15:58:30,552 basehttp 74856 71228 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 15:58:30,898 basehttp 74856 71228 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51904
+INFO 2024-02-02 15:58:30,925 basehttp 74856 71228 "GET /media/certificates/1Dlzimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 15:58:30,926 basehttp 74856 78232 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 15:58:30,943 basehttp 74856 78232 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:00:36,570 autoreload 74856 48656 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:00:37,955 autoreload 80096 81312 Watching for file changes with StatReloader
+INFO 2024-02-02 16:00:52,508 views 80096 1048 original file: file-1706860852500
+INFO 2024-02-02 16:00:52,511 basehttp 80096 1048 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 16:00:52,517 views 80096 1048 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321123/cX4Nfile-1706860852500'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.bom']}>
+INFO 2024-02-02 16:00:52,518 views 80096 1048 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:00:52,518 views 80096 1048 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321123/cX4Nfile-1706860852500
+INFO 2024-02-02 16:00:52,519 views 80096 1048 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/cX4Nfile-1706860852500
+INFO 2024-02-02 16:00:52,565 views 80096 1048 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/cX4Nfile-1706860852500
+INFO 2024-02-02 16:00:52,572 basehttp 80096 1048 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:00:55,458 basehttp 80096 72368 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:00:55,715 basehttp 80096 72368 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51934
+INFO 2024-02-02 16:00:55,764 basehttp 80096 89180 "GET /media/certificates/J2fDimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:00:55,765 basehttp 80096 72368 "GET /media/certificates/cX4Nfile-1706860852500 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:00:55,774 basehttp 80096 62824 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:01:06,055 basehttp 80096 67956 "GET /media/certificates/cX4Nfile-1706860852500 HTTP/1.1" 304 0
+INFO 2024-02-02 16:01:22,802 views 80096 88976 original file: img7.png
+INFO 2024-02-02 16:01:22,805 basehttp 80096 88976 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:01:22,809 views 80096 88976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321123/RzNqimg7.png'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.bom']}>
+INFO 2024-02-02 16:01:22,810 views 80096 88976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:01:22,810 views 80096 88976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321123/RzNqimg7.png
+INFO 2024-02-02 16:01:22,810 views 80096 88976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/RzNqimg7.png
+INFO 2024-02-02 16:01:22,824 views 80096 88976 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/RzNqimg7.png
+INFO 2024-02-02 16:01:22,832 basehttp 80096 88976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:01:25,508 basehttp 80096 88268 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:01:25,819 basehttp 80096 88268 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51914
+INFO 2024-02-02 16:01:25,877 basehttp 80096 89868 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:01:25,883 basehttp 80096 88268 "GET /media/certificates/RzNqimg7.png HTTP/1.1" 200 311043
+INFO 2024-02-02 16:01:25,896 basehttp 80096 88268 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:01:37,267 views 80096 74632 original file: file-1706860897262
+INFO 2024-02-02 16:01:37,269 basehttp 80096 74632 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 16:01:37,276 views 80096 74632 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321123/E2Y0file-1706860897262'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.bom']}>
+INFO 2024-02-02 16:01:37,276 views 80096 74632 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:01:37,276 views 80096 74632 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321123/E2Y0file-1706860897262
+INFO 2024-02-02 16:01:37,277 views 80096 74632 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/E2Y0file-1706860897262
+INFO 2024-02-02 16:01:37,284 views 80096 74632 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321123/E2Y0file-1706860897262
+INFO 2024-02-02 16:01:37,291 basehttp 80096 74632 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:05:25,719 views 80096 74632 original file: img5.webp
+INFO 2024-02-02 16:05:25,722 basehttp 80096 74632 "POST /upload/ HTTP/1.1" 200 100
+INFO 2024-02-02 16:05:25,726 views 80096 74632 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/Ft91img5.webp'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:05:25,727 views 80096 74632 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:05:25,727 views 80096 74632 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233331123/Ft91img5.webp
+INFO 2024-02-02 16:05:25,728 views 80096 74632 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/Ft91img5.webp
+INFO 2024-02-02 16:05:25,744 views 80096 74632 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/Ft91img5.webp
+INFO 2024-02-02 16:05:25,752 basehttp 80096 74632 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:05:29,446 basehttp 80096 91780 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:05:29,668 basehttp 80096 91780 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51920
+INFO 2024-02-02 16:05:29,729 basehttp 80096 91780 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:29,739 basehttp 80096 28460 "GET /media/certificates/Ft91img5.webp HTTP/1.1" 200 22728
+INFO 2024-02-02 16:05:29,743 basehttp 80096 91780 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:05:42,092 basehttp 80096 87476 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:42,979 basehttp 80096 73988 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:42,985 basehttp 80096 49140 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:42,997 basehttp 80096 58856 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,009 basehttp 80096 92636 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,016 basehttp 80096 81364 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,021 basehttp 80096 16068 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,027 basehttp 80096 20576 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,039 basehttp 80096 89748 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,045 basehttp 80096 2736 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,071 basehttp 80096 86204 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,370 basehttp 80096 64604 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,378 basehttp 80096 84368 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,391 basehttp 80096 79760 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,397 basehttp 80096 83580 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,403 basehttp 80096 93116 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:05:43,409 basehttp 80096 80464 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:20,509 basehttp 80096 89524 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:20,517 basehttp 80096 22296 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,000 basehttp 80096 56948 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,028 basehttp 80096 10836 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,045 basehttp 80096 74852 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,075 basehttp 80096 29436 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,084 basehttp 80096 75852 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,111 basehttp 80096 67396 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,134 basehttp 80096 46800 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,172 basehttp 80096 57008 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:21,374 basehttp 80096 66216 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:22,717 basehttp 80096 90144 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:22,732 basehttp 80096 85468 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:06:22,745 basehttp 80096 89604 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:09:57,110 views 80096 25976 original file: img6.png
+INFO 2024-02-02 16:09:57,113 basehttp 80096 25976 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:09:57,118 views 80096 25976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202133331123/7IGGimg6.png'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202133331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:09:57,119 views 80096 25976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:09:57,119 views 80096 25976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202133331123/7IGGimg6.png
+INFO 2024-02-02 16:09:57,120 views 80096 25976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/7IGGimg6.png
+INFO 2024-02-02 16:09:57,136 views 80096 25976 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/7IGGimg6.png
+INFO 2024-02-02 16:09:57,143 basehttp 80096 25976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:10:00,370 basehttp 80096 77180 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:10:00,591 basehttp 80096 77180 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51732
+INFO 2024-02-02 16:10:00,656 basehttp 80096 92348 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:00,668 basehttp 80096 77180 "GET /media/certificates/7IGGimg6.png HTTP/1.1" 200 1228208
+INFO 2024-02-02 16:10:00,672 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:10:00,783 basehttp 80096 92348 "GET /media/certificates/Ft91img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:00,786 basehttp 80096 92348 "GET /media/certificates/img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:11,875 views 80096 25976 original file: file-1706861411871
+INFO 2024-02-02 16:10:11,877 basehttp 80096 25976 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 16:10:11,881 views 80096 25976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202133331123/Gc8Cfile-1706861411871'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202133331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:10:11,882 views 80096 25976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:10:11,882 views 80096 25976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202133331123/Gc8Cfile-1706861411871
+INFO 2024-02-02 16:10:11,883 views 80096 25976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/Gc8Cfile-1706861411871
+INFO 2024-02-02 16:10:11,891 views 80096 25976 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/Gc8Cfile-1706861411871
+INFO 2024-02-02 16:10:11,898 basehttp 80096 25976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:10:15,016 basehttp 80096 92348 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:10:15,205 basehttp 80096 92348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51752
+INFO 2024-02-02 16:10:15,260 basehttp 80096 92348 "GET /media/certificates/Gc8Cfile-1706861411871 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:10:15,277 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:10:24,840 basehttp 80096 92348 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:10:25,023 basehttp 80096 92348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51752
+INFO 2024-02-02 16:10:25,076 basehttp 80096 92348 "GET /media/certificates/Gc8Cfile-1706861411871 HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:25,093 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:10:31,970 basehttp 80096 92348 "GET /media/certificates/Gc8Cfile-1706861411871 HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:35,345 basehttp 80096 92348 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:10:35,495 basehttp 80096 92348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51752
+INFO 2024-02-02 16:10:35,534 basehttp 80096 92348 "GET /media/certificates/Gc8Cfile-1706861411871 HTTP/1.1" 304 0
+INFO 2024-02-02 16:10:35,548 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:10:35,620 basehttp 80096 92348 "GET /media/certificates/Ft91img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:00,776 views 80096 25976 original file: img7.png
+INFO 2024-02-02 16:11:00,778 basehttp 80096 25976 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:11:00,782 views 80096 25976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202133331123/QQ5nimg7.png'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202133331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:11:00,783 views 80096 25976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:11:00,784 views 80096 25976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202133331123/QQ5nimg7.png
+INFO 2024-02-02 16:11:00,784 views 80096 25976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/QQ5nimg7.png
+INFO 2024-02-02 16:11:00,800 views 80096 25976 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202133331123/QQ5nimg7.png
+INFO 2024-02-02 16:11:00,809 basehttp 80096 25976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:11:03,340 basehttp 80096 92348 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:11:03,488 basehttp 80096 92348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51732
+INFO 2024-02-02 16:11:03,504 basehttp 80096 77180 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:03,511 basehttp 80096 92348 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 200 311043
+INFO 2024-02-02 16:11:03,515 basehttp 80096 77180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:11:24,406 views 80096 25976 original file: img6.png
+INFO 2024-02-02 16:11:24,409 basehttp 80096 25976 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:11:24,413 views 80096 25976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233331123/sEEWimg6.png'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233331123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:11:24,414 views 80096 25976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:11:24,414 views 80096 25976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233331123/sEEWimg6.png
+INFO 2024-02-02 16:11:24,414 views 80096 25976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/sEEWimg6.png
+INFO 2024-02-02 16:11:24,426 views 80096 25976 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233331123/sEEWimg6.png
+INFO 2024-02-02 16:11:24,434 basehttp 80096 25976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:11:26,366 basehttp 80096 77180 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:11:26,481 basehttp 80096 77180 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51730
+INFO 2024-02-02 16:11:26,495 basehttp 80096 77180 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:26,504 basehttp 80096 77180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:11:26,533 basehttp 80096 77180 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 200 1228208
+INFO 2024-02-02 16:11:28,813 basehttp 80096 77180 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:11:28,930 basehttp 80096 77180 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51730
+INFO 2024-02-02 16:11:28,970 basehttp 80096 77180 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:28,976 basehttp 80096 77180 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:28,984 basehttp 80096 77180 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:11:56,096 views 80096 25976 original file: img5.webp
+INFO 2024-02-02 16:11:56,097 basehttp 80096 25976 "POST /upload/ HTTP/1.1" 200 100
+INFO 2024-02-02 16:11:56,102 views 80096 25976 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321119/vAB9img5.webp'], 'g_name': ['2312313'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321119'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:11:56,103 views 80096 25976 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:11:56,103 views 80096 25976 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321119/vAB9img5.webp
+INFO 2024-02-02 16:11:56,103 views 80096 25976 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321119/vAB9img5.webp
+INFO 2024-02-02 16:11:56,118 views 80096 25976 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321119/vAB9img5.webp
+INFO 2024-02-02 16:11:56,126 basehttp 80096 25976 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:11:58,656 basehttp 80096 77180 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:11:58,773 basehttp 80096 77180 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51732
+INFO 2024-02-02 16:11:58,787 basehttp 80096 92348 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:11:58,793 basehttp 80096 77180 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 200 22728
+INFO 2024-02-02 16:11:58,796 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:11:58,814 basehttp 80096 92348 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:12:01,998 basehttp 80096 92348 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:12:02,111 basehttp 80096 92348 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51732
+INFO 2024-02-02 16:12:02,153 basehttp 80096 92348 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:12:02,153 basehttp 80096 77180 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 304 0
+INFO 2024-02-02 16:12:02,159 basehttp 80096 92348 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:12:02,169 basehttp 80096 92348 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:14:10,964 autoreload 80096 81312 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:14:11,875 autoreload 23284 62824 Watching for file changes with StatReloader
+INFO 2024-02-02 16:14:30,155 basehttp 23284 72680 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:14:30,358 basehttp 23284 72680 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51732
+INFO 2024-02-02 16:14:30,448 basehttp 23284 72680 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:14:30,449 basehttp 23284 68488 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:14:30,459 basehttp 23284 72680 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 304 0
+INFO 2024-02-02 16:14:30,463 basehttp 23284 68488 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:14:30,464 basehttp 23284 72368 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:14:33,720 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:35,616 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:36,451 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:37,350 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:39,773 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:42,165 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:43,410 basehttp 23284 72368 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:14:51,142 basehttp 23284 72368 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 16:15:29,981 autoreload 23284 62824 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 16:15:30,897 autoreload 92228 83732 Watching for file changes with StatReloader
+INFO 2024-02-02 16:15:37,670 basehttp 92228 70072 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:15:37,851 basehttp 92228 70072 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51739
+INFO 2024-02-02 16:15:37,938 basehttp 92228 76468 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:15:37,938 basehttp 92228 70072 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:15:37,944 basehttp 92228 70072 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:15:37,951 basehttp 92228 76468 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 200 5713
+INFO 2024-02-02 16:15:37,954 basehttp 92228 70072 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:15:48,184 basehttp 92228 70072 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 16:17:44,024 autoreload 92228 83732 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:17:44,864 autoreload 87884 19580 Watching for file changes with StatReloader
+INFO 2024-02-02 16:18:39,781 basehttp 87884 73828 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 16:18:44,624 basehttp 87884 73828 "POST /generate_word/ HTTP/1.1" 200 10733
+INFO 2024-02-02 16:20:16,788 autoreload 87884 19580 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:20:17,800 autoreload 46716 48912 Watching for file changes with StatReloader
+INFO 2024-02-02 16:24:52,466 autoreload 46716 48912 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:24:53,295 autoreload 90436 80796 Watching for file changes with StatReloader
+INFO 2024-02-02 16:26:03,996 autoreload 90436 80796 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:26:04,781 autoreload 88196 4788 Watching for file changes with StatReloader
+INFO 2024-02-02 16:26:15,470 autoreload 88196 4788 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:26:16,313 autoreload 89356 89152 Watching for file changes with StatReloader
+INFO 2024-02-02 16:26:33,196 views 89356 86508 original file: img1.png
+INFO 2024-02-02 16:26:33,200 basehttp 89356 86508 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:26:33,205 views 89356 86508 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321219/mz0Yimg1.png'], 'g_name': ['2312313'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321219'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:26:33,206 views 89356 86508 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:26:33,206 views 89356 86508 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321219/mz0Yimg1.png
+INFO 2024-02-02 16:26:33,206 views 89356 86508 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321219/mz0Yimg1.png
+INFO 2024-02-02 16:26:33,227 views 89356 86508 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321219/mz0Yimg1.png
+ERROR 2024-02-02 16:26:33,348 log 89356 86508 Internal Server Error: /graduate_add/
+Traceback (most recent call last):
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\aSoftware\Anaconda\envs\py3.8\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py", line 90, in graduate_add
+    send_email(
+TypeError: send_email() missing 1 required positional argument: 'image_file'
+ERROR 2024-02-02 16:26:33,351 basehttp 89356 86508 "POST /graduate_add/ HTTP/1.1" 500 73086
+INFO 2024-02-02 16:29:45,672 autoreload 89356 89152 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:29:46,537 autoreload 72060 78896 Watching for file changes with StatReloader
+INFO 2024-02-02 16:29:56,674 views 72060 11816 original file: file-1706862596667
+INFO 2024-02-02 16:29:56,676 basehttp 72060 11816 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 16:29:56,680 views 72060 11816 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233321219/yn94file-1706862596667'], 'g_name': ['2312313'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233321219'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:29:56,681 views 72060 11816 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:29:56,681 views 72060 11816 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233321219/yn94file-1706862596667
+INFO 2024-02-02 16:29:56,681 views 72060 11816 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321219/yn94file-1706862596667
+INFO 2024-02-02 16:29:56,690 views 72060 11816 graduate_add() >> update django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233321219/yn94file-1706862596667
+INFO 2024-02-02 16:29:56,698 basehttp 72060 11816 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:31:16,452 views 72060 91284 original file: img7.png
+INFO 2024-02-02 16:31:16,457 basehttp 72060 91284 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:31:16,502 views 72060 91284 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233121219/F1Ewimg7.png'], 'g_name': ['2312313'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233121219'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:31:16,502 views 72060 91284 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:31:16,503 views 72060 91284 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233121219/F1Ewimg7.png
+INFO 2024-02-02 16:31:16,503 views 72060 91284 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233121219/F1Ewimg7.png
+INFO 2024-02-02 16:31:16,527 views 72060 91284 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233121219/F1Ewimg7.png
+INFO 2024-02-02 16:31:18,140 basehttp 72060 91284 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:32:28,547 autoreload 72060 78896 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:32:29,408 autoreload 25852 49292 Watching for file changes with StatReloader
+INFO 2024-02-02 16:33:04,383 views 25852 77484 original file: 心理学1.png
+INFO 2024-02-02 16:33:04,387 basehttp 25852 77484 "POST /upload/ HTTP/1.1" 200 123
+INFO 2024-02-02 16:33:04,397 views 25852 77484 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521201233331127/8y7E%E5%BF%83%E7%90%86%E5%AD%A61.png'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521201233331127'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:33:04,398 views 25852 77484 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:33:04,398 views 25852 77484 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521201233331127/8y7E%E5%BF%83%E7%90%86%E5%AD%A61.png
+INFO 2024-02-02 16:33:04,399 views 25852 77484 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521201233331127/8y7E%E5%BF%83%E7%90%86%E5%AD%A61.png
+WARNING 2024-02-02 16:33:04,399 log 25852 77484 Bad Request: /graduate_add/
+WARNING 2024-02-02 16:33:04,400 basehttp 25852 77484 "POST /graduate_add/ HTTP/1.1" 400 43
+INFO 2024-02-02 16:34:05,047 autoreload 25852 49292 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:34:05,846 autoreload 69572 84416 Watching for file changes with StatReloader
+INFO 2024-02-02 16:34:47,563 autoreload 69572 84416 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:34:48,463 autoreload 86476 90668 Watching for file changes with StatReloader
+INFO 2024-02-02 16:35:18,880 autoreload 86476 90668 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:35:19,906 autoreload 91120 72728 Watching for file changes with StatReloader
+INFO 2024-02-02 16:35:29,421 views 91120 79752 original file: img4.jpg
+INFO 2024-02-02 16:35:29,426 basehttp 91120 79752 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:35:29,433 views 91120 79752 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521201231331129/S4fXimg4.jpg'], 'g_name': ['231'], 'g_sex': ['0'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521201231331129'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:35:29,433 views 91120 79752 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:35:29,434 views 91120 79752 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521201231331129/S4fXimg4.jpg
+INFO 2024-02-02 16:35:29,434 views 91120 79752 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521201231331129/S4fXimg4.jpg
+INFO 2024-02-02 16:35:29,451 views 91120 79752 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521201231331129/S4fXimg4.jpg
+INFO 2024-02-02 16:35:30,867 basehttp 91120 79752 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:35:55,611 autoreload 91120 72728 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:35:56,458 autoreload 78784 74792 Watching for file changes with StatReloader
+INFO 2024-02-02 16:36:24,774 autoreload 78784 74792 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:36:25,628 autoreload 90508 81856 Watching for file changes with StatReloader
+INFO 2024-02-02 16:37:49,959 autoreload 90508 81856 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:37:50,847 autoreload 8568 15048 Watching for file changes with StatReloader
+INFO 2024-02-02 16:38:30,502 autoreload 8568 15048 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:38:31,563 autoreload 61136 53044 Watching for file changes with StatReloader
+INFO 2024-02-02 16:38:34,509 basehttp 61136 89504 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:38:34,748 basehttp 61136 89504 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51737
+INFO 2024-02-02 16:38:34,782 basehttp 61136 89504 "GET /static/css/audit_graduate_v4.css HTTP/1.1" 304 0
+INFO 2024-02-02 16:38:34,787 basehttp 61136 12480 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 200 28272
+INFO 2024-02-02 16:38:34,794 basehttp 61136 89504 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:38:34,802 basehttp 61136 12480 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-02-02 16:38:34,811 log 61136 85684 Not Found: /media/certificates/F1Ewimg7.png
+WARNING 2024-02-02 16:38:34,811 basehttp 61136 85684 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 404 3362
+WARNING 2024-02-02 16:38:34,895 log 61136 85684 Not Found: /media/certificates/yn94file-1706862596667
+WARNING 2024-02-02 16:38:34,896 log 61136 12480 Not Found: /media/certificates/vAB9img5.webp
+WARNING 2024-02-02 16:38:34,896 basehttp 61136 85684 "GET /media/certificates/yn94file-1706862596667 HTTP/1.1" 404 3402
+WARNING 2024-02-02 16:38:34,896 basehttp 61136 12480 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 404 3366
+INFO 2024-02-02 16:38:38,956 basehttp 61136 12480 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 51883
+WARNING 2024-02-02 16:38:38,986 log 61136 85684 Not Found: /media/certificates/E2Y0file-1706860897262
+WARNING 2024-02-02 16:38:38,987 log 61136 12480 Not Found: /media/certificates/QQ5nimg7.png
+WARNING 2024-02-02 16:38:38,988 basehttp 61136 85684 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 404 3402
+WARNING 2024-02-02 16:38:38,989 basehttp 61136 12480 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 404 3362
+INFO 2024-02-02 16:38:38,991 basehttp 61136 89504 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-02-02 16:38:39,031 log 61136 89504 Not Found: /media/certificates/sEEWimg6.png
+WARNING 2024-02-02 16:38:39,032 log 61136 12480 Not Found: /media/certificates/img5.webp
+WARNING 2024-02-02 16:38:39,032 basehttp 61136 89504 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 404 3362
+WARNING 2024-02-02 16:38:39,033 basehttp 61136 12480 "GET /media/certificates/img5.webp HTTP/1.1" 404 3350
+INFO 2024-02-02 16:38:40,277 basehttp 61136 12480 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 51867
+WARNING 2024-02-02 16:38:40,310 log 61136 12480 Not Found: /media/certificates/F1Ewimg7.png
+WARNING 2024-02-02 16:38:40,311 basehttp 61136 12480 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 404 3362
+WARNING 2024-02-02 16:38:40,313 log 61136 89504 Not Found: /media/certificates/yn94file-1706862596667
+WARNING 2024-02-02 16:38:40,314 basehttp 61136 89504 "GET /media/certificates/yn94file-1706862596667 HTTP/1.1" 404 3402
+INFO 2024-02-02 16:38:40,315 basehttp 61136 85684 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+WARNING 2024-02-02 16:38:40,355 log 61136 85684 Not Found: /media/certificates/vAB9img5.webp
+WARNING 2024-02-02 16:38:40,355 basehttp 61136 85684 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 404 3366
+INFO 2024-02-02 16:40:11,952 basehttp 61136 20752 "GET /admin/ HTTP/1.1" 200 22237
+INFO 2024-02-02 16:40:12,197 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51737
+INFO 2024-02-02 16:40:12,259 basehttp 61136 20752 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:40:12,262 basehttp 61136 90636 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 200 311043
+INFO 2024-02-02 16:40:12,271 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:12,439 basehttp 61136 20752 "GET /media/certificates/yn94file-1706862596667 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:40:12,439 basehttp 61136 90636 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 200 22728
+INFO 2024-02-02 16:40:18,653 basehttp 61136 90636 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 6467
+INFO 2024-02-02 16:40:18,697 basehttp 61136 90636 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2024-02-02 16:40:20,079 basehttp 61136 90636 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-02-02 16:40:20,101 basehttp 61136 90636 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 51797
+INFO 2024-02-02 16:40:20,125 basehttp 61136 90636 "GET /media/certificates/QQ5nimg7.png HTTP/1.1" 200 311043
+INFO 2024-02-02 16:40:20,139 basehttp 61136 90636 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:23,459 basehttp 61136 90636 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 52074
+INFO 2024-02-02 16:40:23,486 basehttp 61136 90636 "GET /media/certificates/E2Y0file-1706860897262 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:40:23,492 basehttp 61136 72012 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:23,497 basehttp 61136 20752 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 200 1228208
+INFO 2024-02-02 16:40:23,519 basehttp 61136 20752 "GET /media/certificates/img5.webp HTTP/1.1" 200 22728
+INFO 2024-02-02 16:40:25,163 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=3 HTTP/1.1" 200 52617
+INFO 2024-02-02 16:40:25,209 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:26,800 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 52074
+INFO 2024-02-02 16:40:26,839 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:29,870 basehttp 61136 20752 "POST /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 6463
+INFO 2024-02-02 16:40:31,148 basehttp 61136 20752 "POST /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 302 0
+INFO 2024-02-02 16:40:31,172 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=2 HTTP/1.1" 200 52330
+INFO 2024-02-02 16:40:31,215 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:33,235 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=3 HTTP/1.1" 200 52666
+INFO 2024-02-02 16:40:33,273 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:34,029 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=4 HTTP/1.1" 200 52784
+INFO 2024-02-02 16:40:34,063 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:40:36,438 basehttp 61136 20752 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 51840
+INFO 2024-02-02 16:40:36,478 basehttp 61136 20752 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:41:26,719 basehttp 61136 56704 "POST /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 6463
+INFO 2024-02-02 16:41:26,747 basehttp 61136 56704 "GET /static/admin/simpleui-x/elementui/theme-chalk/index.css HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,759 basehttp 61136 69164 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/css/all.min.css HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,760 basehttp 61136 56704 "GET /static/admin/simpleui-x/theme/simpleui.css HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,764 basehttp 61136 19948 "GET /static/admin/simpleui-x/css/base.css?_=2.7 HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,767 basehttp 61136 69164 "GET /static/admin/simpleui-x/js/vue.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,772 basehttp 61136 56704 "GET /static/admin/simpleui-x/elementui/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,778 basehttp 61136 19948 "GET /static/admin/simpleui-x/locale/en-us.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,778 basehttp 61136 69164 "GET /static/admin/simpleui-x/js/language.js?_=2.1.2 HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,782 basehttp 61136 56704 "GET /static/admin/simpleui-x/locale/zh-hans.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,783 basehttp 61136 55372 "GET /static/admin/simpleui-x/js/cookie.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:26,783 basehttp 61136 23036 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:30,197 basehttp 61136 68276 "POST /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 302 0
+INFO 2024-02-02 16:41:30,231 basehttp 61136 68276 "GET /admin/collectAndSendEmailAdmin/graduate/?p=1 HTTP/1.1" 200 51943
+INFO 2024-02-02 16:41:30,258 basehttp 61136 68276 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:30,260 basehttp 61136 91536 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:30,268 basehttp 61136 84052 "GET /static/admin/simpleui-x/automatic/segment.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:30,274 basehttp 61136 68276 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:41:30,274 basehttp 61136 85608 "GET /static/admin/simpleui-x/automatic/dicts.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:30,275 basehttp 61136 85452 "GET /static/admin/simpleui-x/js/axios.min.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:41:58,853 basehttp 61136 92144 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:41:59,536 basehttp 61136 29084 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 16:42:01,621 basehttp 61136 29084 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:42:47,304 autoreload 61136 53044 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:42:48,424 autoreload 87440 80088 Watching for file changes with StatReloader
+INFO 2024-02-02 16:43:02,343 autoreload 87440 80088 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 16:43:03,434 autoreload 79784 83068 Watching for file changes with StatReloader
+INFO 2024-02-02 16:43:10,176 basehttp 79784 87932 "GET /admin/ HTTP/1.1" 200 22206
+INFO 2024-02-02 16:43:10,218 basehttp 79784 87932 "GET /static/admin/simpleui-x/css/index.css?_=3.2 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,219 basehttp 79784 81160 "GET /static/admin/simpleui-x/waves/waves.min.css?_=2.1 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,223 basehttp 79784 55228 "GET /static/admin/simpleui-x/img/logo.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,298 basehttp 79784 55228 "GET /static/admin/simpleui-x/automatic/dicts.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,298 basehttp 79784 81160 "GET /static/admin/simpleui-x/automatic/segment.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,354 basehttp 79784 81160 "GET /static/admin/simpleui-x/locale/en-us.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,359 basehttp 79784 55228 "GET /static/admin/simpleui-x/locale/zh-hans.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,362 basehttp 79784 87932 "GET /static/admin/simpleui-x/js/cookie.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,365 basehttp 79784 72280 "GET /static/admin/simpleui-x/theme/theme.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,367 basehttp 79784 81160 "GET /static/admin/simpleui-x/js/index.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,369 basehttp 79784 140 "GET /static/admin/simpleui-x/waves/waves.min.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,370 basehttp 79784 84456 "GET /static/admin/simpleui-x/js/menu.js?_=2023.12.12 HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,530 basehttp 79784 84456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 68273
+INFO 2024-02-02 16:43:10,612 basehttp 79784 84456 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,612 basehttp 79784 140 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:10,618 basehttp 79784 81160 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:43:10,741 basehttp 79784 81160 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:31,428 autoreload 79784 83068 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
+INFO 2024-02-02 16:43:32,412 autoreload 16008 75804 Watching for file changes with StatReloader
+INFO 2024-02-02 16:43:33,049 basehttp 16008 72320 "GET /admin/ HTTP/1.1" 200 22206
+INFO 2024-02-02 16:43:33,277 basehttp 16008 72320 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54336
+INFO 2024-02-02 16:43:33,362 basehttp 16008 72320 "GET /media/certificates/sEEWimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:33,375 basehttp 16008 72320 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:43:57,524 basehttp 16008 70456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54336
+INFO 2024-02-02 16:43:57,540 basehttp 16008 70456 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:43:57,549 basehttp 16008 70456 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:44:00,399 basehttp 16008 70456 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54336
+INFO 2024-02-02 16:44:00,435 basehttp 16008 70456 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:44:14,209 basehttp 16008 91240 "GET /admin/ HTTP/1.1" 200 22206
+INFO 2024-02-02 16:44:14,349 basehttp 16008 91240 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54336
+INFO 2024-02-02 16:44:14,408 basehttp 16008 8444 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:44:14,411 basehttp 16008 91240 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:47:14,356 autoreload 16008 75804 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:47:15,163 autoreload 88572 85256 Watching for file changes with StatReloader
+INFO 2024-02-02 16:47:21,765 autoreload 88572 85256 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:47:22,585 autoreload 68000 77460 Watching for file changes with StatReloader
+INFO 2024-02-02 16:47:26,084 autoreload 68000 77460 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:47:27,106 autoreload 35944 82404 Watching for file changes with StatReloader
+INFO 2024-02-02 16:47:38,372 views 35944 91560 original file: img6.png
+INFO 2024-02-02 16:47:38,378 basehttp 35944 91560 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:47:38,388 views 35944 91560 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233231123/NZUTimg6.png'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233231123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:47:38,389 views 35944 91560 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:47:38,389 views 35944 91560 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233231123/NZUTimg6.png
+INFO 2024-02-02 16:47:38,390 views 35944 91560 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233231123/NZUTimg6.png
+INFO 2024-02-02 16:47:38,406 views 35944 91560 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233231123/NZUTimg6.png
+INFO 2024-02-02 16:47:39,896 basehttp 35944 91560 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:50:12,645 autoreload 35944 82404 D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\collectAndSendEmailAdmin\views.py changed, reloading.
+INFO 2024-02-02 16:50:13,628 autoreload 73972 70712 Watching for file changes with StatReloader
+INFO 2024-02-02 16:50:24,410 views 73972 23764 original file: file-1706863824401
+INFO 2024-02-02 16:50:24,412 basehttp 73972 23764 "POST /upload/ HTTP/1.1" 200 109
+INFO 2024-02-02 16:50:24,418 views 73972 23764 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521202233211123/rUKHfile-1706863824401'], 'g_name': ['231'], 'g_sex': ['1'], 'g_college': ['213'], 'g_major': ['123'], 'g_year': ['2020'], 'g_id_no': ['371521202233211123'], 'g_phone': ['15022221140'], 'g_mailing_address': ['23213'], 'g_email': ['123@qq.com']}>
+INFO 2024-02-02 16:50:24,419 views 73972 23764 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:50:24,419 views 73972 23764 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521202233211123/rUKHfile-1706863824401
+INFO 2024-02-02 16:50:24,420 views 73972 23764 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233211123/rUKHfile-1706863824401
+INFO 2024-02-02 16:50:24,428 views 73972 23764 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521202233211123/rUKHfile-1706863824401
+INFO 2024-02-02 16:50:25,870 basehttp 73972 23764 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:50:45,159 basehttp 73972 91808 "GET /admin/ HTTP/1.1" 200 22206
+INFO 2024-02-02 16:50:45,336 basehttp 73972 81236 "GET /static/admin/simpleui-x/elementui/theme-chalk/fonts/element-icons.woff HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,336 basehttp 73972 91808 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,339 basehttp 73972 86912 "GET /static/admin/simpleui-x/fontawesome-free-6.2.0-web/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,454 basehttp 73972 86912 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54339
+INFO 2024-02-02 16:50:45,573 basehttp 73972 86912 "GET /media/certificates/rUKHfile-1706863824401 HTTP/1.1" 200 1318
+INFO 2024-02-02 16:50:45,577 basehttp 73972 86912 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,583 basehttp 73972 81236 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,585 basehttp 73972 68316 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:45,590 basehttp 73972 86912 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:50:45,594 basehttp 73972 91808 "GET /media/certificates/NZUTimg6.png HTTP/1.1" 200 1228208
+INFO 2024-02-02 16:50:45,617 basehttp 73972 91808 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:52,315 basehttp 73972 91808 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=0 HTTP/1.1" 200 49218
+INFO 2024-02-02 16:50:52,332 basehttp 73972 91808 "GET /media/certificates/rUKHfile-1706863824401 HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:52,349 basehttp 73972 91808 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:50:54,961 basehttp 73972 91808 "GET /admin/collectAndSendEmailAdmin/graduate/?audit_status__exact=0 HTTP/1.1" 200 49218
+INFO 2024-02-02 16:50:54,980 basehttp 73972 91808 "GET /media/certificates/rUKHfile-1706863824401 HTTP/1.1" 304 0
+INFO 2024-02-02 16:50:54,999 basehttp 73972 91808 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:50:56,934 basehttp 73972 91808 "GET /admin/collectAndSendEmailAdmin/graduate/? HTTP/1.1" 200 54339
+INFO 2024-02-02 16:50:56,961 basehttp 73972 91808 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:54:12,803 views 73972 23764 original file: img4.jpg
+INFO 2024-02-02 16:54:12,807 basehttp 73972 23764 "POST /upload/ HTTP/1.1" 200 99
+INFO 2024-02-02 16:54:12,822 views 73972 23764 graduate_add() >> request.POST: <QueryDict: {'g_cert_pic': ['media/certificates/2024/02/02/371521201133331122/WKezimg4.jpg'], 'g_name': ['张千一'], 'g_sex': ['1'], 'g_college': ['信息科学与工程学院'], 'g_major': ['计算机科学与技术'], 'g_year': ['2020'], 'g_id_no': ['371521201133331122'], 'g_phone': ['15022221140'], 'g_mailing_address': ['甘肃省兰州市榆中县\n兰州大学（榆中校区）'], 'g_email': ['zhangqy2016@lzu.edu.cn']}>
+INFO 2024-02-02 16:54:12,823 views 73972 23764 graduate_add() >> settings.BASE_DIR: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin
+INFO 2024-02-02 16:54:12,823 views 73972 23764 graduate_add() >> relative_pic_path: media/certificates/2024/02/02/371521201133331122/WKezimg4.jpg
+INFO 2024-02-02 16:54:12,823 views 73972 23764 graduate_add() >> full_path: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521201133331122/WKezimg4.jpg
+INFO 2024-02-02 16:54:12,842 views 73972 23764 graduate_add() >> create django_file: D:\aItems\2024-01-02-副业-学校管理科邮件发送\collectAndSendEmailAdmin\media/certificates/2024/02/02/371521201133331122/WKezimg4.jpg
+INFO 2024-02-02 16:54:14,231 basehttp 73972 23764 "POST /graduate_add/ HTTP/1.1" 200 82
+INFO 2024-02-02 16:54:32,333 basehttp 73972 91808 "GET /admin/ HTTP/1.1" 200 22206
+INFO 2024-02-02 16:54:32,640 basehttp 73972 91808 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54452
+INFO 2024-02-02 16:54:32,730 basehttp 73972 86912 "GET /media/certificates/rUKHfile-1706863824401 HTTP/1.1" 304 0
+INFO 2024-02-02 16:54:32,735 basehttp 73972 68316 "GET /static/js/audit_graduate_v5.js HTTP/1.1" 304 0
+INFO 2024-02-02 16:54:32,741 basehttp 73972 86912 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:54:32,748 basehttp 73972 91808 "GET /media/certificates/WKezimg4.jpg HTTP/1.1" 200 28272
+INFO 2024-02-02 16:54:32,801 basehttp 73972 91808 "GET /media/certificates/NZUTimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:54:32,801 basehttp 73972 86912 "GET /media/certificates/S4fXimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:54:32,812 basehttp 73972 86912 "GET /media/certificates/F1Ewimg7.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:54:40,236 basehttp 73972 86788 "POST /change_audit_status/ HTTP/1.1" 200 58
+INFO 2024-02-02 16:54:42,134 basehttp 73972 86788 "POST /generate_word/ HTTP/1.1" 200 10780
+INFO 2024-02-02 16:54:58,535 basehttp 73972 83208 "POST /handle_send_email/ HTTP/1.1" 200 107
+INFO 2024-02-02 16:55:26,637 basehttp 73972 68068 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54449
+INFO 2024-02-02 16:55:26,659 basehttp 73972 68068 "GET /media/certificates/WKezimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:55:26,660 basehttp 73972 89984 "GET /media/certificates/rUKHfile-1706863824401 HTTP/1.1" 304 0
+INFO 2024-02-02 16:55:26,685 basehttp 73972 68068 "GET /media/certificates/NZUTimg6.png HTTP/1.1" 304 0
+INFO 2024-02-02 16:55:26,796 basehttp 73972 68068 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2024-02-02 16:55:58,844 basehttp 73972 51992 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 6463
+INFO 2024-02-02 16:56:00,045 basehttp 73972 51992 "POST /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 302 0
+INFO 2024-02-02 16:56:00,063 basehttp 73972 51992 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54519
+INFO 2024-02-02 16:56:00,080 basehttp 73972 51992 "GET /media/certificates/WKezimg4.jpg HTTP/1.1" 304 0
+INFO 2024-02-02 16:56:00,084 basehttp 73972 53448 "GET /media/certificates/vAB9img5.webp HTTP/1.1" 304 0
+INFO 2024-02-02 16:56:00,092 basehttp 73972 53448 "GET /admin/jsi18n/ HTTP/1.1" 200 8603

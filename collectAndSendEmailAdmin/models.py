@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator, RegexValidator
 import datetime
+from django.utils import timezone
 
 # 预设常量 - 开始
 SEX_TYPE = (
@@ -73,9 +74,11 @@ class Graduate(models.Model):
         validators=[RegexValidator(r'\d{11}', message="无效的联系方式")]
     )
     g_mailing_address = models.TextField(max_length=1024, verbose_name="邮寄地址")
+    g_email = models.TextField(max_length=1024, verbose_name="邮箱")
     audit_status = models.IntegerField(choices=AUDIT_STATUS_CHOICES, default=0, verbose_name="审核状态")
     email_status = models.IntegerField(choices=EMAIL_STATUS_CHOICES, default=0, verbose_name="邮件发送状态")
     email_sent_time = models.DateTimeField(null=True, blank=True, verbose_name="邮件发送时间")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="创建时间")
 
 
     class Meta:
