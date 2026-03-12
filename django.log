@@ -4379,3 +4379,21 @@ INFO 2026-03-13 01:04:13,352 basehttp 63412 43484 "POST /change_audit_status/ HT
 INFO 2026-03-13 01:04:20,075 basehttp 63412 43484 "POST /change_audit_status/ HTTP/1.1" 200 58
 INFO 2026-03-13 01:05:10,550 autoreload 63412 51540 D:\aItems\2025-12-18-学校-无高校学生登记证明-重置版\collectAndSendEmailAdmin\collectAndSendEmailAdmin\admin.py changed, reloading.
 INFO 2026-03-13 01:05:11,165 autoreload 60640 27032 Watching for file changes with StatReloader
+INFO 2026-03-13 01:07:52,413 basehttp 60640 58804 "GET /admin/ HTTP/1.1" 200 15044
+INFO 2026-03-13 01:07:52,596 basehttp 60640 58804 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54961
+INFO 2026-03-13 01:07:52,614 basehttp 60640 62220 "GET /static/css/audit_graduate_v4.css?v=5 HTTP/1.1" 200 7695
+INFO 2026-03-13 01:07:52,620 basehttp 60640 58804 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2026-03-13 01:07:52,621 basehttp 60640 62220 "GET /media/certificates/5pQXUo.png HTTP/1.1" 304 0
+INFO 2026-03-13 01:07:52,622 basehttp 60640 63304 "GET /media/certificates/znAIud.png HTTP/1.1" 304 0
+INFO 2026-03-13 01:07:52,626 basehttp 60640 62220 "GET /media/certificates/ig9pimage1.jpg HTTP/1.1" 304 0
+INFO 2026-03-13 01:07:52,626 basehttp 60640 63304 "GET /media/certificates/kxxzimage1.jpg HTTP/1.1" 304 0
+INFO 2026-03-13 01:07:52,631 basehttp 60640 63304 "GET /media/certificates/S0acimage1.jpg HTTP/1.1" 304 0
+WARNING 2026-03-13 01:08:00,832 log 60640 63304 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2026-03-13 01:08:00,832 basehttp 60640 63304 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3154
+INFO 2026-03-13 01:09:48,476 basehttp 60640 63304 "GET /admin/ HTTP/1.1" 200 15044
+INFO 2026-03-13 01:09:48,594 basehttp 60640 63304 "GET /admin/collectAndSendEmailAdmin/graduate/ HTTP/1.1" 200 54961
+INFO 2026-03-13 01:09:48,612 basehttp 60640 63304 "GET /static/css/audit_graduate_v4.css?v=6 HTTP/1.1" 200 8245
+INFO 2026-03-13 01:09:48,617 basehttp 60640 62220 "GET /admin/jsi18n/ HTTP/1.1" 200 8603
+INFO 2026-03-13 01:09:48,618 basehttp 60640 58804 "GET /media/certificates/znAIud.png HTTP/1.1" 304 0
+INFO 2026-03-13 01:09:48,619 basehttp 60640 63304 "GET /media/certificates/5pQXUo.png HTTP/1.1" 304 0
+INFO 2026-03-13 01:10:08,697 basehttp 60640 63304 "GET /static/admin/simpleui-x/theme/ant.design.css HTTP/1.1" 200 4479
