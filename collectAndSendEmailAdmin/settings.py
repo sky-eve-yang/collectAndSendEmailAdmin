@@ -40,6 +40,14 @@ INSTALLED_APPS = [
 ]
 
 SIMPLEUI_ANALYSIS = False
+# 后台管理页面：兰大 logo 与标题
+SIMPLEUI_LOGO = '/media/logo.jpg'  # 侧边栏 logo，需确保 media/logo.jpg 存在
+# 主题与界面优化
+SIMPLEUI_DEFAULT_THEME = 'admin.lte.css'  # Admin LTE 风格，简洁专业
+SIMPLEUI_HOME_INFO = False   # 隐藏首页服务器信息
+SIMPLEUI_HOME_QUICK = False  # 隐藏快速操作
+SIMPLEUI_HOME_ACTION = False # 隐藏最近动作
+SIMPLEUI_LOADING = False     # 关闭 Loading 遮罩
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -64,7 +72,7 @@ ROOT_URLCONF = "collectAndSendEmailAdmin.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'collectAndSendEmail/templates')],
+        "DIRS": [os.path.join(BASE_DIR, 'collectAndSendEmail/templates'), os.path.join(BASE_DIR, 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -161,7 +169,8 @@ USE_L10N = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [str(BASE_DIR / "static")] if (BASE_DIR / "static").exists() else []
 MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
@@ -169,3 +178,27 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+# 邮件 SMTP 配置：本地测试(DEBUG=True)用 QQ 邮箱，部署(DEBUG=False)用兰大邮箱；环境变量可覆盖
+if DEBUG:
+    # 本地测试 - QQ 邮箱（465 端口 SSL 更稳定，587 易出现 Connection closed）
+    EMAIL_SMTP_SERVER = os.environ.get("EMAIL_SMTP_SERVER", "smtp.qq.com")
+    EMAIL_SMTP_PORT = int(os.environ.get("EMAIL_SMTP_PORT", "465"))
+    EMAIL_SMTP_USER = os.environ.get("EMAIL_SMTP_USER", "1326906378@qq.com")
+    EMAIL_SMTP_PASSWORD = os.environ.get("EMAIL_SMTP_PASSWORD", "dzsmoyphmiypjiab")
+    EMAIL_SENDER = os.environ.get("EMAIL_SENDER", "1326906378@qq.com")
+    EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER", "1326906378@qq.com")
+    EMAIL_CC = os.environ.get("EMAIL_CC", "1326906378@qq.com")
+    EMAIL_USE_SSL = os.environ.get("EMAIL_USE_SSL", "true").lower() in ("1", "true", "yes")  # 465 需 SSL
+    EMAIL_USE_STARTTLS = os.environ.get("EMAIL_USE_STARTTLS", "false").lower() in ("1", "true", "yes")  # 465 不用 starttls
+else:
+    # 部署到服务器 - 兰大邮箱
+    EMAIL_SMTP_SERVER = os.environ.get("EMAIL_SMTP_SERVER", "smtp.lzu.edu.cn")
+    EMAIL_SMTP_PORT = int(os.environ.get("EMAIL_SMTP_PORT", "25"))
+    EMAIL_SMTP_USER = os.environ.get("EMAIL_SMTP_USER", "xscglk@lzu.edu.cn")
+    EMAIL_SMTP_PASSWORD = os.environ.get("EMAIL_SMTP_PASSWORD", "aeAqjvJfprXFADz2")
+    EMAIL_SENDER = os.environ.get("EMAIL_SENDER", "xscglk@lzu.edu.cn")
+    EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER", "dangag@lzu.edu.cn")
+    EMAIL_CC = os.environ.get("EMAIL_CC", "xscglk@lzu.edu.cn")
+    EMAIL_USE_SSL = os.environ.get("EMAIL_USE_SSL", "false").lower() in ("1", "true", "yes")
+    EMAIL_USE_STARTTLS = os.environ.get("EMAIL_USE_STARTTLS", "true").lower() in ("1", "true", "yes")

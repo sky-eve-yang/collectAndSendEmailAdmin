@@ -4,12 +4,18 @@ from django.utils.html import format_html
 from .models import Graduate
 from django.contrib import messages
 
+# 兰大相关：后台管理页面标题（浏览器标签页、顶部栏、首页）
+admin.site.site_header = '兰州大学 - 毕业生无登记表证明管理'
+admin.site.site_title = '兰大毕业生证明管理'
+admin.site.index_title = '欢迎使用毕业生无登记表证明管理系统'
+
 class GraduateForm(forms.ModelForm):
     class Meta:
         model = Graduate
         fields = '__all__'
 
 class GraduateAdmin(admin.ModelAdmin):
+    change_list_template = 'admin/collectAndSendEmailAdmin/graduate/change_list.html'
     list_per_page = 5  # 每页显示10个对象
 
 
@@ -29,7 +35,7 @@ class GraduateAdmin(admin.ModelAdmin):
         if obj.g_cert_pic:
             return format_html(
                 '<a href="{}" target="_blank">'
-                '<img class="cert-preview" src="{}" width="150" style="border: 1px solid #ddd; padding: 5px;" />'
+                '<img class="cert-preview" src="{}" width="100" style="border: 1px solid #ddd; padding: 5px; max-width: 100px;" />'
                 '</a>',
                 obj.g_cert_pic.url, obj.g_cert_pic.url
             )
@@ -38,21 +44,24 @@ class GraduateAdmin(admin.ModelAdmin):
 
     # 审核相关
     def audit_status_display(self, obj):
-        audit_status_class = "audit-status"
-        
+        base_class = "audit-status"
+        status_map = {0: "audit-pending", 1: "audit-pass", 2: "audit-reject"}
+        extra_class = status_map.get(obj.audit_status, "")
         return format_html(
-            '<span class="{}" data-id="{}">{}</span>',
-            audit_status_class, obj.id, obj.get_audit_status_display()
+            '<span class="{} {}" data-id="{}">{}</span>',
+            base_class, extra_class, obj.id, obj.get_audit_status_display()
         )
     audit_status_display.short_description = "审核状态"
 
 
     # 邮件相关
     def email_status_display(self, obj):
-        email_status_class = "email-status"
+        base_class = "email-status"
+        status_map = {0: "email-pending", 1: "email-success", 2: "email-fail"}
+        extra_class = status_map.get(obj.email_status, "")
         return format_html(
-            '<span class="{}" data-id="{}">{}</span>',
-            email_status_class, obj.id, obj.get_email_status_display()
+            '<span class="{} {}" data-id="{}">{}</span>',
+            base_class, extra_class, obj.id, obj.get_email_status_display()
         )
     email_status_display.short_description = "邮件发送状态"
 

@@ -1,0 +1,307 @@
+/* 兰大毕业生证明管理 - 后台列表样式（兼容 SimpleUI + Element UI） */
+
+/* ========== 字体与渲染 ========== */
+#changelist,
+#result_list,
+.el-table {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ========== 表格（兼容 Django 原生 #result_list 与 SimpleUI el-table） ========== */
+#result_list,
+.el-table {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* 表格单元格基础：防止文字挤压 */
+#result_list th,
+#result_list td,
+.el-table td,
+.el-table th,
+.el-table .cell {
+    padding: 12px 10px;
+    vertical-align: middle;
+    min-width: 60px;  /* 单元格最小宽度，避免极端挤压 */
+}
+
+/* Element UI 表格单元格内文字 */
+.el-table .cell {
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal !important;
+    line-height: 1.5;
+}
+
+/* ========== 字段与证书预览（缓解文字挤压） ========== */
+/* 邮寄地址、邮箱：保证最小宽度，自然换行，避免单字竖排 */
+.field-g_mailing_address,
+.field-g_email,
+td.field-g_mailing_address,
+td.field-g_email {
+    min-width: 120px !important;
+    max-width: 240px;
+    word-wrap: break-word;
+    word-break: break-word;  /* 按词换行，避免 break-all 导致单字竖排 */
+    overflow-wrap: break-word;
+    white-space: normal !important;
+    line-height: 1.5;
+}
+
+/* 其他易挤压的文本列 */
+.field-g_college,
+.field-g_major,
+.field-g_name,
+.field-g_phone {
+    min-width: 70px;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.cert-preview,
+img.cert-preview {
+    border-radius: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 100px !important;
+    height: auto !important;
+}
+
+/* 证书列最小宽度，避免挤压相邻列 */
+.field-g_cert_pic,
+.field-cert_preview {
+    min-width: 90px;
+    max-width: 120px;
+}
+
+.cert-preview:hover,
+img.cert-preview:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ========== 状态标签 ========== */
+.audit-status,
+.email-status {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.audit-pending, .email-pending { background: #f0f2f5; color: #606266; }
+.audit-pass, .email-success    { background: #d4edda; color: #155724; }
+.audit-reject, .email-fail     { background: #f8d7da; color: #721c24; }
+
+.field-email_status_display .email-status {
+    min-width: 56px;
+    text-align: center;
+}
+
+/* ========== 操作按钮（提高优先级以覆盖 Element UI） ========== */
+button.approve-button,
+button.reject-button,
+button.send-email-btn,
+button.generate-word-btn {
+    border: none !important;
+    padding: 6px 14px !important;
+    border-radius: 6px !important;
+    cursor: pointer;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s;
+    margin: 2px 4px 2px 0 !important;
+    white-space: nowrap;  /* 按钮文字不换行，避免「发送邮件（至档」/「案馆）」断行 */
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* 通过 - 绿色 */
+button.approve-button {
+    background: #28a745 !important;
+    color: #fff !important;
+}
+
+button.approve-button:hover:not(.btn-disabled) {
+    background: #218838 !important;
+    transform: translateY(-1px);
+}
+
+/* 不通过 - 红色 */
+button.reject-button {
+    background: #dc3545 !important;
+    color: #fff !important;
+}
+
+button.reject-button:hover:not(.btn-disabled) {
+    background: #c82333 !important;
+    transform: translateY(-1px);
+}
+
+button.send-email-btn {
+    background: #007bff !important;
+    color: #fff !important;
+    min-width: 165px;  /* 保证「发送邮件（至档案馆）」单行显示 */
+}
+
+button.send-email-btn:hover:not(.btn-disabled) {
+    background: #0056b3 !important;
+    transform: translateY(-1px);
+}
+
+button.sent-email {
+    background: #6c9bd4 !important;
+    color: #fff !important;
+}
+
+button.generate-word-btn {
+    background: #6f42c1 !important;
+    color: #fff !important;
+    min-width: 110px;
+}
+
+button.generate-word-btn:hover:not(.btn-disabled) {
+    background: #5a3d8a !important;
+    transform: translateY(-1px);
+}
+
+button.btn-disabled {
+    background: #e9ecef !important;
+    color: #adb5bd !important;
+    cursor: not-allowed !important;
+}
+
+button.btn-disabled:hover {
+    transform: none !important;
+}
+
+/* ========== 响应式：适配不同尺寸 PC ========== */
+
+/* 大屏 (≥1600px) */
+@media (min-width: 1600px) {
+    #result_list th, #result_list td,
+    .el-table td, .el-table th {
+        padding: 14px 12px;
+    }
+    .field-g_mailing_address, .field-g_email {
+        max-width: 220px;
+    }
+    img.cert-preview {
+        max-width: 180px;
+    }
+}
+
+/* 中屏 (1200px - 1599px) - 默认基准 */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    #result_list th, #result_list td,
+    .el-table td, .el-table th {
+        padding: 12px 10px;
+    }
+    img.cert-preview {
+        max-width: 150px;
+    }
+}
+
+/* 小屏 PC (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #result_list th, #result_list td,
+    .el-table td, .el-table th {
+        padding: 10px 8px;
+        font-size: 13px;
+    }
+    .field-g_mailing_address, .field-g_email {
+        min-width: 100px !important;
+        max-width: 160px;
+    }
+    img.cert-preview {
+        max-width: 120px;
+        width: 120px !important;
+    }
+    button.approve-button, button.reject-button,
+    button.send-email-btn, button.generate-word-btn {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
+    }
+    button.send-email-btn { min-width: 150px; }
+    button.generate-word-btn { min-width: 100px; }
+    .audit-status, .email-status {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+}
+
+/* 窄屏 PC / 平板横屏 (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #result_list, .el-table {
+        font-size: 12px;
+    }
+    #result_list th, #result_list td,
+    .el-table td, .el-table th {
+        padding: 8px 6px;
+    }
+    .field-g_mailing_address, .field-g_email {
+        min-width: 90px !important;
+        max-width: 130px;
+    }
+    img.cert-preview {
+        max-width: 90px;
+        width: 90px !important;
+    }
+    button.approve-button, button.reject-button,
+    button.send-email-btn, button.generate-word-btn {
+        padding: 4px 8px !important;
+        font-size: 11px !important;
+        margin: 1px 2px 1px 0 !important;
+    }
+    button.send-email-btn { min-width: 140px; }
+    button.generate-word-btn { min-width: 95px; }
+    .audit-status, .email-status {
+        padding: 2px 6px;
+        font-size: 11px;
+    }
+}
+
+/* 最小 PC (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #result_list, .el-table {
+        font-size: 11px;
+    }
+    #result_list th, #result_list td,
+    .el-table td, .el-table th {
+        padding: 6px 4px;
+    }
+    .field-g_mailing_address, .field-g_email {
+        min-width: 80px !important;
+        max-width: 110px;
+    }
+    img.cert-preview {
+        max-width: 70px;
+        width: 70px !important;
+    }
+    button.approve-button, button.reject-button,
+    button.send-email-btn, button.generate-word-btn {
+        padding: 3px 6px !important;
+        font-size: 10px !important;
+    }
+    button.send-email-btn { min-width: 130px; }
+    button.generate-word-btn { min-width: 80px; }
+}
+
+/* 表格横向滚动（窄屏时避免挤压，保证列宽） */
+@media (max-width: 991px) {
+    #changelist-form,
+    .el-table__body-wrapper,
+    .content {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    #result_list {
+        min-width: 1100px;  /* 保证各列有足够宽度，避免挤压 */
+    }
+    .el-table {
+        min-width: 1100px;
+    }
+}

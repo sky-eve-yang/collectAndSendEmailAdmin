@@ -20,7 +20,7 @@ from email.mime.image import MIMEImage
 from django.http import HttpResponse
 from docx import Document
 from docx.shared import Inches
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 
 logger = logging.getLogger('django')
@@ -36,15 +36,31 @@ def graduate_add(request):
     if not g_id_no:
         return JsonResponse({'error': '身份证号是必须的'}, status=400)
 
-    # 处理图像数据
-    relative_pic_path  = data.get('g_cert_pic')
-    full_path = os.path.join(settings.BASE_DIR, relative_pic_path)
-    # 确保文件存在
-    logger.info("graduate_add() >> settings.BASE_DIR: %s", settings.BASE_DIR)
-    logger.info("graduate_add() >> relative_pic_path: %s", relative_pic_path)
-    logger.info("graduate_add() >> full_path: %s", full_path)
+    # 处理图像数据：支持 media/xxx、certificates/xxx、/media/xxx、URL 编码等格式
+    relative_pic_path = (data.get('g_cert_pic') or '').strip()
+    relative_pic_path = unquote(relative_pic_path)  # 解码 %E6%AF%95 等 URL 编码
+    if not relative_pic_path:
+        return JsonResponse({'error': '证书照片路径不能为空'}, status=400)
+    # 去除可能的前缀：http(s)://host、前导斜杠
+    path_part = relative_pic_path
+    if '://' in path_part:
+        path_part = path_part.split('://', 1)[1]  # 去掉 http(s)://
+        if '/' in path_part:
+            path_part = path_part.split('/', 1)[1]  # 去掉 host，保留 path
+    path_part = path_part.lstrip('/').replace('\\', '/')
+    # 若以 media/ 开头，转为相对 MEDIA_ROOT 的路径；否则视为已在 media 下的路径
+    if path_part.startswith('media/'):
+        path_part = path_part[6:].lstrip('/')  # 去掉 media/
+    full_path = os.path.join(settings.MEDIA_ROOT, path_part)
+    full_path = os.path.normpath(full_path)
+    # 安全检查：确保解析后的路径仍在 MEDIA_ROOT 下
+    media_root_real = os.path.realpath(settings.MEDIA_ROOT)
+    if not os.path.realpath(full_path).startswith(media_root_real):
+        logger.warning("graduate_add() >> 路径越界: full_path=%s", full_path)
+        return JsonResponse({'error': '无效的证书照片路径'}, status=400)
+    logger.info("graduate_add() >> relative_pic_path: %s, full_path: %s", relative_pic_path, full_path)
     if not os.path.exists(full_path):
-        return JsonResponse({'error': '文件不存在'}, status=400)
+        return JsonResponse({'error': '文件不存在', 'path': full_path}, status=400)
 
     # 查询或创建记录
     graduate, created = Graduate.objects.get_or_create(
@@ -92,31 +108,27 @@ def graduate_add(request):
             logger.info("graduate_add() >> create django_file: %s", django_file)
             graduate.g_cert_pic.save(os.path.basename(full_path), django_file)
         
-        send_email(
-            ## 兰大邮箱配置
-            sender_email="xscglk@lzu.edu.cn", 
-            receiver_email="dangag@lzu.edu.cn",
-            smtp_server="smtp.lzu.edu.cn",
-            smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-            smtp_user="xscglk@lzu.edu.cn",
-            smtp_password="aeAqjvJfprXFADz2",
-            cc_emails=["xscglk@lzu.edu.cn"],  # 抄送人列表
-            
-
-            # QQ 邮箱配置
-            # sender_email="1326906378@qq.com",
-            # receiver_email="1326906378@qq.com",
-            # smtp_server="smtp.qq.com",
-            # smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-            # smtp_user="1326906378@qq.com",
-            # smtp_password="wdgcqzgdilbagjff",
-            # cc_emails=["1326906378@qq.com"],  # 抄送人列表
-            
-
+        cc_list = [s.strip() for s in getattr(settings, 'EMAIL_CC', '').split(',') if s.strip()]
+        res = send_email(
+            sender_email=getattr(settings, 'EMAIL_SENDER', ''),
+            receiver_email=getattr(settings, 'EMAIL_RECEIVER', ''),
+            smtp_server=getattr(settings, 'EMAIL_SMTP_SERVER', ''),
+            smtp_port=getattr(settings, 'EMAIL_SMTP_PORT', 25),
+            smtp_user=getattr(settings, 'EMAIL_SMTP_USER', ''),
+            smtp_password=getattr(settings, 'EMAIL_SMTP_PASSWORD', ''),
+            cc_emails=cc_list or [getattr(settings, 'EMAIL_SENDER', '')],
             subject="新的待办：毕业生无学生登记表证明事宜",
-            body=email_body
+            body=email_body,
+            use_starttls=getattr(settings, 'EMAIL_USE_STARTTLS', True),
+            use_ssl=getattr(settings, 'EMAIL_USE_SSL', False),
         )
-        return JsonResponse({'message': '毕业生信息已创建', 'graduate_id': graduate.id}, status=200)
+        if res["status"] == 200:
+            return JsonResponse({'message': '毕业生信息已创建', 'graduate_id': graduate.id}, status=200)
+        return JsonResponse({
+            'message': '毕业生信息已创建，但通知邮件发送失败',
+            'graduate_id': graduate.id,
+            'email_error': res.get('msg', '未知错误'),
+        }, status=200)
     else:
         # 更新记录
         graduate.g_name = data.get('g_name', graduate.g_name).strip()
@@ -172,30 +184,20 @@ def handle_send_email(request):
     '''.format(name=student_name, gender=gender, id=id_number, college=college, major=major, year=graduation_year)
 
 
+    cc_list = [s.strip() for s in getattr(settings, 'EMAIL_CC', '').split(',') if s.strip()]
     res = send_email(
-        ## 兰大邮箱配置
-        sender_email="xscglk@lzu.edu.cn", 
-        receiver_email="dangag@lzu.edu.cn",
-        smtp_server="smtp.lzu.edu.cn",
-        smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-        smtp_user="xscglk@lzu.edu.cn",
-        smtp_password="aeAqjvJfprXFADz2",
-        cc_emails=["xscglk@lzu.edu.cn"],  # 抄送人列表
-        
-
-        # QQ 邮箱配置
-        # sender_email="1326906378@qq.com",
-        # receiver_email="wangby2020@lzu.edu.cn",
-        # smtp_server="smtp.qq.com",
-        # smtp_port=25,  # SMTP 端口，通常为 587 (TLS)
-        # smtp_user="1326906378@qq.com",
-        # smtp_password="wdgcqzgdilbagjff",
-        # cc_emails=["1326906378@qq.com"],  # 抄送人列表
-        
-
+        sender_email=getattr(settings, 'EMAIL_SENDER', ''),
+        receiver_email=getattr(settings, 'EMAIL_RECEIVER', ''),
+        smtp_server=getattr(settings, 'EMAIL_SMTP_SERVER', ''),
+        smtp_port=getattr(settings, 'EMAIL_SMTP_PORT', 25),
+        smtp_user=getattr(settings, 'EMAIL_SMTP_USER', ''),
+        smtp_password=getattr(settings, 'EMAIL_SMTP_PASSWORD', ''),
+        cc_emails=cc_list or [getattr(settings, 'EMAIL_SENDER', '')],
         subject="请核对双证是否齐全",
         image_file=image_file,
-        body=email_body
+        body=email_body,
+        use_starttls=getattr(settings, 'EMAIL_USE_STARTTLS', True),
+        use_ssl=getattr(settings, 'EMAIL_USE_SSL', False),
     )
 
     if res["status"] == 200:
@@ -216,7 +218,11 @@ def handle_send_email(request):
     else:
         graduate.email_status = 2
         graduate.save()
-        return JsonResponse({'messsage': 'Mail sending failure', 'code': 501}, status=501)
+        return JsonResponse({
+            'messsage': 'Mail sending failure',
+            'code': 501,
+            'email_error': res.get('msg', '未知错误'),
+        }, status=501)
 
     return JsonResponse({"message": "测试通过"}, status=200)
 
@@ -302,38 +308,54 @@ def index(request):
 '''
 001-发送邮件
 '''
-def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_server, smtp_port, smtp_user, smtp_password, image_file=None):
-    # 创建 MIME 多部分消息对象
-    msg = MIMEMultipart()
-    msg['From'] = sender_email
-    msg['To'] = receiver_email
-    msg['CC'] = ', '.join(cc_emails)  # 添加抄送人列表
-    msg['Subject'] = subject
+def send_email(sender_email, receiver_email, cc_emails, subject, body, smtp_server, smtp_port, smtp_user, smtp_password, image_file=None, use_starttls=True, use_ssl=False):
+    try:
+        # 创建 MIME 多部分消息对象
+        msg = MIMEMultipart()
+        msg['From'] = sender_email
+        msg['To'] = receiver_email
+        msg['CC'] = ', '.join(cc_emails)  # 添加抄送人列表
+        msg['Subject'] = subject
 
-    # 添加邮件正文
-    msg.attach(MIMEText(body, 'plain'))  # 添加邮件正文
-    print("邮件正文添加成功！")
+        # 添加邮件正文
+        msg.attach(MIMEText(body, 'plain'))  # 添加邮件正文
+        logger.info("邮件正文添加成功")
 
-    # 如果提供了图片文件，则添加图片作为附件
-    if image_file:
-        img = MIMEImage(image_file.read())
-        img.add_header('Content-Disposition', 'attachment', filename=image_file.name)
-        msg.attach(img)
+        # 如果提供了图片文件，则添加图片作为附件
+        if image_file:
+            img = MIMEImage(image_file.read())
+            img.add_header('Content-Disposition', 'attachment', filename=image_file.name)
+            msg.attach(img)
 
-    # 合并收件人和抄送人列表
-    to_addresses = [receiver_email] + cc_emails
+        # 合并收件人和抄送人列表
+        to_addresses = [receiver_email] + cc_emails
 
-    # 创建 SMTP 服务器的连接
-    server = smtplib.SMTP(smtp_server, smtp_port)
-    server.starttls()  # 启动 TLS 加密
-    server.login(smtp_user, smtp_password)  # 登录 SMTP 服务器
+        # 创建 SMTP 连接：465 端口用 SSL，587/25 用 STARTTLS
+        if use_ssl:
+            server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        else:
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            if use_starttls:
+                server.starttls()  # 启动 TLS 加密
+        server.login(smtp_user, smtp_password)  # 登录 SMTP 服务器
 
-    # 发送邮件
-    server.sendmail(sender_email, to_addresses, msg.as_string())
-    print("邮件成功发送！")
-
-    server.quit()  # 关闭 SMTP 服务器的连接
-    return {"status": 200, "msg": 'success'}
+        # 发送邮件
+        server.sendmail(sender_email, to_addresses, msg.as_string())
+        logger.info("邮件成功发送")
+        server.quit()  # 关闭 SMTP 服务器的连接
+        return {"status": 200, "msg": "success"}
+    except smtplib.SMTPAuthenticationError as e:
+        err_msg = "SMTP 认证失败（账号或密码错误，或需使用授权码）: {}".format(e)
+        logger.exception(err_msg)
+        return {"status": 535, "msg": err_msg}
+    except smtplib.SMTPException as e:
+        err_msg = "SMTP 错误: {}".format(e)
+        logger.exception(err_msg)
+        return {"status": 500, "msg": err_msg}
+    except Exception as e:
+        err_msg = "发送邮件异常: {}".format(e)
+        logger.exception(err_msg)
+        return {"status": 500, "msg": err_msg}
 
 
 '''
@@ -353,9 +375,11 @@ def file_upload_view(request):
         if not file:
             return JsonResponse({'error': '没有接收到文件'}, status=400)
         
-        # 构建文件路径
+        # 构建文件路径：仅保留扩展名，避免中文等非 ASCII 导致编码问题
         date_str = datetime.now().strftime('%Y/%m/%d')
-        file_path = f'certificates/{date_str}/{file_id}/{generate_random_string()}{file.name}'
+        ext = os.path.splitext(file.name)[1] or '.jpg'
+        safe_name = f'{generate_random_string(6)}{ext}'
+        file_path = f'certificates/{date_str}/{file_id}/{safe_name}'
 
         # 保存文件到服务器的媒体文件夹中
         file_name = default_storage.save(file_path, ContentFile(file.read()))

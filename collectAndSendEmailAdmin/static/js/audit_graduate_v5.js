@@ -80,26 +80,23 @@ function sendEmail(graduateId, status) {
             'id': graduateId
         },
         success: function(res) {
-            // 处理成功的响应
             console.log("success", res)
-            
-            // 邮件发送状态变动 -> 已发送 or 发送失败
-            if (res.code === 200) {
-                
-                let email_status = django.jQuery(`.field-email_status_display .email-status[data-id=${graduateId}]`)
-                email_status.text('成功')
-                email_status.parent().next().text(res.email_send_time)  // 邮件发送时间
-            }
-            alert('邮件发送成功')
-
-        },
-        error: function(error) {
-            // 处理错误的响应
-            console.log("error", error)
             let email_status = django.jQuery(`.field-email_status_display .email-status[data-id=${graduateId}]`)
-            email_status.text('失败')
-            alert('邮件发送失败')
-
+            if (res.code === 200) {
+                email_status.text('成功').removeClass('email-pending email-fail').addClass('email-success')
+                email_status.parent().next().text(res.email_send_time || '')
+                alert('邮件发送成功')
+            } else {
+                email_status.text('失败').removeClass('email-pending email-success').addClass('email-fail')
+                alert(res.email_error || '邮件发送失败')
+            }
+        },
+        error: function(xhr) {
+            console.log("error", xhr)
+            let email_status = django.jQuery(`.field-email_status_display .email-status[data-id=${graduateId}]`)
+            email_status.text('失败').removeClass('email-pending email-success').addClass('email-fail')
+            let msg = (xhr.responseJSON && xhr.responseJSON.email_error) || '邮件发送失败'
+            alert(msg)
         }
     });
 
